@@ -1,0 +1,95 @@
+/**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/bootstrap/_variables.scss
+ */
+
+// Set the proper directory for the Bootstrap Glyphicon font.
+$icon-font-path: '/Users/brianbates1d/Sites/devdesktop/drupal-8/themes/bootstrap/assets/fonts/bootstrap/';
+
+/* VARIABLES */
+
+$font-stack: 'Source Sans Pro', sans-serif;
+
+$crimson: #981e32;
+$red: #c60c30;
+$darkgray: #262b2d;
+$lightgray: #e7e9ea;
+$lightestgray: #fafafa;
+$white: #ffffff;
+
+/* MAIN CONTENT */
+
+.row {
+  font: 1.25em $font-stack;
+  h1 {
+    margin-bottom: 0;
+  }
+  h2 {
+    margin-bottom: .75em;
+  }
+  h3, h4 {
+    margin-bottom: 1.25em;
+  }
+  p {
+    margin: 1.5em 0 1.5em 0;
+    line-height: 1.5em;
+  }
+  ul {
+    margin: 1.5em 0 1.5em 0;
+  }
+  li {
+    line-height: 1.5em;
+  }
+  ol ul, ul ul, ul ol {
+    margin: 0;
+  }
+  a:link, a:visited, a:hover, a:active {
+    color: $crimson;
+  }
+  th, td {
+    padding: .75em;
+  }
+  th {
+    background: $darkgray;
+    color: $white;
+  }
+  blockquote p {
+    margin-top: 0;
+  }
+}
+
+.region-content .breadcrumb {
+    background-color: $white;
+    border-radius: 0;
+    padding-left: 0;
+  }
+
+.main-container .well {
+    border: 0;
+    border-radius: 0;
+  }
+
+/* HEADER */
+
+
+
+/* SIDEBAR PRIMARY (NAVIGATION) */
+
+.open > .dropdown-menu {
+  font: 1em $font-stack;
+}
+
+/* SIDEBAR SECOND */
+
+h2.block-title {
+  margin-top: 0;
+}
+
+/* FOOTER */
