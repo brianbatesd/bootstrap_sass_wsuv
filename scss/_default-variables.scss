@@ -74,6 +74,7 @@ $white: #ffffff;
 .main-container .well {
     border: 0;
     border-radius: 0;
+    box-shadow: none;
   }
 
 /* HEADER */
@@ -84,6 +85,25 @@ $white: #ffffff;
 
 .open > .dropdown-menu {
   font: 1em $font-stack;
+  border: 0;
+}
+
+ul > li.expanded.dropdown.active.open > ul {
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+li.expanded.dropdown.active.open > ul > li > a {
+  background-color: $crimson;
+  color: $white;
+  padding: .75em;
+}
+
+li.expanded.dropdown.active.open > ul > li > a:hover {
+  background-color: $white;
+  color: $crimson;
+  padding: .75em;
 }
 
 /* SIDEBAR SECOND */
