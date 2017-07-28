@@ -95,15 +95,15 @@ ul > li.expanded.dropdown.active.open > ul {
 }
 
 li.expanded.dropdown.active.open > ul > li > a {
-  background-color: $crimson;
-  color: $white;
+  background-color: $lightestgray;
+  color: $crimson;
   padding: .75em;
 }
 
 li.expanded.dropdown.active.open > ul > li > a:hover {
-  background-color: $white;
-  color: $crimson;
-  padding: .75em;
+    background-color: $crimson;
+    color: $white;
+    padding: .75em;
 }
 
 /* SIDEBAR SECOND */
