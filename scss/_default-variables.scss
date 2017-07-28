@@ -77,6 +77,16 @@ $white: #ffffff;
     box-shadow: none;
   }
 
+body > div.main-container.container.js-quickedit-main-content > div > section > div.region.region-content > article > div.content > div > p:nth-child(6) > button.btn.btn-primary.btn-lg {
+  background-color: $crimson;
+  border: none;
+}
+
+body > div.main-container.container.js-quickedit-main-content > div > section > div.region.region-content > article > div.content > div > p:nth-child(3) > button {
+  background-color: $crimson;
+  border: none;
+}
+
 /* HEADER */
 
 

@@ -49,6 +49,14 @@
   border-radius: 0;
   box-shadow: none; }
 
+body > div.main-container.container.js-quickedit-main-content > div > section > div.region.region-content > article > div.content > div > p:nth-child(6) > button.btn.btn-primary.btn-lg, body > div.main-container.container.js-quickedit-main-content > div > section > div.region.region-content > article > div.content > div > p.btn-group-lg:nth-child(6) > button.btn.btn-primary {
+  background-color: #981e32;
+  border: none; }
+
+body > div.main-container.container.js-quickedit-main-content > div > section > div.region.region-content > article > div.content > div > p:nth-child(3) > button {
+  background-color: #981e32;
+  border: none; }
+
 /* HEADER */
 /* SIDEBAR PRIMARY (NAVIGATION) */
 .open > .dropdown-menu {
