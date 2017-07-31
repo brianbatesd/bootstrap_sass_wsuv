@@ -13,113 +13,24 @@
 // Set the proper directory for the Bootstrap Glyphicon font.
 $icon-font-path: '/Users/brianbates1d/Sites/devdesktop/drupal-8/themes/bootstrap/assets/fonts/bootstrap/';
 
-/* VARIABLES */
+// FONT
 
-$font-stack: 'Source Sans Pro', sans-serif;
+$font-family-sans-serif: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-size-base: 17px;
 
-$crimson: #981e32;
-$red: #c60c30;
-$darkgray: #262b2d;
-$lightgray: #e7e9ea;
-$lightestgray: #fafafa;
-$white: #ffffff;
+// COLORS
 
-/* MAIN CONTENT */
+$brand-primary: #981e32;
 
-.row {
-  font: 1.25em $font-stack;
-  h1 {
-    margin-bottom: 0;
-  }
-  h2 {
-    margin-bottom: .75em;
-  }
-  h3, h4 {
-    margin-bottom: 1.25em;
-  }
-  p {
-    margin: 1.5em 0 1.5em 0;
-    line-height: 1.5em;
-  }
-  ul {
-    margin: 1.5em 0 1.5em 0;
-  }
-  li {
-    line-height: 1.5em;
-  }
-  ol ul, ul ul, ul ol {
-    margin: 0;
-  }
-  a:link, a:visited, a:hover, a:active {
-    color: $crimson;
-  }
-  th, td {
-    padding: .75em;
-  }
-  th {
-    background: $darkgray;
-    color: $white;
-  }
-  blockquote p {
-    margin-top: 0;
-  }
-}
+// COMPONENTS
 
-.region-content .breadcrumb {
-    background-color: $white;
-    border-radius: 0;
-    padding-left: 0;
-  }
+$padding-base-vertical: 10px;
+$padding-base-horizontal: 16px;
 
-.main-container .well {
-    border: 0;
-    border-radius: 0;
-    box-shadow: none;
-  }
+$border-radius-base: 0;
+$border-radius-large: 0;
+$border-radius-small: 0;
 
-body > div.main-container.container.js-quickedit-main-content > div > section > div.region.region-content > article > div.content > div > p:nth-child(6) > button.btn.btn-primary.btn-lg {
-  background-color: $crimson;
-  border: none;
-}
+// TABLES
 
-body > div.main-container.container.js-quickedit-main-content > div > section > div.region.region-content > article > div.content > div > p:nth-child(3) > button {
-  background-color: $crimson;
-  border: none;
-}
-
-/* HEADER */
-
-
-
-/* SIDEBAR PRIMARY (NAVIGATION) */
-
-.open > .dropdown-menu {
-  font: 1em $font-stack;
-  border: 0;
-}
-
-ul > li.expanded.dropdown.active.open > ul {
-  border-radius: 0;
-  padding: 0;
-  box-shadow: none;
-}
-
-li.expanded.dropdown.active.open > ul > li > a {
-  background-color: $lightestgray;
-  color: $crimson;
-  padding: .75em;
-}
-
-li.expanded.dropdown.active.open > ul > li > a:hover {
-    background-color: $crimson;
-    color: $white;
-    padding: .75em;
-}
-
-/* SIDEBAR SECOND */
-
-h2.block-title {
-  margin-top: 0;
-}
-
-/* FOOTER */
+$table-cell-padding: 12px;
