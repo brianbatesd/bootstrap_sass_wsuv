@@ -1,1 +1,12 @@
 // CUSTOM WSU VANCOUVER TEMPLATE STYLES
+
+/* Paragraph container styles */
+
+div.field.field--name-field-left-column.field--type-text-long.field--label-hidden.field--item {
+  float: left;
+}
+
+div.field.field--name-field-right-column.field--type-text-long.field--label-hidden.field--item {
+  float: right;
+  clear: left;
+}
