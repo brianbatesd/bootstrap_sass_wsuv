@@ -66,13 +66,39 @@
     <a href="#main-content" class="visually-hidden focusable skip-link">
       {{ 'Skip to main content'|t }}
     </a>
+
+<!-- HEADER QUICKLINKS -->
+
+<div class="header-quicklinks">
+    <div class="col-md-6">
+      <ul>
+    		<li><a href="https://outlook.office365.com/owa/wsu.edu/">Webmail</a></li>
+    		<li><a href="http://office365.wsu.edu/">Office 365</a></li>
+        <li><a href="https://library.vancouver.wsu.edu">Library</a></li>
+        <li><a href="https://admin.vancouver.wsu.edu/academic-affairs">Academics</a></li>
+    		<li><a href="https://studentaffairs.vancouver.wsu.edu/student-affairs/bookie-student-bookstore">Bookstore</a></li>
+    	</ul>
+    </div>
+    <div class="col-md-6">
+      <div>
+  		<ul>
+        <li><a href="https://my.wsu.edu/">myWSU</a></li>
+        <li><a href="https://wsu.edu/about/statewide/">WSU Statewide</a></li>
+        <li><a href="http://learn.wsu.edu/">Blackboard</a></li>
+        <li><a href="https://admin.vancouver.wsu.edu/information-technology">Tech Support</a></li>
+        <li><a href="http://directory.vancouver.wsu.edu">Directory</a></li>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+
     {{ page_top }}
     {{ page }}
     {{ page_bottom }}
 
 <!-- FOOTER SITEMAP -->
 
-<div class="sitemap">
+<div class="footer-sitemap">
   <div class="col-md-3">
   		<ul>
  			<li class="sitemap-section"><strong>WSU Vancouver</strong></li>
@@ -141,12 +167,10 @@
 
 <!-- FOOTER COPYRIGHT -->
 
-<!--
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
+<div class="footer-copyright">
+    <div class="col-md-6">
   	  <ul>
-        <li>&copy; WSU Vancouver</li>
+        <li class="copyright-section"><strong>&copy; WSU Vancouver</strong></li>
         <li><a href="https://www.vancouver.wsu.edu/about-wsu-vancouver">About</a></li>
         <li><a href="https://access.wsu.edu/">Accessibility</a></li>
         <li><a href="https://policies.wsu.edu/">Policies</a></li>
@@ -154,20 +178,17 @@
         <li><a href="https://ucomm.wsu.edu/wsu-copyright-policy/">Copyright</a></li>
       </ul>
     </div>
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <div>
   		<ul>
-        <li>Contact</li>
-        <li><a href="https://www.vancouver.wsu.edu/campus-map-directions-and-parking-information" alt="Map, parking and directions">14204 NE Salmon Creek Ave, Vancouver, WA, 98686</a></li>
+        <li><a href="https://www.vancouver.wsu.edu/campus-map-directions-and-parking-information">Campus map</a></li>
+        <li>14204 NE Salmon Creek Ave, Vancouver, WA, 98686</li>
         <li><a href="tel:+13605469788">360-546-9788</a></li>
       </ul>
     </div>
   </div>
-</div>
--->
 
 <!-- SOCIAL MEDIA ICONS -->
-
 <!-- Create using glyphicons? -->
 
     <js-bottom-placeholder token="{{ placeholder_token|raw }}">

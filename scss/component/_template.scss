@@ -1,13 +1,40 @@
-// CUSTOM WSU VANCOUVER TEMPLATE STYLES
+// WSU VANCOUVER SUBTHEME MAIN STYLESHEET
 
 /* Variables */
 
+$red: #c60c30;
 $darkgray: #262b2d;
 $lightestgray: #f8f8f8;
 $lightgray: #e7e9ea;
 $white: #ffffff;
 
-/* Main */
+/* Header */
+
+.header-quicklinks {
+  margin-top: -15px;
+}
+
+.header-quicklinks .col-md-6 {
+  background-color: $brand-primary;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 15px 5px 5px 0;
+  font-size: 14px;
+  li, li a {
+    color: $white;
+    list-style-type: none;
+    padding: 0 8px 8px 0;
+    display: inline;
+  }
+}
+
+@media (max-width: 768px) {
+  body > div > div:nth-child(1) > ul {
+    margin-top: 15px;
+  }
+}
+
+/* Main content */
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   padding-left: 0;
@@ -19,7 +46,27 @@ $white: #ffffff;
   margin-right: 15px;
 }
 
-.sitemap .col-md-3 {
+/* Bootstrap Paragraphs module output */
+
+.paragraph.paragraph--type--bp-columns.paragraph--view-mode--default.paragraph--width--wide.paragraph--color.paragraph--color--rgba-grey-light > div > div:nth-child(1) > div > div > div {
+  padding-bottom: 40px;
+}
+
+.paragraph.paragraph--type--bp-columns.paragraph--view-mode--default.paragraph--width--wide.paragraph--color.paragraph--color--rgba-grey-light > div > div:nth-child(2) > div > div > div {
+  padding-bottom: 40px;
+}
+
+.paragraph.paragraph--type--bp-columns.paragraph--view-mode--default.paragraph--width--wide.paragraph--color.paragraph--color--rgba-grey-light > div > div:nth-child(3) > div > div > div {
+  padding-bottom: 30px;
+}
+
+/* Footer */
+
+.footer-sitemap {
+  margin-top: 30px;
+}
+
+.footer-sitemap .col-md-3 {
   background-color: $darkgray;
   margin-bottom: 0;
   padding: 30px 15px 15px 0;
@@ -30,6 +77,23 @@ $white: #ffffff;
     padding-bottom: 8px;
   }
   li.sitemap-section {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+.footer-copyright .col-md-6 {
+  background-color: $brand-primary;
+  margin-bottom: 0;
+  padding: 15px 5px 5px 0;
+  font-size: 14px;
+  li, li a {
+    color: $white;
+    list-style-type: none;
+    padding: 0 8px 8px 0;
+    display: inline;
+  }
+  li.copyright-section {
     text-transform: uppercase;
     letter-spacing: 1px;
   }
