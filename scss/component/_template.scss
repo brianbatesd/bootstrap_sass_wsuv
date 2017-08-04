@@ -2,8 +2,10 @@
 
 /* Variables */
 
+$darkgray: #262b2d;
 $lightestgray: #f8f8f8;
 $lightgray: #e7e9ea;
+$white: #ffffff;
 
 /* Main */
 
@@ -15,4 +17,20 @@ $lightgray: #e7e9ea;
 .page-header {
   margin-left: 15px;
   margin-right: 15px;
+}
+
+.sitemap .col-md-3 {
+  background-color: $darkgray;
+  margin-bottom: 0;
+  padding: 30px 15px 15px 0;
+  font-size: 14px;
+  li, li a {
+    color: $white;
+    list-style-type: none;
+    padding-bottom: 8px;
+  }
+  li.sitemap-section {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 }
