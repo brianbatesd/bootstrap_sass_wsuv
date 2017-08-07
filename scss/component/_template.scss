@@ -16,8 +16,7 @@ $white: #ffffff;
   font-size: 14px;
 }
 
-body > div.header-quicklinks > div:nth-child(1) > div > a,
-body > div.header-quicklinks > div:nth-child(2) > div > a {
+body > div.header-quicklinks > div:nth-child(1) > div > a {
   color: $white;
   float: right;
   margin-right: 20px;
@@ -44,7 +43,7 @@ body > div.header-quicklinks > div > div.dropdown.open > ul {
 }
 
 .header-logo .col-md-12 img.primary-logo {
-  margin: 15px 15px 15px 5px;
+  margin: 15px 15px 15px 15px;
   max-width: 250px;
 }
 
@@ -59,8 +58,8 @@ body > div.header-quicklinks > div > div.dropdown.open > ul {
 }
 
 .page-header {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .well {
@@ -85,7 +84,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div blockquote,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div code
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div iframe {
-  margin: 15px;
+  margin: 20px;
 }
 
 /* Footer */
