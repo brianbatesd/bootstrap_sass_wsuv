@@ -6298,7 +6298,7 @@ body > div.header-quicklinks > div > div.dropdown.open > ul {
 .dropdown-menu {
   box-shadow: none; }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .header-quicklinks .col-md-12 {
     padding: 10px 0 30px 0; } }
 
