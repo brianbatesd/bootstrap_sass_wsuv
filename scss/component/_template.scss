@@ -10,52 +10,30 @@ $white: #ffffff;
 
 /* Header */
 
-.header-quicklinks {
-  margin-top: -15px;
-}
-
-.header-quicklinks .col-md-6 {
+.header-quicklinks .col-md-12 {
   background-color: $brand-primary;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 12px 0 4px 0;
+  padding: 8px;
   font-size: 14px;
-  li, li a {
-    color: $white;
-    list-style-type: none;
-    padding-right: 8px;
-    display: inline;
-  }
 }
 
-/* Audience links */
-
-.header-audience .col-md-12 {
-  background-color: $darkgray;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 12px 0 4px 0;
-  font-size: 24px;
-  li, li a {
-    color: $white;
-    list-style-type: none;
-    padding-right: 12px;
-    display: inline;
-  }
-  ul {
-    margin-left: -15px;
-  }
+body > div.header-quicklinks > div:nth-child(1) > div > a,
+body > div.header-quicklinks > div:nth-child(2) > div > a {
+  color: $white;
+  float: right;
+  margin-right: 20px;
 }
 
-/* Header and Audience links mobile */
+body > div.header-quicklinks > div > div.dropdown.open > ul {
+  margin-top: 30px;
+}
+
+.dropdown-menu {
+  box-shadow: none;
+}
 
 @media (max-width: 768px) {
-  body > div > div:nth-child(1) > ul {
-    margin-top: 15px;
-  }
-  .header-audience .col-md-12 ul {
-      margin-top: 0;
-      margin-bottom: 10px;
+  .header-quicklinks .col-md-12 {
+    padding: 10px 0 30px 0;
   }
 }
 
@@ -66,15 +44,11 @@ $white: #ffffff;
 }
 
 .header-logo .col-md-12 img.primary-logo {
-  margin: 30px 0 30px 15px;
+  margin: 15px 15px 15px 5px;
+  max-width: 250px;
 }
 
 /* Main content */
-
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-  padding-left: 0;
-  padding-right: 0;
-} /* Needed for edge to edge containers */
 
 .region.region-content {
   margin-top: 30px;
@@ -99,18 +73,19 @@ h2.block-title {
   margin-top: 5px;
 }
 
-/* Bootstrap Paragraphs module output */
-
-.paragraph.paragraph--type--bp-columns.paragraph--view-mode--default.paragraph--width--wide.paragraph--color.paragraph--color--rgba-grey-slight > div > div:nth-child(1) > div > div > div {
-  padding-bottom: 40px;
-}
-
-.paragraph.paragraph--type--bp-columns.paragraph--view-mode--default.paragraph--width--wide.paragraph--color.paragraph--color--rgba-grey-slight > div > div:nth-child(2) > div > div > div {
-  padding-bottom: 40px;
-}
-
-.paragraph.paragraph--type--bp-columns.paragraph--view-mode--default.paragraph--width--wide.paragraph--color.paragraph--color--rgba-grey-slight > div > div:nth-child(3) > div > div > div {
-  padding-bottom: 30px;
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div p,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h2,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h3,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h4,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h5,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h6,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div ul,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div ol,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div table,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div blockquote,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div code
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div iframe {
+  margin: 15px;
 }
 
 /* Footer */
