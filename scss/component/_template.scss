@@ -96,7 +96,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
 .footer-sitemap .col-md-3 {
   background-color: rgba(158, 158, 158, 0.1);
   margin-bottom: 0;
-  padding: 30px 15px 15px 0;
+  padding: 30px 15px 15px 5px;
   font-size: 14px;
   li, li a {
     color: #333;
@@ -112,7 +112,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
 .footer-copyright .col-md-6 {
   background-color: $brand-primary;
   margin-bottom: 0;
-  padding: 15px 5px 5px 0;
+  padding: 15px 5px 5px 5px;
   font-size: 14px;
   li, li a {
     color: $white;
