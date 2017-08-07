@@ -18,7 +18,7 @@ $white: #ffffff;
   background-color: $brand-primary;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 15px 5px 5px 0;
+  padding: 10px 5px 0 0;
   font-size: 14px;
   li, li a {
     color: $white;
@@ -45,9 +45,28 @@ $white: #ffffff;
   margin-top: 30px;
 }
 
+.region.region-content a {
+  text-decoration: underline;
+}
+
 .page-header {
   margin-left: 15px;
   margin-right: 15px;
+}
+
+body > div > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.well {
+  margin-top: 15px;
+  border: 0;
+  box-shadow: none;
+}
+
+h2.block-title {
+  margin-top: 5px;
 }
 
 /* Bootstrap Paragraphs module output */
@@ -71,12 +90,12 @@ $white: #ffffff;
 }
 
 .footer-sitemap .col-md-3 {
-  background-color: $darkgray;
+  background-color: rgba(158, 158, 158, 0.1);
   margin-bottom: 0;
   padding: 30px 15px 15px 0;
   font-size: 14px;
   li, li a {
-    color: $white;
+    color: #333;
     list-style-type: none;
     padding-bottom: 8px;
   }
