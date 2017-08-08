@@ -68,53 +68,65 @@
       {{ 'Skip to main content'|t }}
     </a>
 
-<!-- HEADER QUICKLINKS -->
+<!-- NAVIGATION BAR -->
 
-<div class="header-quicklinks">
-
-  <div class="col-md-12">
-
-    <div class="dropdown">
-        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Quick links <b class="caret"></b></a>
-        <ul class="dropdown-menu dropdown-menu-right">
-          <li><a href="https://admin.vancouver.wsu.edu/academic-affairs">Academics</a></li>
-          <li><a href="https://studentaffairs.vancouver.wsu.edu/student-affairs/bookie-student-bookstore">Bookstore</a></li>
-          <li><a href="http://learn.wsu.edu/">Blackboard</a></li>
-          <li><a href="http://directory.vancouver.wsu.edu">Directory</a></li>
-          <li><a href="https://library.vancouver.wsu.edu">Library</a></li>
-          <li><a href="https://my.wsu.edu/">myWSU</a></li>
-      		<li><a href="http://office365.wsu.edu/">Office 365</a></li>
-          <li><a href="https://admin.vancouver.wsu.edu/information-technology">Tech Support</a></li>
-          <li><a href="https://outlook.office365.com/owa/wsu.edu/">Webmail</a></li>
-          <li><a href="https://wsu.edu/about/statewide/">WSU Statewide</a></li>
-        </ul>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-header-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <a class="navbar-brand" href="#">Brand</a> -->
     </div>
 
-    <div class="dropdown">
-      <a href="#" data-toggle="dropdown" class="dropdown-toggle">Audiences <b class="caret"></b></a>
-      <ul class="dropdown-menu dropdown-menu-right">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-header-navbar-collapse-1">
+      <ul class="nav navbar-nav">
         <li><a href="https://www.vancouver.wsu.edu/about-wsu-vancouver">About</a></li>
         <li><a href="https://studentaffairs.vancouver.wsu.edu/admissions">Admissions</a></li>
         <li><a href="https://studentaffairs.vancouver.wsu.edu/admissions/degrees-majors-and-programs">Degrees</a></li>
-        <li><a href="https://studentaffairs.vancouver.wsu.edu/student-affairs/resources-current-students">Current Students</a></li>
+        <li><a href="https://studentaffairs.vancouver.wsu.edu/student-affairs/resources-current-students">Students</a></li>
         <li><a href="https://admin.vancouver.wsu.edu/research">Research</a></li>
         <li><a href="https://admin.vancouver.wsu.edu/development-and-alumni-relations">Alumni</a></li>
       </ul>
-    </div>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Enter keywords">
+        </div>
+        <button type="submit" class="btn btn-default">Search</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://studentaffairs.vancouver.wsu.edu/student-affairs/bookie-student-bookstore">Bookstore</a></li>
+            <li><a href="http://learn.wsu.edu/">Blackboard</a></li>
+            <li><a href="http://directory.vancouver.wsu.edu">Directory</a></li>
+            <li><a href="https://library.vancouver.wsu.edu">Library</a></li>
+            <li><a href="https://my.wsu.edu/">myWSU</a></li>
+            <li><a href="http://office365.wsu.edu/">Office 365</a></li>
+            <li><a href="https://admin.vancouver.wsu.edu/information-technology">Tech Support</a></li>
+            <li><a href="https://outlook.office365.com/owa/wsu.edu/">Webmail</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
+<!-- LOGO -->
+
+<div class="header-logo">
+  <div class="col-md-12">
+    <img class="primary-logo" src="https://www.vancouver.wsu.edu/sites/www.vancouver.wsu.edu/themes/omegawsuv/images/wsu-vancouver-primary-logo-rgb.svg" alt="Washington State University Vancouver logo">
   </div>
-
 </div>
 
-  <!-- LOGO ROW -->
-
-  <div class="header-logo">
-    <div class="col-md-12">
-      <img class="primary-logo" src="https://www.vancouver.wsu.edu/sites/www.vancouver.wsu.edu/themes/omegawsuv/images/wsu-vancouver-primary-logo-rgb.svg" alt="Washington State University Vancouver logo">
-    </div>
-  </div>
-
-  <!-- MAIN CONTENT -->
+<!-- MAIN CONTENT -->
 
     {{ page_top }}
     {{ page }}

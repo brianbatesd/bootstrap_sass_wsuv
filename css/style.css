@@ -6281,34 +6281,86 @@ body {
     border-color: #ddd #ddd #ddd transparent; }
 
 /* Variables */
-/* Header */
-.header-quicklinks .col-md-12 {
-  background-color: #981e32;
-  padding: 8px;
-  font-size: 14px; }
-
-body > div.header-quicklinks > div:nth-child(1) > div > a {
-  color: #ffffff;
-  float: right;
-  margin-right: 20px; }
-
-body > div.header-quicklinks > div > div.dropdown.open > ul {
-  margin-top: 30px; }
-
+/* Navbar colors */
+/* Navbar */
 .dropdown-menu {
   box-shadow: none; }
 
-@media (max-width: 992px) {
-  .header-quicklinks .col-md-12 {
-    padding: 10px 0 30px 0; } }
+.navbar-default {
+  padding-left: 10px;
+  font-size: 15px;
+  border: 0; }
+
+.navbar-default {
+  background-color: #981e32;
+  border-color: #981e32; }
+  .navbar-default .navbar-brand {
+    color: #ecf0f1; }
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+      color: #ffffff; }
+  .navbar-default .navbar-text {
+    color: #ecf0f1; }
+  .navbar-default .navbar-nav > li > a {
+    color: #ecf0f1; }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      color: #ffffff; }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #981e32; }
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #981e32; }
+  .navbar-default .navbar-toggle {
+    border-color: #981e32; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background-color: #981e32; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #ecf0f1; }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: #ecf0f1; }
+  .navbar-default .navbar-link {
+    color: #ecf0f1; }
+    .navbar-default .navbar-link:hover {
+      color: #ffffff; }
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #ffffff; }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #981e32; } }
+
+/* Credit goes to: https://work.smarchal.com/twbscolor/ */
+/* Search */
+#bs-header-navbar-collapse-1 > form > div > input,
+#bs-header-navbar-collapse-1 > form > button {
+  border: 0;
+  box-shadow: none;
+  font-size: 15px; }
+
+#bs-header-navbar-collapse-1 > form > div > input {
+  margin-left: 15px; }
+
+#bs-header-navbar-collapse-1 > form > button {
+  margin-right: 30px;
+  background-color: #981e32;
+  color: #ffffff; }
 
 /* Logo */
 .header-logo .col-md-12 {
-  background-color: rgba(158, 158, 158, 0.1); }
+  background-color: rgba(158, 158, 158, 0.1);
+  margin-top: -25px; }
 
 .header-logo .col-md-12 img.primary-logo {
   margin: 15px 15px 15px 15px;
   max-width: 250px; }
+
+@media (max-width: 992px) {
+  .header-logo .col-md-12 {
+    display: none; } }
 
 /* Main content */
 .region.region-content {
@@ -6321,6 +6373,14 @@ body > div.header-quicklinks > div > div.dropdown.open > ul {
   margin-left: 20px;
   margin-right: 20px; }
 
+.breadcrumb {
+  background-color: #fff;
+  margin-left: 10px; }
+
+@media (max-width: 992px) {
+  body > div.main-container.container-fluid.js-quickedit-main-content > div {
+    margin-top: -30px; } }
+
 .well {
   margin-top: 25px;
   border: 0;
@@ -6329,6 +6389,8 @@ body > div.header-quicklinks > div > div.dropdown.open > ul {
 h2.block-title {
   margin-top: 5px; }
 
+#user-login-form,
+#collapseExample > div,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div p,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h2,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h3,
@@ -6339,9 +6401,16 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div ol,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div table,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div blockquote,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div code body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div iframe {
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div code body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div iframe,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > nav > ul,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > div > div {
   margin: 20px; }
 
+/* Add margin back to counteract edge to edge Bootstrap containers */
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div table {
+  max-width: 92%; }
+
+/* Stop table from overflowing into sidebar region */
 /* Footer */
 .footer-sitemap {
   margin-top: 30px; }

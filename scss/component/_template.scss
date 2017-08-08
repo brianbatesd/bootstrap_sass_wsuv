@@ -8,43 +8,125 @@ $lightestgray: #f8f8f8;
 $lightgray: #e7e9ea;
 $white: #ffffff;
 
-/* Header */
+/* Navbar colors */
 
-.header-quicklinks .col-md-12 {
-  background-color: $brand-primary;
-  padding: 8px;
-  font-size: 14px;
-}
+$bgDefault: #981e32;
+$bgHighlight: #981e32;
+$colDefault: #ecf0f1;
+$colHighlight: #ffffff;
+$dropDown: false;
 
-body > div.header-quicklinks > div:nth-child(1) > div > a {
-  color: $white;
-  float: right;
-  margin-right: 20px;
-}
-
-body > div.header-quicklinks > div > div.dropdown.open > ul {
-  margin-top: 30px;
-}
+/* Navbar */
 
 .dropdown-menu {
   box-shadow: none;
 }
 
-@media (max-width: 992px) {
-  .header-quicklinks .col-md-12 {
-    padding: 10px 0 30px 0;
-  }
+.navbar-default {
+  padding-left: 10px;
+  font-size: 15px;
+  border: 0;
+}
+
+.navbar-default {
+  background-color: $bgDefault;
+  border-color: $bgHighlight;
+  .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHighlight; }}
+  .navbar-text {
+    color: $colDefault; }
+  .navbar-nav {
+    > li {
+      > a {
+        color: $colDefault;
+        &:hover,  &:focus {
+          color: $colHighlight; }}
+      @if $dropDown {
+        > .dropdown-menu {
+          background-color: $bgDefault;
+          > li {
+            > a {
+              color: $colDefault;
+              &:hover,  &:focus {
+                color: $colHighlight;
+                background-color: $bgHighlight; }}
+            &.divider {
+              background-color: $bgHighlight;}}}}}
+    @if $dropDown {
+      .open .dropdown-menu > .active {
+        > a, > a:hover, > a:focus {
+          color: $colHighlight;
+          background-color: $bgHighlight; }}}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+  .navbar-toggle {
+    border-color: $bgHighlight;
+    &:hover, &:focus {
+      background-color: $bgHighlight; }
+    .icon-bar {
+      background-color: $colDefault; }}
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $colDefault; }
+  .navbar-link {
+    color: $colDefault;
+    &:hover {
+      color: $colHighlight; }}}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+} /* Credit goes to: https://work.smarchal.com/twbscolor/ */
+
+/* Search */
+
+#bs-header-navbar-collapse-1 > form > div > input,
+#bs-header-navbar-collapse-1 > form > button {
+  border: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+#bs-header-navbar-collapse-1 > form > div > input {
+  margin-left: 15px;
+}
+
+#bs-header-navbar-collapse-1 > form > button {
+  margin-right: 30px;
+  background-color: $brand-primary;
+  color: $white;
 }
 
 /* Logo */
 
 .header-logo .col-md-12 {
   background-color: rgba(158, 158, 158, 0.1);
+  margin-top: -25px;
 }
 
 .header-logo .col-md-12 img.primary-logo {
   margin: 15px 15px 15px 15px;
   max-width: 250px;
+}
+
+@media (max-width: 992px) {
+  .header-logo .col-md-12 {
+    display: none;
+  }
 }
 
 /* Main content */
@@ -62,6 +144,17 @@ body > div.header-quicklinks > div > div.dropdown.open > ul {
   margin-right: 20px;
 }
 
+.breadcrumb {
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+@media (max-width: 992px) {
+  body > div.main-container.container-fluid.js-quickedit-main-content > div {
+    margin-top: -30px;
+  }
+}
+
 .well {
   margin-top: 25px;
   border: 0;
@@ -72,6 +165,8 @@ h2.block-title {
   margin-top: 5px;
 }
 
+#user-login-form,
+#collapseExample > div,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div p,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h2,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h3,
@@ -83,9 +178,15 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div table,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div blockquote,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div code
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div iframe {
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div iframe,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > nav > ul,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > div > div {
   margin: 20px;
-}
+} /* Add margin back to counteract edge to edge Bootstrap containers */
+
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div table {
+  max-width: 92%;
+} /* Stop table from overflowing into sidebar region */
 
 /* Footer */
 
