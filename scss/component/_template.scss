@@ -92,6 +92,14 @@ $dropDown: false;
         background-color: $bgHighlight; }}}
 } /* Credit goes to: https://work.smarchal.com/twbscolor/ */
 
+/* Navbar mobile */
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-top: 0;
+  border-bottom: 0;
+  box-shadow: none;
+}
+
 /* Search */
 
 #bs-header-navbar-collapse-1 > form > div > input,
