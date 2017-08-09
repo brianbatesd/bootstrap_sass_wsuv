@@ -128,17 +128,17 @@ $dropDown: false;
     float: right;
     margin-top: -40px;
   }
-}
+} /* Should this be 767px like the twbscolor code? */
 
 /* Logo */
 
 .header-logo .col-md-12 {
   background-color: rgba(158, 158, 158, 0.1);
   margin-top: -25px;
+  padding: 15px;
 }
 
 .header-logo .col-md-12 img.primary-logo {
-  margin: 15px 15px 15px 15px;
   max-width: 250px;
 }
 
