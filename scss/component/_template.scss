@@ -20,6 +20,7 @@ $dropDown: false;
 
 .dropdown-menu {
   box-shadow: none;
+  font-size: 15px;
 }
 
 .navbar-default {
@@ -92,7 +93,7 @@ $dropDown: false;
         background-color: $bgHighlight; }}}
 } /* Credit goes to: https://work.smarchal.com/twbscolor/ */
 
-/* Navbar mobile */
+/* Navbar mobile menu */
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-top: 0;
@@ -117,6 +118,16 @@ $dropDown: false;
   margin-right: 30px;
   background-color: $brand-primary;
   color: $white;
+}
+
+@media (max-width: 992px) {
+  #bs-header-navbar-collapse-1 > form > div > input {
+    width: 82%;
+  }
+  #bs-header-navbar-collapse-1 > form > button {
+    float: right;
+    margin-top: -40px;
+  }
 }
 
 /* Logo */

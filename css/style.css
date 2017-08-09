@@ -6284,7 +6284,8 @@ body {
 /* Navbar colors */
 /* Navbar */
 .dropdown-menu {
-  box-shadow: none; }
+  box-shadow: none;
+  font-size: 15px; }
 
 .navbar-default {
   padding-left: 10px;
@@ -6334,7 +6335,7 @@ body {
     background-color: #981e32; } }
 
 /* Credit goes to: https://work.smarchal.com/twbscolor/ */
-/* Navbar mobile */
+/* Navbar mobile menu */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-top: 0;
@@ -6355,6 +6356,13 @@ body {
   margin-right: 30px;
   background-color: #981e32;
   color: #ffffff; }
+
+@media (max-width: 992px) {
+  #bs-header-navbar-collapse-1 > form > div > input {
+    width: 82%; }
+  #bs-header-navbar-collapse-1 > form > button {
+    float: right;
+    margin-top: -40px; } }
 
 /* Logo */
 .header-logo .col-md-12 {
