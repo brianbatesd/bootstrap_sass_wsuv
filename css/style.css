@@ -6373,7 +6373,7 @@ body {
   margin: 15px 15px 15px 15px;
   max-width: 250px; }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .header-logo .col-md-12 {
     display: none; } }
 
@@ -6392,7 +6392,7 @@ body {
   background-color: #fff;
   margin-left: 10px; }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
     margin-top: -30px; } }
 
