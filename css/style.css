@@ -6357,14 +6357,13 @@ body {
   background-color: #981e32;
   color: #ffffff; }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #bs-header-navbar-collapse-1 > form > div > input {
     width: 82%; }
   #bs-header-navbar-collapse-1 > form > button {
     float: right;
     margin-top: -40px; } }
 
-/* Should this be 767px like the twbscolor code? */
 /* Logo */
 .header-logo .col-md-12 {
   background-color: rgba(158, 158, 158, 0.1);
@@ -6374,7 +6373,7 @@ body {
 .header-logo .col-md-12 img.primary-logo {
   max-width: 250px; }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header-logo .col-md-12 {
     display: none; } }
 
@@ -6393,7 +6392,7 @@ body {
   background-color: #fff;
   margin-left: 10px; }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
     margin-top: -30px; } }
 

@@ -120,7 +120,7 @@ $dropDown: false;
   color: $white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #bs-header-navbar-collapse-1 > form > div > input {
     width: 82%;
   }
@@ -128,7 +128,7 @@ $dropDown: false;
     float: right;
     margin-top: -40px;
   }
-} /* Should this be 767px like the twbscolor code? */
+}
 
 /* Logo */
 
@@ -142,7 +142,7 @@ $dropDown: false;
   max-width: 250px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header-logo .col-md-12 {
     display: none;
   }
@@ -168,7 +168,7 @@ $dropDown: false;
   margin-left: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
     margin-top: -30px;
   }
