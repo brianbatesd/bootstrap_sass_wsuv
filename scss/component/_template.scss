@@ -6,14 +6,14 @@ $red: #c60c30;
 $darkgray: #262b2d;
 $lightestgray: #f8f8f8;
 $lightgray: #e7e9ea;
-$white: #ffffff;
+$white: #fff;
 
 /* Navbar colors */
 
 $bgDefault: #981e32;
 $bgHighlight: #981e32;
-$colDefault: #ecf0f1;
-$colHighlight: #ffffff;
+$colDefault: #fff;
+$colHighlight: #fff;
 $dropDown: false;
 
 /* Navbar */
@@ -91,7 +91,11 @@ $dropDown: false;
       > a, > a:hover, > a:focus {
         color: $colHighlight;
         background-color: $bgHighlight; }}}
-} /* Credit goes to: https://work.smarchal.com/twbscolor/ */
+} /* Credit: https://work.smarchal.com/twbscolor/ */
+
+.nav > li > a:hover {
+  text-decoration: underline;
+}
 
 /* Navbar mobile menu */
 
@@ -205,7 +209,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
 
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div table {
   max-width: 92%;
-} /* Stop table from overflowing into sidebar region */
+} /* Stop tables from overflowing into sidebar region */
 
 /* Footer */
 
