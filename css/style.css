@@ -6338,34 +6338,29 @@ body {
 .nav > li > a:hover {
   text-decoration: underline; }
 
-/* Navbar mobile menu */
+#bs-primary-navbar-collapse-1 > div > form > div > input {
+  border: none;
+  font-size: 15px; }
+
+#bs-primary-navbar-collapse-1 > div > form > div > div > button {
+  border: 1px solid #fff; }
+
+#bs-primary-navbar-collapse-1 > div > form {
+  margin-right: 20px; }
+
+/* Navbar mobile */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-top: 0;
   border-bottom: 0;
   box-shadow: none; }
 
-/* Search */
-#bs-header-navbar-collapse-1 > form > div > input,
-#bs-header-navbar-collapse-1 > form > button {
-  border: 0;
-  box-shadow: none;
-  font-size: 15px; }
-
-#bs-header-navbar-collapse-1 > form > div > input {
-  margin-left: 15px; }
-
-#bs-header-navbar-collapse-1 > form > button {
-  margin-right: 30px;
-  background-color: #981e32;
-  color: #fff; }
-
 @media (max-width: 767px) {
-  #bs-header-navbar-collapse-1 > form > div > input {
-    width: 82%; }
-  #bs-header-navbar-collapse-1 > form > button {
-    float: right;
-    margin-top: -40px; } }
+  #bs-primary-navbar-collapse-1 > div > form {
+    margin-right: 30px;
+    margin-left: 15px; }
+  #bs-primary-navbar-collapse-1 > ul > li.dropdown.open > ul > li > a:hover {
+    text-decoration: underline; } }
 
 /* Logo */
 .header-logo .col-md-12 {

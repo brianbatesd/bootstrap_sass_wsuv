@@ -70,50 +70,49 @@
 
 <!-- NAVIGATION BAR -->
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+<nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-header-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <!-- <a class="navbar-brand" href="#">Brand</a> -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-primary-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <!-- <a class="navbar-brand" href="#">Company Name</a> -->
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-header-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <!-- <li><a href="https://www.vancouver.wsu.edu/about-wsu-vancouver">About</a></li> -->
-        <li><a href="https://studentaffairs.vancouver.wsu.edu/admissions">Admissions</a></li>
-        <li><a href="https://studentaffairs.vancouver.wsu.edu/admissions/degrees-majors-and-programs">Degrees</a></li>
-        <li><a href="https://studentaffairs.vancouver.wsu.edu/student-affairs/resources-current-students">Students</a></li>
-        <!-- <li><a href="https://admin.vancouver.wsu.edu/research">Research</a></li> -->
-        <li><a href="https://admin.vancouver.wsu.edu/development-and-alumni-relations">Alumni</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="https://studentaffairs.vancouver.wsu.edu/student-affairs/bookie-student-bookstore">Bookstore</a></li>
-            <li><a href="http://learn.wsu.edu/">Blackboard</a></li>
-            <li><a href="http://directory.vancouver.wsu.edu">Directory</a></li>
-            <li><a href="https://library.vancouver.wsu.edu">Library</a></li>
-            <li><a href="https://my.wsu.edu/">myWSU</a></li>
-            <li><a href="http://office365.wsu.edu/">Office 365</a></li>
-            <li><a href="https://admin.vancouver.wsu.edu/information-technology">Tech Support</a></li>
-            <li><a href="https://outlook.office365.com/owa/wsu.edu/">Webmail</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-right">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search this site">
+    <div class="collapse navbar-collapse" id="bs-primary-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <!-- <li><a href="https://www.vancouver.wsu.edu/about-wsu-vancouver">About</a></li> -->
+            <li><a href="https://studentaffairs.vancouver.wsu.edu/admissions">Admissions</a></li>
+            <li><a href="https://studentaffairs.vancouver.wsu.edu/admissions/degrees-majors-and-programs">Degrees</a></li>
+            <li><a href="https://studentaffairs.vancouver.wsu.edu/student-affairs/resources-current-students">Students</a></li>
+            <!-- <li><a href="https://admin.vancouver.wsu.edu/research">Research</a></li> -->
+            <li><a href="https://admin.vancouver.wsu.edu/development-and-alumni-relations">Alumni</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://studentaffairs.vancouver.wsu.edu/student-affairs/bookie-student-bookstore">Bookstore</a></li>
+                  <li><a href="http://learn.wsu.edu/">Blackboard</a></li>
+                  <li><a href="http://directory.vancouver.wsu.edu">Directory</a></li>
+                  <li><a href="https://library.vancouver.wsu.edu">Library</a></li>
+                  <li><a href="https://my.wsu.edu/">myWSU</a></li>
+                  <li><a href="http://office365.wsu.edu/">Office 365</a></li>
+                  <li><a href="https://admin.vancouver.wsu.edu/information-technology">Tech Support</a></li>
+                  <li><a href="https://outlook.office365.com/owa/wsu.edu/">Webmail</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="col-sm-3 col-md-3 pull-right">
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search this site" name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
         </div>
-        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-      </form>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
 </nav>
 
 <!-- LOGO -->
