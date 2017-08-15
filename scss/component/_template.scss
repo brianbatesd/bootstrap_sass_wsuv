@@ -101,6 +101,16 @@ img.horizontal-logo {
   text-decoration: underline;
 }
 
+.menu-bar {
+  font-size: 10px;
+  color: $white;
+}
+
+body > nav > div.navbar-header > button {
+  margin-top: -5px;
+  margin-bottom: -10px;
+}
+
 #bs-primary-navbar-collapse-1 > div > form {
   margin-right: 20px;
 }
