@@ -93,21 +93,57 @@ $dropDown: false;
         background-color: $bgHighlight; }}}
 } /* Credit: https://work.smarchal.com/twbscolor/ */
 
+img.horizontal-logo {
+  display: none;
+}
+
 .nav > li > a:hover {
   text-decoration: underline;
 }
 
+#bs-primary-navbar-collapse-1 > div > form {
+  margin-right: 20px;
+}
+
+#bs-primary-navbar-collapse-1 .input-group {
+  background: $brand-primary;
+}
+
 #bs-primary-navbar-collapse-1 > div > form > div > input {
-    border: none;
-    font-size: 15px;
+  border: none;
+  font-size: 15px;
+  background: $brand-primary;
+  color: $white;
+  border-top: 0;
+  border-bottom: 1px solid $white;
+  box-shadow: none;
+}
+
+#bs-primary-navbar-collapse-1 {
+  ::-webkit-input-placeholder { /* Chrome */
+  color: $white;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+  color: $white;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+  color: $white;
+  opacity: 1;
+  }
+  :-moz-placeholder { /* Firefox 4 - 18 */
+  color: $white;
+  opacity: 1;
+  }
 }
 
 #bs-primary-navbar-collapse-1 > div > form > div > div > button {
-    border: 1px solid $white;
+  border: none;
+  color: $white;
+  background: $brand-primary;
 }
 
-#bs-primary-navbar-collapse-1 > div > form  {
-    margin-right: 20px;
+#bs-primary-navbar-collapse-1 > div > form > div > div > button:hover {
+  background: none;
 }
 
 /* Navbar mobile */
@@ -119,6 +155,11 @@ $dropDown: false;
 }
 
 @media (max-width: 767px) {
+  img.horizontal-logo {
+    margin-top: 5px;
+    height: 40px;
+    display: block;
+  }
   #bs-primary-navbar-collapse-1 > div > form {
     margin-right: 30px;
     margin-left: 15px;
