@@ -6501,6 +6501,11 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
     text-transform: uppercase;
     letter-spacing: 1px; }
 
+@media (max-width: 767px) {
+  body > div.footer-sitemap > div:nth-child(3),
+  body > div.footer-sitemap > div:nth-child(4) {
+    display: none; } }
+
 /**
  * Toolbar module styling.
  */
