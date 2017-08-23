@@ -6282,6 +6282,19 @@ body {
 
 /* Variables */
 /* Navbar colors */
+/* Primary (left navigation block) */
+body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) {
+  padding: 30px 15px 15px 15px; }
+
+#block-testenvironment > ul > li.active {
+  font-weight: bold; }
+
+#block-testenvironment > ul > li > a:hover {
+  background: none; }
+
+#block-testenvironment .dropdown-menu {
+  font-size: 16px; }
+
 /* Navbar */
 .dropdown-menu {
   box-shadow: none;
@@ -6461,6 +6474,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div table,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div blockquote,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div code body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div iframe,
+body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div form,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > nav > ul,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > div > div {
   margin: 20px; }
@@ -6470,6 +6484,10 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
   max-width: 92%; }
 
 /* Stop tables from overflowing into sidebar region */
+/* Forms */
+#edit-actions-submit {
+  margin: 20px 20px 20px 0; }
+
 /* Footer */
 .footer-sitemap {
   margin-top: 30px; }
