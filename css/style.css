@@ -1414,7 +1414,7 @@ abbr[data-original-title] {
 blockquote {
   padding: 12px 24px;
   margin: 0 0 24px;
-  font-size: 21.25px;
+  font-size: 17px;
   border-left: 5px solid #eeeeee; }
   blockquote p:last-child,
   blockquote ul:last-child,
@@ -6280,20 +6280,29 @@ body {
   .tabs-right > .nav-tabs > .active > a:focus {
     border-color: #ddd #ddd #ddd transparent; }
 
-/* Variables */
+/* Brand colors */
 /* Navbar colors */
 /* Primary (left navigation block) */
 body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) {
   padding: 30px 15px 15px 15px; }
-
-#block-testenvironment > ul > li.active {
-  font-weight: bold; }
-
-#block-testenvironment > ul > li > a:hover {
-  background: none; }
-
-#block-testenvironment .dropdown-menu {
-  font-size: 16px; }
+  body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) li:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px; }
+    body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) li:nth-child(1) a {
+      color: #981e32; }
+  body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) a {
+    color: #333333;
+    padding-bottom: 5px; }
+  body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) a:hover {
+    background: none; }
+  body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) li.active {
+    font-weight: bold; }
+  body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) li.expanded.dropdown.active.open > ul > li:nth-child(1) {
+    text-transform: none; }
+    body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) li.expanded.dropdown.active.open > ul > li:nth-child(1) a {
+      color: #333333;
+      letter-spacing: normal; }
 
 /* Navbar */
 .dropdown-menu {
@@ -6435,15 +6444,23 @@ body > nav > div.navbar-header > button {
     display: none; } }
 
 /* Main content */
-.region.region-content {
+.region-content {
   margin-top: 30px; }
 
-.region.region-content a {
+.region-content a {
   text-decoration: underline; }
 
-.page-header {
-  margin-left: 20px;
-  margin-right: 20px; }
+.region-content ul,
+.region-content ol {
+  margin-right: 25px;
+  margin-left: 25px; }
+
+#user-login-form,
+ul.tabs--primary,
+h1.page-header,
+h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote {
+  margin-right: 25px;
+  margin-left: 25px; }
 
 .breadcrumb {
   background-color: #fff;
@@ -6455,31 +6472,13 @@ body > nav > div.navbar-header > button {
 
 .well {
   margin-top: 25px;
+  padding-left: 0;
   border: 0;
   box-shadow: none; }
 
 h2.block-title {
   margin-top: 5px; }
 
-#user-login-form,
-#collapseExample > div,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div p,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h2,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h3,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h4,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h5,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div h6,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div ul,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div ol,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div table,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div blockquote,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div code body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div iframe,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div form,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > nav > ul,
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > div > div {
-  margin: 20px; }
-
-/* Add margin back to counteract edge to edge Bootstrap containers */
 body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div table {
   max-width: 92%; }
 
