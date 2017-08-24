@@ -13,6 +13,10 @@
 // Set the proper directory for the Bootstrap Glyphicon font.
 $icon-font-path: '/Users/brianbates1d/Sites/devdesktop/drupal-8/themes/bootstrap/assets/fonts/bootstrap/';
 
+// SCAFFOLDING
+
+$text-color: #4c4c4c;
+
 // FONT
 
 $font-family-sans-serif: 'Source Sans Pro', Helvetica, Arial, sans-serif;
@@ -34,7 +38,8 @@ $border-radius-small: 0;
 
 // TABLES
 
-$table-cell-padding: 12px;
+$table-cell-padding: 10px;
+$table-border-color: #eee;
 
 // TYPE
 

@@ -16,6 +16,20 @@ $colDefault: #fff;
 $colHighlight: #fff;
 $dropDown: false;
 
+/* HTML */
+
+h1, h2, h3, h5, h5, h6, th, strong, li {
+  color: $gray-dark;
+}
+
+hr {
+  margin: 40px;
+}
+
+blockquote {
+  border-color: $brand-primary;
+}
+
 /* Navbar */
 
 .dropdown-menu {
@@ -183,7 +197,7 @@ body > nav > div.navbar-header > button {
 /* Logo */
 
 .header-logo .col-md-12 {
-  background-color: rgba(158, 158, 158, 0.1);
+  background-color: $lightestgray;
   margin-top: -25px;
   padding: 15px;
 }
@@ -198,10 +212,10 @@ body > nav > div.navbar-header > button {
   }
 }
 
-/* Primary (left navigation block) */
+/* Primary (left block and navigation region) */
 
 body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) {
-  padding: 30px 15px 15px 15px;
+  padding: 30px 15px 15px 20px;
   li:nth-child(1) {
     text-transform: uppercase;
     font-weight: bold;
@@ -226,6 +240,9 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
       color: $gray-dark;
       letter-spacing: normal;
     }
+    a:hover {
+      background: $gray-light;
+    }
   }
 }
 
@@ -236,23 +253,39 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   margin-bottom: 20px;
 }
 
+.region-content p + h2 {
+  margin-top: 35px;
+}
+
 .region-content a {
   text-decoration: underline;
 }
 
-.region-content ul,
-.region-content ol {
-  margin-right: 25px;
-  margin-left: 25px;
+.field--item > ul,
+.field--item > ol {
+  margin-left: 30px;
+}
+
+.region-content ul li,
+.region-content ol li {
+  padding-bottom: 5px;
+}
+
+.region-content ol li blockquote {
+  margin-top: 30px;
+}
+
+.region-content blockquote a strong {
+  color: $brand-primary;
 }
 
 .table > tbody > tr > th {
   border: none;
 }
 
-hr {
-  margin: 40px;
-}
+.region-content table {
+  max-width: 92%;
+} /* Prevent tables from overflowing into secondary right sidebar block region */
 
 #user-login-form,
 ul.tabs--primary,
@@ -277,20 +310,26 @@ ul.tabs--primary {
   }
 }
 
+/* Secondary (right sidebar block region) */
+
 .well {
   margin-top: 25px;
   padding-left: 0;
   border: 0;
   box-shadow: none;
+  background-color: $lightestgray;
+}
+
+body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(2),
+body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(3) {
+  a {
+    text-decoration: underline;
+  }
 }
 
 h2.block-title {
   margin-top: 5px;
 }
-
-body > div.main-container.container-fluid.js-quickedit-main-content > div > section > div.region.region-content > article > div > div table {
-  max-width: 92%;
-} /* Stop tables from overflowing into sidebar region */
 
 /* Forms */
 
@@ -305,12 +344,12 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
 }
 
 .footer-sitemap .col-md-3 {
-  background-color: rgba(158, 158, 158, 0.1);
+  background-color: $lightestgray;
   margin-bottom: 0;
   padding: 30px 15px 15px 5px;
   font-size: 14px;
   li, li a {
-    color: #333;
+    color: $gray-dark;
     list-style-type: none;
     padding-bottom: 8px;
   }
@@ -334,6 +373,9 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > sect
   li.copyright-section {
     text-transform: uppercase;
     letter-spacing: 1px;
+    strong {
+      color: $white;
+    }
   }
 }
 
