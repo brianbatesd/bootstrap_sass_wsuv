@@ -214,34 +214,35 @@ body > nav > div.navbar-header > button {
 
 /* Primary (left block and navigation region) */
 
-body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(1) {
-  padding: 30px 15px 15px 20px;
+.region-sidebar-first {
+  margin-top: 30px;
+  a {
+    color: $darkgray;
+  }
+  ul li {
+    list-style-type: none;
+    padding: 5px;
+    ul {
+      margin-bottom: -6px;
+      li:nth-child(1) {
+        text-transform: none;
+        font-weight: normal;
+        letter-spacing: normal;
+        a {
+          color: $darkgray;
+        }
+      }
+    }
+  }
+  li a.is-active {
+    font-weight: bold;
+  }
   li:nth-child(1) {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
     a {
       color: $brand-primary;
-    }
-  }
-  a {
-    color: $gray-dark;
-    padding-bottom: 3px;
-  }
-  a:hover {
-    background: none;
-  }
-  li.active {
-    font-weight: bold;
-  }
-  li.expanded.dropdown.active.open > ul > li:nth-child(1) {
-    text-transform: none;
-    a {
-      color: $gray-dark;
-      letter-spacing: normal;
-    }
-    a:hover {
-      background: $gray-light;
     }
   }
 }
@@ -281,6 +282,17 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   a strong {
   color: $brand-primary;
   }
+}
+
+.region-content button.btn {
+  margin: 10px 10px 10px 25px;
+  padding: 10px 15px 10px 15px;
+  box-shadow: none;
+  border: 0;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
 }
 
 .table > tbody > tr > th {
