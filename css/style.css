@@ -6518,11 +6518,14 @@ ul.tabs--primary {
   box-shadow: none;
   background-color: transparent; }
 
+.well img {
+  max-width: 100%; }
+
 body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(2) a,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(3) a {
   text-decoration: underline; }
 
-h2.block-title {
+h2.block-title, .well img {
   margin-top: 25px; }
 
 /* Forms */
