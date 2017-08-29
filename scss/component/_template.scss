@@ -128,6 +128,7 @@ body > nav > div.navbar-header > button {
 #bs-primary-navbar-collapse-1 .input-group {
   background: $brand-primary;
   width: 100%;
+  margin-left: 25px;
 }
 
 #bs-primary-navbar-collapse-1 > div > form > div > input {
@@ -184,6 +185,9 @@ body > nav > div.navbar-header > button {
   #bs-primary-navbar-collapse-1 > div > form {
     margin-right: 30px;
     margin-left: 15px;
+  }
+  #bs-primary-navbar-collapse-1 .input-group {
+    margin-left: 0;
   }
   #bs-primary-navbar-collapse-1 > ul > li.dropdown.open > ul > li > a:hover {
     text-decoration: underline;
