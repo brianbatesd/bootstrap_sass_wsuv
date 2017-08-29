@@ -6289,9 +6289,6 @@ h1, h2, h3, h5, h5, h6, th, strong, li {
 hr {
   margin: 40px; }
 
-blockquote {
-  border-color: #981e32; }
-
 /* Navbar */
 .dropdown-menu {
   box-shadow: none;
@@ -6478,11 +6475,20 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content ol li blockquote {
   margin-top: 30px; }
 
-.region-content blockquote a strong {
-  color: #981e32; }
+.region-content blockquote {
+  border-color: #981e32;
+  margin-left: 28px; }
+  .region-content blockquote a strong {
+    color: #981e32; }
+  .region-content blockquote p {
+    padding: 0; }
 
 .table > tbody > tr > th {
-  border: none; }
+  border: none;
+  padding: 10px 10px 10px 0; }
+
+.table > tbody > tr > td {
+  padding: 10px 10px 10px 0; }
 
 .region-content table {
   max-width: 92%; }

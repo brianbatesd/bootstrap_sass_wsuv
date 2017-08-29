@@ -26,10 +26,6 @@ hr {
   margin: 40px;
 }
 
-blockquote {
-  border-color: $brand-primary;
-}
-
 /* Navbar */
 
 .dropdown-menu {
@@ -275,12 +271,24 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   margin-top: 30px;
 }
 
-.region-content blockquote a strong {
+.region-content blockquote {
+  border-color: $brand-primary;
+  margin-left: 28px;
+  a strong {
   color: $brand-primary;
+  }
+  p {
+    padding: 0;
+  }
 }
 
 .table > tbody > tr > th {
   border: none;
+  padding: 10px 10px 10px 0;
+}
+
+.table > tbody > tr > td {
+  padding: 10px 10px 10px 0;
 }
 
 .region-content table {
