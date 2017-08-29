@@ -277,9 +277,6 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   a strong {
   color: $brand-primary;
   }
-  p {
-    padding: 0;
-  }
 }
 
 .table > tbody > tr > th {
@@ -321,11 +318,11 @@ ul.tabs--primary {
 /* Secondary (right sidebar block region) */
 
 .well {
-  margin-top: 25px;
   padding-left: 0;
+  margin-top: -15px;
   border: 0;
   box-shadow: none;
-  background-color: $lightestgray;
+  background-color: transparent;
 }
 
 body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(2),
@@ -336,7 +333,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 }
 
 h2.block-title {
-  margin-top: 5px;
+  margin-top: 25px;
 }
 
 /* Forms */

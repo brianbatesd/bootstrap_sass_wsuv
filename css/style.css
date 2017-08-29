@@ -6480,8 +6480,6 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   margin-left: 28px; }
   .region-content blockquote a strong {
     color: #981e32; }
-  .region-content blockquote p {
-    padding: 0; }
 
 .table > tbody > tr > th {
   border: none;
@@ -6514,18 +6512,18 @@ ul.tabs--primary {
 
 /* Secondary (right sidebar block region) */
 .well {
-  margin-top: 25px;
   padding-left: 0;
+  margin-top: -15px;
   border: 0;
   box-shadow: none;
-  background-color: #f8f8f8; }
+  background-color: transparent; }
 
 body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(2) a,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(3) a {
   text-decoration: underline; }
 
 h2.block-title {
-  margin-top: 5px; }
+  margin-top: 25px; }
 
 /* Forms */
 #edit-actions-submit {
