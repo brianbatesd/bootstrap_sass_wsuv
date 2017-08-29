@@ -6485,12 +6485,12 @@ body > nav > div.navbar-header > button {
   .region-content blockquote a strong {
     color: #981e32; }
 
-.region-content button.btn {
+.region-content button.btn-primary {
   margin: 10px 10px 10px 25px;
   padding: 10px 15px 10px 15px;
   box-shadow: none;
   border: 0; }
-  .region-content button.btn a {
+  .region-content button.btn-primary a {
     color: #fff;
     text-decoration: none; }
 
