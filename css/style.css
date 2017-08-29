@@ -6415,7 +6415,7 @@ body > nav > div.navbar-header > button {
     margin-right: 30px;
     margin-left: 15px; }
   #bs-primary-navbar-collapse-1 .input-group {
-    margin-left: 0; }
+    padding-left: 0; }
   #bs-primary-navbar-collapse-1 > ul > li.dropdown.open > ul > li > a:hover {
     text-decoration: underline; } }
 
