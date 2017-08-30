@@ -1069,7 +1069,7 @@ body {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 1.428571429;
-  color: #4c4c4c;
+  color: #595959;
   background-color: #fff; }
 
 input,
@@ -2714,7 +2714,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #8c8c8c; }
+  color: #999999; }
 
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -4345,7 +4345,7 @@ a.badge:hover, a.badge:focus {
     margin-right: auto; }
   .thumbnail .caption {
     padding: 9px;
-    color: #4c4c4c; }
+    color: #595959; }
 
 a.thumbnail:hover,
 a.thumbnail:focus,
@@ -6286,6 +6286,9 @@ body {
 h1, h2, h3, h5, h5, h6, th, strong, li {
   color: #333333; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; }
+
 hr {
   margin: 40px; }
 
@@ -6462,8 +6465,13 @@ body > nav > div.navbar-header > button {
   margin-top: 30px;
   margin-bottom: 20px; }
 
-.region-content p + h2 {
+.region-content p + h2, .region-content p + h3, .region-content p + h4,
+.region-content ul + p, .region-content ol + p,
+.region-content table + h2, .region-content table + h3 {
   margin-top: 35px; }
+
+.region-content h2:nth-child(1) {
+  margin-top: 0; }
 
 .region-content a {
   text-decoration: underline; }
@@ -6484,6 +6492,8 @@ body > nav > div.navbar-header > button {
   margin-left: 28px; }
   .region-content blockquote a strong {
     color: #981e32; }
+  .region-content blockquote p {
+    margin-left: 5px; }
 
 .region-content button.btn-primary {
   margin: 10px 10px 10px 25px;
@@ -6514,6 +6524,8 @@ h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote {
 
 ul.tabs--primary {
   margin-bottom: 25px; }
+  ul.tabs--primary li {
+    padding-bottom: 0; }
 
 .breadcrumb {
   background-color: #fff;
@@ -6530,6 +6542,8 @@ ul.tabs--primary {
   border: 0;
   box-shadow: none;
   background-color: transparent; }
+  .well ul li, .well ol li {
+    padding-bottom: 5px; }
 
 .well img {
   max-width: 100%; }

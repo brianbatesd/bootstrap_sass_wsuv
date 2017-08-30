@@ -22,6 +22,10 @@ h1, h2, h3, h5, h5, h6, th, strong, li {
   color: $gray-dark;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 hr {
   margin: 40px;
 }
@@ -254,8 +258,16 @@ body > nav > div.navbar-header > button {
   margin-bottom: 20px;
 }
 
-.region-content p + h2 {
+.region-content {
+  p + h2, p + h3, p + h4,
+  ul + p, ol + p,
+  table + h2, table + h3 {
   margin-top: 35px;
+  }
+}
+
+.region-content h2:nth-child(1) {
+  margin-top: 0;
 }
 
 .region-content a {
@@ -281,6 +293,9 @@ body > nav > div.navbar-header > button {
   margin-left: 28px;
   a strong {
   color: $brand-primary;
+  }
+  p {
+    margin-left: 5px;
   }
 }
 
@@ -318,6 +333,9 @@ h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote {
 
 ul.tabs--primary {
   margin-bottom: 25px;
+  li {
+    padding-bottom: 0;
+  }
 }
 
 .breadcrumb {
@@ -339,6 +357,9 @@ ul.tabs--primary {
   border: 0;
   box-shadow: none;
   background-color: transparent;
+  ul li, ol li {
+    padding-bottom: 5px;
+  }
 }
 
 .well img {
