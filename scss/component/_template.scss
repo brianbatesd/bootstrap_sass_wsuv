@@ -253,6 +253,11 @@ body > nav > div.navbar-header > button {
 
 /* Main content */
 
+.container-max-width {
+  max-width: 1920px;
+  margin: auto;
+}
+
 .region-content {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -260,7 +265,6 @@ body > nav > div.navbar-header > button {
 
 .region-content {
   p + h2, p + h3, p + h4,
-  ul + p, ol + p,
   table + h2, table + h3 {
   margin-top: 35px;
   }
@@ -274,9 +278,13 @@ body > nav > div.navbar-header > button {
   text-decoration: underline;
 }
 
+.region-content h4.label {
+  color: $darkgray;
+}
+
 .field--item > ul,
 .field--item > ol {
-  margin-left: 30px;
+  margin-left: 18px;
 }
 
 .region-content ul li,
@@ -351,6 +359,35 @@ ul.tabs--primary {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
     margin-top: -30px;
   }
+}
+
+/* Main content - search results */
+
+#search-form {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+#edit-basic > div > div.input-group > span > button {
+  margin-top: 0;
+  padding: 7px 11px 7px 11px;
+}
+
+#edit-keys {
+  box-shadow: none;
+}
+
+#edit-keys--description,
+.search-help-link {
+  display: none;
+}
+
+div.region.region-content > ol {
+  margin-left: 18px;
+}
+
+#edit-submit--2 {
+  margin-left: 0;
 }
 
 /* Secondary (right sidebar block region) */
