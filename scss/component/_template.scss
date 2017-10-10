@@ -236,6 +236,7 @@ body > nav > div.navbar-header > button {
   a.apply-button {
   border: 1px solid $brand-primary;
   color: $brand-primary;
+  font-weight: bold;
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
   margin: 17px 25px 0 0;
@@ -294,6 +295,12 @@ body > nav > div.navbar-header > button {
       color: $brand-primary;
     }
   }
+}
+
+/* Highlighted region (status messages)*/
+
+.region-highlighted .alert {
+  margin: 25px 25px 0 25px;
 }
 
 /* Main content */
@@ -367,9 +374,10 @@ body > nav > div.navbar-header > button {
   margin: 10px 10px 10px 0;
   padding: 10px 15px 10px 15px;
   box-shadow: none;
+  font-weight: bold;
+  border-radius: 5px;
   border: 0;
     a {
-      color: $white;
       text-decoration: none;
     }
 }
@@ -412,9 +420,10 @@ ul.tabs--primary {
   }
 }
 
-.breadcrumb {
+ol.breadcrumb {
   background-color: #fff;
-  margin-left: 10px;
+  padding: 0 25px 0 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
@@ -432,9 +441,6 @@ ul.tabs--primary {
   blockquote {
     margin-top: 1.5em;
     border-left: 10px solid $brand-primary;
-  }
-  ul li {
-    padding-bottom: 0;
   }
   a {
     color: $brand-primary;
@@ -532,7 +538,7 @@ div.region.region-content > ol {
 
 .well {
   padding-left: 0;
-  margin-top: 1em;
+  margin-top: 10px;
   border: 0;
   box-shadow: none;
   background-color: transparent;

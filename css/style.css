@@ -6452,6 +6452,7 @@ body > nav > div.navbar-header > button {
 .header-logo .col-md-6 a.apply-button {
   border: 1px solid #981e32;
   color: #981e32;
+  font-weight: bold;
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
   margin: 17px 25px 0 0;
@@ -6503,6 +6504,10 @@ body > nav > div.navbar-header > button {
     .region-sidebar-first li:nth-child(1) a,
     .region-sidebar-second li:nth-child(1) a {
       color: #981e32; }
+
+/* Highlighted region (status messages)*/
+.region-highlighted .alert {
+  margin: 25px 25px 0 25px; }
 
 /* Main content */
 .region-content {
@@ -6558,9 +6563,10 @@ body > nav > div.navbar-header > button {
   margin: 10px 10px 10px 0;
   padding: 10px 15px 10px 15px;
   box-shadow: none;
+  font-weight: bold;
+  border-radius: 5px;
   border: 0; }
   .region-content button.btn-primary a {
-    color: #fff;
     text-decoration: none; }
 
 .table {
@@ -6594,9 +6600,10 @@ ul.tabs--primary {
   ul.tabs--primary li {
     padding-bottom: 0; }
 
-.breadcrumb {
+ol.breadcrumb {
   background-color: #fff;
-  margin-left: 10px; }
+  padding: 0 25px 0 10px;
+  margin-bottom: 10px; }
 
 @media (max-width: 767px) {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
@@ -6608,9 +6615,6 @@ ul.tabs--primary {
 .paragraph__column blockquote {
   margin-top: 1.5em;
   border-left: 10px solid #981e32; }
-
-.paragraph__column ul li {
-  padding-bottom: 0; }
 
 .paragraph__column a {
   color: #981e32; }
@@ -6685,7 +6689,7 @@ div.region.region-content > ol {
 /* Secondary (right sidebar block region) */
 .well {
   padding-left: 0;
-  margin-top: 1em;
+  margin-top: 10px;
   border: 0;
   box-shadow: none;
   background-color: transparent; }
