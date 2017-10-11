@@ -1,6 +1,13 @@
-# Drupal 8 subtheme using Bootstrap and Sass
+# Drupal 8 subtheme
 
-- This is currently being used as a development sandbox and the code is rough. Be forewarned.
+- This theme is built on Drupal 8 and Bootstrap with numerous contributed modules. Thank you to everyone in the open source community who has contributed code or helped someone else out when they got stuck.
+
+* Drupal modules: https://www.drupal.org/project/project_module
+* Drupal Bootstrap: https://drupal-bootstrap.org/api/bootstrap
+* Bootstrap Paragraphs module: https://bp.jimbir.ch
+* Bootstrap: https://getbootstrap.com/docs/3.3/
+* Twig: https://twig.symfony.com
+* Glyphicon: http://glyphicons.com
 
 <!-- @file Instructions for subtheming using the Sass Starterkit. -->
 <!-- @defgroup sub_theming_sass -->

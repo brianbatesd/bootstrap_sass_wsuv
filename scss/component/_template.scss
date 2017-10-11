@@ -370,16 +370,16 @@ body > nav > div.navbar-header > button {
   }
 }
 
-.region-content button.btn-primary {
+.region-content button.btn-primary,
+.region-content a.btn-primary {
   margin: 10px 10px 10px 0;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 20px 10px 20px;
   box-shadow: none;
   font-weight: bold;
   border-radius: 5px;
   border: 0;
-    a {
-      text-decoration: none;
-    }
+  text-decoration: none;
+  color: $white;
 }
 
 .table {
@@ -465,6 +465,7 @@ ol.breadcrumb {
 h2.hero-title {
   text-align: center;
   font-size: 5.5em;
+  font-style: italic;
   text-shadow: 3px 3px 0 black;
   padding: .5em;
   margin-top: 0;
