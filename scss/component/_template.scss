@@ -237,7 +237,7 @@ body > nav > div.navbar-header > button {
   border: 1px solid $brand-primary;
   color: $brand-primary;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 10px 20px 10px 20px;
   margin: 17px 25px 0 0;
   float: right;
@@ -376,7 +376,7 @@ body > nav > div.navbar-header > button {
   padding: 10px 20px 10px 20px;
   box-shadow: none;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 4px;
   border: 0;
   text-decoration: none;
   color: $white;
@@ -445,10 +445,25 @@ ol.breadcrumb {
   a {
     color: $brand-primary;
   }
-  h2 {
+}
+
+.paragraph__column {
+  h2.top-border {
     margin-top: 34px;
     padding-top: 18px;
     border-top: 10px solid $lightestgray;
+  }
+  strong.top-border {
+    text-transform: uppercase;
+    padding-top: 18px;
+    margin: 34px 25px -16px 25px;
+    border-top: 10px solid $lightestgray;
+    display: block;
+    color: $text-color;
+  }
+  p strong.top-border {
+    margin-left: 0;
+    margin-bottom: -34px;
   }
 }
 
@@ -456,10 +471,19 @@ ol.breadcrumb {
   background-color: $lightestgray;
 }
 
+.paragraph--color--rgba-red-strong {
+  background-color: $brand-primary;
+  h2, h3, p, strong, blockquote {
+    color: $white;
+    border-color: $white;
+  }
+}
+
 .paragraph--type--xeno-hero__image {
   background-color: $white;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-position: center;
 }
 
 h2.hero-title {

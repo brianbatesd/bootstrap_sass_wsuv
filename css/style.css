@@ -6453,7 +6453,7 @@ body > nav > div.navbar-header > button {
   border: 1px solid #981e32;
   color: #981e32;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 10px 20px 10px 20px;
   margin: 17px 25px 0 0;
   float: right;
@@ -6565,7 +6565,7 @@ body > nav > div.navbar-header > button {
   padding: 10px 20px 10px 20px;
   box-shadow: none;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 4px;
   border: 0;
   text-decoration: none;
   color: #fff; }
@@ -6620,18 +6620,37 @@ ol.breadcrumb {
 .paragraph__column a {
   color: #981e32; }
 
-.paragraph__column h2 {
+.paragraph__column h2.top-border {
   margin-top: 34px;
   padding-top: 18px;
   border-top: 10px solid #f8f8f8; }
 
+.paragraph__column strong.top-border {
+  text-transform: uppercase;
+  padding-top: 18px;
+  margin: 34px 25px -16px 25px;
+  border-top: 10px solid #f8f8f8;
+  display: block;
+  color: #595959; }
+
+.paragraph__column p strong.top-border {
+  margin-left: 0;
+  margin-bottom: -34px; }
+
 .paragraph--color--rgba-grey-slight {
   background-color: #f8f8f8; }
 
+.paragraph--color--rgba-red-strong {
+  background-color: #981e32; }
+  .paragraph--color--rgba-red-strong h2, .paragraph--color--rgba-red-strong h3, .paragraph--color--rgba-red-strong p, .paragraph--color--rgba-red-strong strong, .paragraph--color--rgba-red-strong blockquote {
+    color: #fff;
+    border-color: #fff; }
+
 .paragraph--type--xeno-hero__image {
   background-color: #fff;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed; }
+  background-position: center; }
 
 h2.hero-title {
   text-align: center;
