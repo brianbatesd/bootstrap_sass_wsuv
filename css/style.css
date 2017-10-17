@@ -6441,7 +6441,7 @@ body > nav > div.navbar-header > button {
 /* Logo and apply button header */
 .header-logo .col-md-6 {
   border-bottom: 1px solid #e7e9ea;
-  margin-top: -25px;
+  margin-top: 50px;
   padding: 15px;
   height: 115px; }
 
@@ -6575,14 +6575,36 @@ body > nav > div.navbar-header > button {
   border: 0;
   text-decoration: none;
   color: #fff;
-  background-color: #555555;
-  border: 1px solid #555555;
+  background-color: #981e32;
+  border: 1px solid #981e32;
   transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
   -webkit-transition: all .2s ease-out; }
 
 .region-content button.btn-primary:hover,
 .region-content a.btn-primary:hover {
+  background-color: #fff;
+  color: #981e32;
+  border: 1px solid #981e32; }
+
+.region-content button.btn-default,
+.region-content a.btn-default {
+  margin: 10px 10px 10px 0;
+  padding: 10px 20px 10px 20px;
+  box-shadow: none;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: #555555;
+  border: 1px solid #555555;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out; }
+
+.region-content button.btn-default:hover,
+.region-content a.btn-default:hover {
   background-color: #fff;
   color: #555555;
   border: 1px solid #555555; }
