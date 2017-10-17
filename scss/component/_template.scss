@@ -390,8 +390,8 @@ body > nav > div.navbar-header > button {
   border: 0;
   text-decoration: none;
   color: $white;
-  background-color: $gray;
-  border: 1px solid $gray;
+  background-color: $brand-primary;
+  border: 1px solid $brand-primary;
   transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
   -webkit-transition: all .2s ease-out;
@@ -399,6 +399,30 @@ body > nav > div.navbar-header > button {
 
 .region-content button.btn-primary:hover,
 .region-content a.btn-primary:hover {
+  background-color: $white;
+  color: $brand-primary;
+  border: 1px solid $brand-primary;
+}
+
+.region-content button.btn-default,
+.region-content a.btn-default {
+  margin: 10px 10px 10px 0;
+  padding: 10px 20px 10px 20px;
+  box-shadow: none;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 0;
+  text-decoration: none;
+  color: $white;
+  background-color: $gray;
+  border: 1px solid $gray;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+}
+
+.region-content button.btn-default:hover,
+.region-content a.btn-default:hover {
   background-color: $white;
   color: $gray;
   border: 1px solid $gray;
