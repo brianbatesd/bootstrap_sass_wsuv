@@ -232,9 +232,9 @@ body > nav > div.navbar-header > button {
 
 .header-logo .col-md-6 img.primary-logo {
   max-width: 250px;
-  transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
 }
 
 .header-logo .col-md-6 a:hover img.primary-logo,
@@ -244,20 +244,20 @@ body > nav > div.navbar-header > button {
 
 .header-logo .col-md-6 {
   a.apply-button {
-  border: 1px solid $brand-primary;
-  color: $brand-primary;
+  border: 1px solid $red;
+  color: $red;
   font-weight: bold;
   border-radius: 4px;
   padding: 10px 20px 10px 20px;
   margin: 17px 25px 0 0;
   float: right;
-  transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
   }
   a.apply-button:hover, a.apply-button:focus {
-    background: $brand-primary;
-    border: 1px solid $brand-primary;
+    background: $red;
+    border: 1px solid $red;
     color: $white;
     text-decoration: none;
   }
@@ -390,6 +390,18 @@ body > nav > div.navbar-header > button {
   border: 0;
   text-decoration: none;
   color: $white;
+  background-color: $gray;
+  border: 1px solid $gray;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+}
+
+.region-content button.btn-primary:hover,
+.region-content a.btn-primary:hover {
+  background-color: $white;
+  color: $gray;
+  border: 1px solid $gray;
 }
 
 .table {

@@ -6447,29 +6447,29 @@ body > nav > div.navbar-header > button {
 
 .header-logo .col-md-6 img.primary-logo {
   max-width: 250px;
-  transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out; }
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out; }
 
 .header-logo .col-md-6 a:hover img.primary-logo,
 .header-logo .col-md-6 a:focus img.primary-logo {
   filter: grayscale(100%); }
 
 .header-logo .col-md-6 a.apply-button {
-  border: 1px solid #981e32;
-  color: #981e32;
+  border: 1px solid #c60c30;
+  color: #c60c30;
   font-weight: bold;
   border-radius: 4px;
   padding: 10px 20px 10px 20px;
   margin: 17px 25px 0 0;
   float: right;
-  transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out; }
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out; }
 
 .header-logo .col-md-6 a.apply-button:hover, .header-logo .col-md-6 a.apply-button:focus {
-  background: #981e32;
-  border: 1px solid #981e32;
+  background: #c60c30;
+  border: 1px solid #c60c30;
   color: #fff;
   text-decoration: none; }
 
@@ -6574,7 +6574,18 @@ body > nav > div.navbar-header > button {
   border-radius: 4px;
   border: 0;
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+  background-color: #555555;
+  border: 1px solid #555555;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out; }
+
+.region-content button.btn-primary:hover,
+.region-content a.btn-primary:hover {
+  background-color: #fff;
+  color: #555555;
+  border: 1px solid #555555; }
 
 .table {
   border: 1px solid #e7e9ea;
