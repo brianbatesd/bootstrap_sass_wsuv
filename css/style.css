@@ -6305,6 +6305,10 @@ hr {
   border: none;
   font-size: 15px; }
 
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: #262b2d;
+  color: #fff; }
+
 .navbar-default {
   padding-left: 10px;
   font-size: 15px;
@@ -6350,7 +6354,9 @@ hr {
       color: #fff; }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-color: #981e32; } }
+    background-color: #981e32; }
+  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    text-decoration: underline; } }
 
 /* Credit: https://work.smarchal.com/twbscolor/ */
 img.horizontal-logo {
@@ -6500,7 +6506,7 @@ body > nav > div.navbar-header > button {
   .region-sidebar-second li:nth-child(1) {
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 1px; }
+    letter-spacing: 3px; }
     .region-sidebar-first li:nth-child(1) a,
     .region-sidebar-second li:nth-child(1) a {
       color: #981e32; }
@@ -6736,7 +6742,6 @@ h2.block-title, .well img {
   margin-top: 50px; }
 
 .footer-sitemap .col-md-3 {
-  background-color: #f8f8f8;
   margin-bottom: 0;
   padding: 30px 15px 15px 5px;
   font-size: 14px;
@@ -6747,7 +6752,6 @@ h2.block-title, .well img {
     padding-bottom: 8px; }
   .footer-sitemap .col-md-3 li.sitemap-section {
     text-transform: uppercase;
-    letter-spacing: 1px;
     font-weight: bold; }
 
 .footer-copyright .col-md-6 {
@@ -6761,8 +6765,7 @@ h2.block-title, .well img {
     padding: 0 8px 8px 0;
     display: inline; }
   .footer-copyright .col-md-6 li.copyright-section {
-    text-transform: uppercase;
-    letter-spacing: 1px; }
+    text-transform: uppercase; }
   .footer-copyright .col-md-6 strong {
     color: #fff; }
 

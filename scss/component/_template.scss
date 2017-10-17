@@ -47,6 +47,12 @@ hr {
   font-size: 15px;
 }
 
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: $darkgray;
+  color: $white;
+}
+
 .navbar-default {
   padding-left: 10px;
   font-size: 15px;
@@ -115,6 +121,10 @@ hr {
       > a, > a:hover, > a:focus {
         color: $colHighlight;
         background-color: $bgHighlight; }}}
+  .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus {
+    text-decoration: underline;
+  }
 } /* Credit: https://work.smarchal.com/twbscolor/ */
 
 img.horizontal-logo {
@@ -290,7 +300,7 @@ body > nav > div.navbar-header > button {
   li:nth-child(1) {
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     a {
       color: $brand-primary;
     }
@@ -600,7 +610,6 @@ h2.block-title, .well img {
 }
 
 .footer-sitemap .col-md-3 {
-  background-color: $lightestgray;
   margin-bottom: 0;
   padding: 30px 15px 15px 5px;
   font-size: 14px;
@@ -612,7 +621,6 @@ h2.block-title, .well img {
   }
   li.sitemap-section {
     text-transform: uppercase;
-    letter-spacing: 1px;
     font-weight: bold;
   }
 }
@@ -630,7 +638,6 @@ h2.block-title, .well img {
   }
   li.copyright-section {
     text-transform: uppercase;
-    letter-spacing: 1px;
   }
   strong {
     color: $white;
