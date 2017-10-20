@@ -1,14 +1,14 @@
-// WSU VANCOUVER SUBTHEME MAIN STYLESHEET
+// WSU VANCOUVER SUBTHEME STYLES
 
-/* Brand colors */
+/* $brand-primary secondary colors */
 
 $red: #c60c30;
-$darkgray: #262b2d;
-$lightestgray: #f8f8f8;
-$lightgray: #e7e9ea;
+$dark-gray: #262b2d;
+$lightest-gray: #f8f8f8;
+$light-gray: #e7e9ea;
 $white: #fff;
 
-/* Navbar colors */
+/* Navbar TWBSColor */
 
 $bgDefault: #981e32;
 $bgHighlight: #981e32;
@@ -31,12 +31,12 @@ hr {
 }
 
 ::selection {
-  background: $darkgray;
+  background: $dark-gray;
   color: $white;
 }
 
 ::-moz-selection {
-  background: $darkgray;
+  background: $dark-gray;
   color: $white;
 }
 
@@ -49,7 +49,7 @@ hr {
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  background-color: $darkgray;
+  background-color: $dark-gray;
   color: $white;
 }
 
@@ -194,7 +194,7 @@ body > nav > div.navbar-header > button {
   background: none;
 }
 
-/* Navbar mobile */
+/* Navbar small screens */
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-top: 0;
@@ -224,7 +224,7 @@ body > nav > div.navbar-header > button {
 /* Logo and apply button header */
 
 .header-logo .col-md-6 {
-  border-bottom: 1px solid $lightgray;
+  border-bottom: 1px solid $light-gray;
   margin-top: -25px;
   padding: 15px;
   height: 115px;
@@ -269,13 +269,13 @@ body > nav > div.navbar-header > button {
   }
 }
 
-/* Primary (left block and navigation region) */
+/* Primary block region */
 
 .region-sidebar-first,
 .region-sidebar-second {
   margin-top: 50px;
   a {
-    color: $darkgray;
+    color: $dark-gray;
     display: block;
     padding: 10px 0 10px 1px;
   }
@@ -289,7 +289,7 @@ body > nav > div.navbar-header > button {
         font-weight: normal;
         letter-spacing: normal;
         a {
-          color: $darkgray;
+          color: $dark-gray;
         }
       }
     }
@@ -307,13 +307,13 @@ body > nav > div.navbar-header > button {
   }
 }
 
-/* Highlighted region (status messages)*/
+/* Highlighted region (status messages) */
 
 .region-highlighted .alert {
   margin: 25px 25px 0 25px;
 }
 
-/* Main content */
+/* Content region */
 
 .region-content {
   margin-top: 50px;
@@ -333,10 +333,6 @@ body > nav > div.navbar-header > button {
   line-height: 1.6em;
 }
 
-/* .region-content h2:nth-child(1) {
-  margin-top: 0;
-} */
-
 .region-content a {
   text-decoration: underline;
 }
@@ -352,7 +348,7 @@ body > nav > div.navbar-header > button {
 }
 
 .region-content h4.label {
-  color: $darkgray;
+  color: $dark-gray;
 }
 
 .field--item > ul,
@@ -423,20 +419,25 @@ body > nav > div.navbar-header > button {
 
 .region-content button.btn-default:hover,
 .region-content a.btn-default:hover {
-  background-color: $white;
-  color: $gray;
-  border: 1px solid $gray;
+  background-color: $gray-dark;
+  color: $white;
+  border: 1px solid $gray-dark;
 }
 
 .table {
-  border: 1px solid $lightgray;
+  border: 1px solid $light-gray;
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: $lightest-gray;
+}
+
 .table > tbody > tr > th {
   padding: 15px;
-  background: $lightestgray;
+  background: $lightest-gray;
 }
 
 .table > tbody > tr > td {
@@ -445,7 +446,7 @@ body > nav > div.navbar-header > button {
 
 .region-content table {
   max-width: 95%;
-} /* Prevent tables from overflowing into secondary right sidebar block region */
+} /* Prevent tables from invading secondary block region on desktop */
 
 #user-login-form,
 ul.tabs--primary,
@@ -472,6 +473,13 @@ ol.breadcrumb {
   margin-bottom: 10px;
 }
 
+.badge {
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  background-color: $brand-primary;
+}
+
 @media (max-width: 767px) {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
     margin-top: -30px;
@@ -481,7 +489,7 @@ ol.breadcrumb {
   }
 }
 
-/* Main content - Bootstrap paragraphs */
+/* Bootstrap Paragraphs for single page layouts */
 
 .paragraph__column {
   blockquote {
@@ -497,13 +505,13 @@ ol.breadcrumb {
   h2.top-border {
     margin-top: 34px;
     padding-top: 18px;
-    border-top: 10px solid $lightestgray;
+    border-top: 10px solid $lightest-gray;
   }
   strong.top-border {
     text-transform: uppercase;
     padding-top: 18px;
     margin: 34px 25px -16px 25px;
-    border-top: 10px solid $lightestgray;
+    border-top: 10px solid $lightest-gray;
     display: block;
     color: $text-color;
   }
@@ -514,7 +522,7 @@ ol.breadcrumb {
 }
 
 .paragraph--color--rgba-grey-slight {
-  background-color: $lightestgray;
+  background-color: $lightest-gray;
 }
 
 .paragraph--color--rgba-red-strong {
@@ -604,7 +612,7 @@ div.region.region-content > ol {
   margin-left: 0;
 }
 
-/* Secondary (right sidebar block region) */
+/* Secondary block region */
 
 .well {
   padding-left: 0;
@@ -641,7 +649,7 @@ h2.block-title, .well img {
 /* Footer */
 
 .footer-sitemap {
-  border-top: 1px solid $lightgray;
+  border-top: 1px solid $light-gray;
   margin-top: 50px;
 }
 
@@ -662,7 +670,7 @@ h2.block-title, .well img {
 }
 
 .footer-copyright .col-md-6 {
-  background-color: $darkgray;
+  background-color: $dark-gray;
   margin-bottom: 0;
   padding: 15px 5px 5px 5px;
   font-size: 14px;

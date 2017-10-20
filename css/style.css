@@ -249,8 +249,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("/Users/brianbates1d/Sites/devdesktop/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("/Users/brianbates1d/Sites/devdesktop/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("/Users/brianbates1d/Sites/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("/Users/brianbates1d/Sites/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/Users/brianbates1d/Sites/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("/Users/brianbates1d/Sites/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("/Users/brianbates1d/Sites/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("/Users/brianbates1d/Sites/drupal-8/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 .glyphicon {
   position: relative;
@@ -6280,8 +6280,8 @@ body {
   .tabs-right > .nav-tabs > .active > a:focus {
     border-color: #ddd #ddd #ddd transparent; }
 
-/* Brand colors */
-/* Navbar colors */
+/* $brand-primary secondary colors */
+/* Navbar TWBSColor */
 /* HTML */
 h1, h2, h3, h5, h5, h6, th, strong, li {
   color: #333333; }
@@ -6417,7 +6417,7 @@ body > nav > div.navbar-header > button {
 #bs-primary-navbar-collapse-1 > div > form > div > div > button:focus {
   background: none; }
 
-/* Navbar mobile */
+/* Navbar small screens */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-top: 0;
@@ -6477,7 +6477,7 @@ body > nav > div.navbar-header > button {
   .header-logo .col-md-6 {
     display: none; } }
 
-/* Primary (left block and navigation region) */
+/* Primary block region */
 .region-sidebar-first,
 .region-sidebar-second {
   margin-top: 50px; }
@@ -6511,11 +6511,11 @@ body > nav > div.navbar-header > button {
     .region-sidebar-second li:nth-child(1) a {
       color: #981e32; }
 
-/* Highlighted region (status messages)*/
+/* Highlighted region (status messages) */
 .region-highlighted .alert {
   margin: 25px 25px 0 25px; }
 
-/* Main content */
+/* Content region */
 .region-content {
   margin-top: 50px;
   margin-bottom: 20px; }
@@ -6529,9 +6529,6 @@ body > nav > div.navbar-header > button {
 .region-content p {
   line-height: 1.6em; }
 
-/* .region-content h2:nth-child(1) {
-  margin-top: 0;
-} */
 .region-content a {
   text-decoration: underline; }
 
@@ -6605,14 +6602,18 @@ body > nav > div.navbar-header > button {
 
 .region-content button.btn-default:hover,
 .region-content a.btn-default:hover {
-  background-color: #fff;
-  color: #555555;
-  border: 1px solid #555555; }
+  background-color: #333333;
+  color: #fff;
+  border: 1px solid #333333; }
 
 .table {
   border: 1px solid #e7e9ea;
   margin-top: 20px;
   margin-bottom: 30px; }
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: #f8f8f8; }
 
 .table > tbody > tr > th {
   padding: 15px;
@@ -6624,7 +6625,7 @@ body > nav > div.navbar-header > button {
 .region-content table {
   max-width: 95%; }
 
-/* Prevent tables from overflowing into secondary right sidebar block region */
+/* Prevent tables from invading secondary block region on desktop */
 #user-login-form,
 ul.tabs--primary,
 h1.page-header,
@@ -6645,13 +6646,19 @@ ol.breadcrumb {
   padding: 0 25px 0 10px;
   margin-bottom: 10px; }
 
+.badge {
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  background-color: #981e32; }
+
 @media (max-width: 767px) {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
     margin-top: -30px; }
   .region-content {
     margin-top: 8px; } }
 
-/* Main content - Bootstrap paragraphs */
+/* Bootstrap Paragraphs for single page layouts */
 .paragraph__column blockquote {
   margin-top: 1.5em;
   border-left: 10px solid #981e32; }
@@ -6745,7 +6752,7 @@ div.region.region-content > ol {
 #edit-submit--2 {
   margin-left: 0; }
 
-/* Secondary (right sidebar block region) */
+/* Secondary block region */
 .well {
   padding-left: 0;
   margin-top: 10px;
