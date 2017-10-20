@@ -6579,7 +6579,9 @@ body > nav > div.navbar-header > button {
   -webkit-transition: all .2s ease-out; }
 
 .region-content button.btn-primary:hover,
-.region-content a.btn-primary:hover {
+.region-content a.btn-primary:hover,
+.region-content button.btn-primary:focus,
+.region-content a.btn-primary:focus {
   background-color: #fff;
   color: #981e32;
   border: 1px solid #981e32; }
@@ -6601,7 +6603,8 @@ body > nav > div.navbar-header > button {
   -webkit-transition: all .2s ease-out; }
 
 .region-content button.btn-default:hover,
-.region-content a.btn-default:hover {
+.region-content a.btn-default:hover .region-content button.btn-default:focus,
+.region-content a.btn-default:focus {
   background-color: #333333;
   color: #fff;
   border: 1px solid #333333; }
@@ -6646,11 +6649,11 @@ ol.breadcrumb {
   padding: 0 25px 0 10px;
   margin-bottom: 10px; }
 
-.badge {
+.badge-secondary {
   border-radius: 3px;
-  margin-left: 5px;
-  margin-bottom: 3px;
-  background-color: #981e32; }
+  background-color: #981e32;
+  margin-left: 3px;
+  margin-bottom: 3px; }
 
 @media (max-width: 767px) {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {

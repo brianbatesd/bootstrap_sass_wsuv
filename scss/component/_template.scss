@@ -394,7 +394,9 @@ body > nav > div.navbar-header > button {
 }
 
 .region-content button.btn-primary:hover,
-.region-content a.btn-primary:hover {
+.region-content a.btn-primary:hover,
+.region-content button.btn-primary:focus,
+.region-content a.btn-primary:focus {
   background-color: $white;
   color: $brand-primary;
   border: 1px solid $brand-primary;
@@ -418,7 +420,9 @@ body > nav > div.navbar-header > button {
 }
 
 .region-content button.btn-default:hover,
-.region-content a.btn-default:hover {
+.region-content a.btn-default:hover
+.region-content button.btn-default:focus,
+.region-content a.btn-default:focus {
   background-color: $gray-dark;
   color: $white;
   border: 1px solid $gray-dark;
@@ -473,11 +477,11 @@ ol.breadcrumb {
   margin-bottom: 10px;
 }
 
-.badge {
+.badge-secondary {
   border-radius: 3px;
-  margin-left: 5px;
-  margin-bottom: 3px;
   background-color: $brand-primary;
+  margin-left: 3px;
+  margin-bottom: 3px;
 }
 
 @media (max-width: 767px) {
