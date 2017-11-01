@@ -6442,7 +6442,9 @@ body > nav > div.navbar-header > button {
     padding-left: 0; }
   #bs-primary-navbar-collapse-1 > div > form > div > div > button:hover,
   #bs-primary-navbar-collapse-1 > div > form > div > div > button:focus {
-    text-decoration: underline; } }
+    text-decoration: underline; }
+  .dropdown-menu > li a {
+    margin-bottom: .7em; } }
 
 /* Logo and apply button header */
 .header-logo .col-md-6 {
@@ -6643,6 +6645,15 @@ h1.page-header,
 h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote {
   margin-right: 25px;
   margin-left: 25px; }
+
+.region-content form {
+  max-width: 500px; }
+
+.form-item {
+  margin-bottom: 1em; }
+
+.select-wrapper {
+  display: block; }
 
 legend {
   margin: 0;
