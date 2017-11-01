@@ -3,7 +3,7 @@
 /* $brand-primary secondary colors */
 
 $red: #c60c30;
-$dark-gray: #262b2d;
+$dark-gray: #333333;
 $lightest-gray: #f8f8f8;
 $light-gray: #e7e9ea;
 $white: #fff;
@@ -24,6 +24,12 @@ h1, h2, h3, h5, h5, h6, th, strong, li {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  .crimson {
+    color: $brand-primary;
+  }
+  .red {
+    color: $red;
+  }
 }
 
 hr {
@@ -278,7 +284,7 @@ body > nav > div.navbar-header > button {
 .region-sidebar-second {
   margin-top: 50px;
   a {
-    color: $dark-gray;
+    color: $gray;
     display: block;
     padding: 10px 0 10px 1px;
     border-bottom: 1px solid $light-gray;
@@ -330,13 +336,16 @@ body > nav > div.navbar-header > button {
 }
 
 .region-content a {
+  color: $brand-primary;
   text-decoration: underline;
+  transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
 }
 
 .region-content a:hover,
 .region-content a:focus {
-  text-decoration: none;
-  color: $brand-primary;
+  color: $dark-gray;
 }
 
 .region-content h1.page-header {
@@ -452,9 +461,15 @@ body > nav > div.navbar-header > button {
 #user-login-form,
 ul.tabs--primary,
 h1.page-header,
+.region-content form,
 h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote {
   margin-right: 25px;
   margin-left: 25px;
+}
+
+legend {
+  margin: 0;
+  padding-top: 1em;
 }
 
 #edit-submit {
