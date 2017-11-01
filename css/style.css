@@ -6370,8 +6370,10 @@ img.horizontal-logo {
   color: #fff; }
 
 body > nav > div.navbar-header > button {
-  margin-top: -5px;
   margin-bottom: -10px; }
+
+.navbar-toggle .icon-bar {
+  border-radius: 0; }
 
 #bs-primary-navbar-collapse-1 > div > form {
   margin-right: 20px; }
@@ -6441,7 +6443,7 @@ body > nav > div.navbar-header > button {
 /* Logo and apply button header */
 .header-logo .col-md-6 {
   border-bottom: 1px solid #e7e9ea;
-  margin-top: -25px;
+  margin-top: -20px;
   padding: 15px;
   height: 115px; }
 
@@ -6485,31 +6487,27 @@ body > nav > div.navbar-header > button {
   .region-sidebar-second a {
     color: #262b2d;
     display: block;
-    padding: 10px 0 10px 1px; }
+    padding: 10px 0 10px 1px;
+    border-bottom: 1px solid #e7e9ea;
+    transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out; }
+  .region-sidebar-first a:hover, .region-sidebar-first a:focus,
+  .region-sidebar-second a:hover,
+  .region-sidebar-second a:focus {
+    color: #981e32;
+    text-decoration: none;
+    padding-left: 10px;
+    border-bottom: 1px solid #981e32; }
   .region-sidebar-first ul li,
   .region-sidebar-second ul li {
     list-style-type: none;
     padding: 0;
     margin-bottom: -5px; }
-    .region-sidebar-first ul li ul li:nth-child(1),
-    .region-sidebar-second ul li ul li:nth-child(1) {
-      text-transform: none;
-      font-weight: normal;
-      letter-spacing: normal; }
-      .region-sidebar-first ul li ul li:nth-child(1) a,
-      .region-sidebar-second ul li ul li:nth-child(1) a {
-        color: #262b2d; }
   .region-sidebar-first li a.is-active,
   .region-sidebar-second li a.is-active {
-    font-weight: bold; }
-  .region-sidebar-first li:nth-child(1),
-  .region-sidebar-second li:nth-child(1) {
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 3px; }
-    .region-sidebar-first li:nth-child(1) a,
-    .region-sidebar-second li:nth-child(1) a {
-      color: #981e32; }
+    color: #981e32;
+    border-color: #981e32; }
 
 /* Highlighted region (status messages) */
 .region-highlighted .alert {
@@ -6518,7 +6516,7 @@ body > nav > div.navbar-header > button {
 /* Content region */
 .region-content {
   margin-top: 50px;
-  margin-bottom: 20px; }
+  margin-bottom: 50px; }
 
 .region-content p + h2, .region-content p + h3, .region-content p + h4,
 .region-content table + h2, .region-content table + h3,
@@ -6534,7 +6532,8 @@ body > nav > div.navbar-header > button {
 
 .region-content a:hover,
 .region-content a:focus {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #981e32; }
 
 .region-content h1.page-header {
   font-size: 3em;
@@ -6603,7 +6602,8 @@ body > nav > div.navbar-header > button {
   -webkit-transition: all .2s ease-out; }
 
 .region-content button.btn-default:hover,
-.region-content a.btn-default:hover .region-content button.btn-default:focus,
+.region-content a.btn-default:hover,
+.region-content button.btn-default:focus,
 .region-content a.btn-default:focus {
   background-color: #333333;
   color: #fff;
@@ -6659,7 +6659,7 @@ ol.breadcrumb {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
     margin-top: -30px; }
   .region-content {
-    margin-top: 8px; } }
+    margin-top: 5px; } }
 
 /* Bootstrap Paragraphs for single page layouts */
 .paragraph__column blockquote {
@@ -6798,26 +6798,29 @@ h2.block-title, .well img {
     font-weight: bold; }
 
 .footer-copyright .col-md-6 {
-  background-color: #262b2d;
+  background-color: #f8f8f8;
   margin-bottom: 0;
   padding: 15px 5px 5px 5px;
   font-size: 14px; }
   .footer-copyright .col-md-6 li, .footer-copyright .col-md-6 li a {
-    color: #fff;
+    color: #333333;
     list-style-type: none;
     padding: 0 8px 8px 0;
     display: inline; }
   .footer-copyright .col-md-6 li.copyright-section {
     text-transform: uppercase; }
-  .footer-copyright .col-md-6 strong {
-    color: #fff; }
+  .footer-copyright .col-md-6 .glyphicon {
+    color: #555555;
+    font-size: .85em; }
 
 @media (max-width: 767px) {
   body > div.footer-sitemap > div:nth-child(3),
   body > div.footer-sitemap > div:nth-child(4) {
     display: none; }
   .footer-sitemap .col-md-3 {
-    height: auto; } }
+    height: auto; }
+  .footer-sitemap .col-md-3 li {
+    display: block; } }
 
 /**
  * Toolbar module styling.

@@ -142,8 +142,11 @@ img.horizontal-logo {
 }
 
 body > nav > div.navbar-header > button {
-  margin-top: -5px;
   margin-bottom: -10px;
+}
+
+.navbar-toggle .icon-bar {
+  border-radius: 0;
 }
 
 #bs-primary-navbar-collapse-1 > div > form {
@@ -225,7 +228,7 @@ body > nav > div.navbar-header > button {
 
 .header-logo .col-md-6 {
   border-bottom: 1px solid $light-gray;
-  margin-top: -25px;
+  margin-top: -20px;
   padding: 15px;
   height: 115px;
 }
@@ -278,32 +281,25 @@ body > nav > div.navbar-header > button {
     color: $dark-gray;
     display: block;
     padding: 10px 0 10px 1px;
+    border-bottom: 1px solid $light-gray;
+    transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+  }
+  a:hover, a:focus {
+    color: $brand-primary;
+    text-decoration: none;
+    padding-left: 10px;
+    border-bottom: 1px solid $brand-primary;
   }
   ul li {
     list-style-type: none;
     padding: 0;
     margin-bottom: -5px;
-    ul {
-      li:nth-child(1) {
-        text-transform: none;
-        font-weight: normal;
-        letter-spacing: normal;
-        a {
-          color: $dark-gray;
-        }
-      }
-    }
   }
   li a.is-active {
-    font-weight: bold;
-  }
-  li:nth-child(1) {
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 3px;
-    a {
-      color: $brand-primary;
-    }
+    color: $brand-primary;
+    border-color: $brand-primary;
   }
 }
 
@@ -317,7 +313,7 @@ body > nav > div.navbar-header > button {
 
 .region-content {
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .region-content {
@@ -340,6 +336,7 @@ body > nav > div.navbar-header > button {
 .region-content a:hover,
 .region-content a:focus {
   text-decoration: none;
+  color: $brand-primary;
 }
 
 .region-content h1.page-header {
@@ -420,7 +417,7 @@ body > nav > div.navbar-header > button {
 }
 
 .region-content button.btn-default:hover,
-.region-content a.btn-default:hover
+.region-content a.btn-default:hover,
 .region-content button.btn-default:focus,
 .region-content a.btn-default:focus {
   background-color: $gray-dark;
@@ -489,7 +486,7 @@ ol.breadcrumb {
     margin-top: -30px;
   }
   .region-content {
-    margin-top: 8px;
+    margin-top: 5px;
   }
 }
 
@@ -674,12 +671,12 @@ h2.block-title, .well img {
 }
 
 .footer-copyright .col-md-6 {
-  background-color: $dark-gray;
+  background-color: $lightest-gray;
   margin-bottom: 0;
   padding: 15px 5px 5px 5px;
   font-size: 14px;
   li, li a {
-    color: $white;
+    color: $gray-dark;
     list-style-type: none;
     padding: 0 8px 8px 0;
     display: inline;
@@ -687,8 +684,9 @@ h2.block-title, .well img {
   li.copyright-section {
     text-transform: uppercase;
   }
-  strong {
-    color: $white;
+  .glyphicon {
+     color: $gray;
+     font-size: .85em;
   }
 }
 
@@ -699,5 +697,8 @@ h2.block-title, .well img {
   }
   .footer-sitemap .col-md-3 {
     height: auto;
+  }
+  .footer-sitemap .col-md-3 li {
+    display: block;
   }
 }
