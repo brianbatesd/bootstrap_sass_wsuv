@@ -6580,8 +6580,8 @@ body > nav > div.navbar-header > button {
   border-radius: 4px;
   border: 0;
   text-decoration: none;
-  color: #fff;
-  background-color: #981e32;
+  color: #981e32;
+  background-color: #fff;
   border: 1px solid #981e32;
   transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
@@ -6591,8 +6591,8 @@ body > nav > div.navbar-header > button {
 .region-content a.btn-primary:hover,
 .region-content button.btn-primary:focus,
 .region-content a.btn-primary:focus {
-  background-color: #fff;
-  color: #981e32;
+  background-color: #981e32;
+  color: #fff;
   border: 1px solid #981e32; }
 
 .region-content button.btn-default,
@@ -6604,8 +6604,8 @@ body > nav > div.navbar-header > button {
   border-radius: 4px;
   border: 0;
   text-decoration: none;
-  color: #fff;
-  background-color: #555555;
+  color: #555555;
+  background-color: #fff;
   border: 1px solid #555555;
   transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
@@ -6615,9 +6615,9 @@ body > nav > div.navbar-header > button {
 .region-content a.btn-default:hover,
 .region-content button.btn-default:focus,
 .region-content a.btn-default:focus {
-  background-color: #333333;
+  background-color: #555555;
   color: #fff;
-  border: 1px solid #333333; }
+  border: 1px solid #555555; }
 
 .table {
   border: 1px solid #e7e9ea;
@@ -6685,7 +6685,7 @@ ol.breadcrumb {
   .region-content {
     margin-top: 5px; } }
 
-/* Bootstrap Paragraphs for single page layouts */
+/* Bootstrap Paragraphs for single column page layouts */
 .paragraph__column blockquote {
   margin-top: 1.5em;
   border-left: 10px solid #981e32; }

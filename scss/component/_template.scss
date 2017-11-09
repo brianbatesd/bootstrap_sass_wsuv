@@ -397,8 +397,8 @@ body > nav > div.navbar-header > button {
   border-radius: 4px;
   border: 0;
   text-decoration: none;
-  color: $white;
-  background-color: $brand-primary;
+  color: $brand-primary;
+  background-color: $white;
   border: 1px solid $brand-primary;
   transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
@@ -409,8 +409,8 @@ body > nav > div.navbar-header > button {
 .region-content a.btn-primary:hover,
 .region-content button.btn-primary:focus,
 .region-content a.btn-primary:focus {
-  background-color: $white;
-  color: $brand-primary;
+  background-color: $brand-primary;
+  color: $white;
   border: 1px solid $brand-primary;
 }
 
@@ -423,8 +423,8 @@ body > nav > div.navbar-header > button {
   border-radius: 4px;
   border: 0;
   text-decoration: none;
-  color: $white;
-  background-color: $gray;
+  color: $gray;
+  background-color: $white;
   border: 1px solid $gray;
   transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
@@ -435,9 +435,9 @@ body > nav > div.navbar-header > button {
 .region-content a.btn-default:hover,
 .region-content button.btn-default:focus,
 .region-content a.btn-default:focus {
-  background-color: $gray-dark;
+  background-color: $gray;
   color: $white;
-  border: 1px solid $gray-dark;
+  border: 1px solid $gray;
 }
 
 .table {
@@ -523,7 +523,7 @@ ol.breadcrumb {
   }
 }
 
-/* Bootstrap Paragraphs for single page layouts */
+/* Bootstrap Paragraphs for single column page layouts */
 
 .paragraph__column {
   blockquote {
