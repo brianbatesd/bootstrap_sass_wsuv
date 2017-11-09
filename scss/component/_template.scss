@@ -161,7 +161,6 @@ body > nav > div.navbar-header > button {
 }
 
 #bs-primary-navbar-collapse-1 .input-group {
-  background: $brand-primary;
   width: 100%;
   padding-left: 25px;
 }
@@ -626,7 +625,8 @@ h2.hero-title {
 
 #edit-basic > div > div.input-group > span > button {
   margin-top: 0;
-  padding: 7px 11px 7px 11px;
+  padding: 6px 10px 6px 10px;
+  border-radius: 0;
 }
 
 #edit-keys {
