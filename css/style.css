@@ -6692,6 +6692,13 @@ ol.breadcrumb {
 .paragraph__column a {
   color: #981e32; }
 
+.paragraph__column p.last {
+  padding-bottom: 2em;
+  text-align: center; }
+
+.paragraph__column h2.statistic {
+  text-align: center; }
+
 .paragraph__column h2.top-border {
   margin-top: 34px;
   padding-top: 18px;

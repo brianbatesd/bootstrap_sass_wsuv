@@ -532,9 +532,13 @@ ol.breadcrumb {
   a {
     color: $brand-primary;
   }
-}
-
-.paragraph__column {
+  p.last {
+    padding-bottom: 2em;
+    text-align: center;
+  }
+  h2.statistic {
+    text-align: center;
+  }
   h2.top-border {
     margin-top: 34px;
     padding-top: 18px;
