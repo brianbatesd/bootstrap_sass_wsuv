@@ -525,24 +525,8 @@ ol.breadcrumb {
 /* Bootstrap Paragraphs for single column page layouts */
 
 .paragraph__column {
-  blockquote {
-    margin-top: 1.5em;
-    border-left: 10px solid $brand-primary;
-  }
   a {
     color: $brand-primary;
-  }
-  p.last {
-    padding-bottom: 2em;
-    text-align: center;
-  }
-  h2.statistic {
-    text-align: center;
-  }
-  h2.top-border {
-    margin-top: 34px;
-    padding-top: 18px;
-    border-top: 10px solid $lightest-gray;
   }
   strong.top-border {
     text-transform: uppercase;
@@ -552,9 +536,30 @@ ol.breadcrumb {
     display: block;
     color: $text-color;
   }
+  h2.top-border {
+    margin-top: 34px;
+    padding-top: 18px;
+    border-top: 10px solid $lightest-gray;
+  }
+  p.statistic {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: $dark-gray;
+    padding-top: 16px;
+    margin-bottom: 3px;
+  }
+  p.last {
+    padding-bottom: 2em;
+    text-align: center;
+  }
   p strong.top-border {
     margin-left: 0;
     margin-bottom: -34px;
+  }
+  blockquote {
+    margin-top: 1.5em;
+    border-left: 10px solid $brand-primary;
   }
 }
 
