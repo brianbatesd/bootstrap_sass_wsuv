@@ -541,6 +541,9 @@ ol.breadcrumb {
     padding-top: 18px;
     border-top: 10px solid $lightest-gray;
   }
+  h3.social {
+    text-align: center;
+  }
   p.statistic {
     text-align: center;
     font-size: 36px;
@@ -556,6 +559,15 @@ ol.breadcrumb {
   p strong.top-border {
     margin-left: 0;
     margin-bottom: -34px;
+  }
+  p.social {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  img.social {
+    width: 3em;
+    opacity: 0.65;
+    padding: 8px;
   }
   blockquote {
     margin-top: 1.5em;
