@@ -581,7 +581,7 @@ ol.breadcrumb {
 
 .paragraph--color--rgba-red-strong {
   background-color: $brand-primary;
-  h2, h3, p, strong, blockquote {
+  h2, h3, p, p.statistic, strong, blockquote {
     color: $white;
     border-color: $white;
   }
