@@ -6741,6 +6741,9 @@ ol.breadcrumb {
   .paragraph--color--rgba-red-strong h2, .paragraph--color--rgba-red-strong h3, .paragraph--color--rgba-red-strong p, .paragraph--color--rgba-red-strong p.statistic, .paragraph--color--rgba-red-strong strong, .paragraph--color--rgba-red-strong blockquote {
     color: #fff;
     border-color: #fff; }
+  .paragraph--color--rgba-red-strong img.social {
+    filter: invert(100%);
+    opacity: 1; }
 
 .paragraph--type--xeno-hero__image {
   background-color: #fff;
