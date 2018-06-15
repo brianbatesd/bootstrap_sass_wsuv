@@ -118,7 +118,7 @@ hr {
     color: $colDefault;
     &:hover {
       color: $colHighlight; }}}
-@media (max-width: 767px) {
+@media (max-width: 767.99px) {
   .navbar-default .navbar-nav .open .dropdown-menu {
     > li > a {
       color: $colDefault;
@@ -212,7 +212,7 @@ body > nav > div.navbar-header > button {
   box-shadow: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.99px) {
   img.horizontal-logo {
     margin-top: 5px;
     height: 40px;
@@ -277,7 +277,7 @@ body > nav > div.navbar-header > button {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.99px) {
   .header-logo .col-md-6 {
     display: none;
   }
@@ -513,7 +513,7 @@ ol.breadcrumb {
   margin-bottom: 3px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.99px) {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
     margin-top: -30px;
   }
@@ -641,7 +641,7 @@ h2.hero-title {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.99px) {
   h2.hero-title {
     font-size: 3em;
   }
@@ -758,7 +758,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.99px) {
   body > div.footer-sitemap > div:nth-child(3),
   body > div.footer-sitemap > div:nth-child(4) {
     display: none;
