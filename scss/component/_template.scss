@@ -541,6 +541,10 @@ ol.breadcrumb {
     padding-top: 18px;
     border-top: 10px solid $lightest-gray;
   }
+  h2.center {
+    text-align: center;
+    margin-top: .5em;
+  }
   h3.social {
     text-align: center;
   }
@@ -552,7 +556,7 @@ ol.breadcrumb {
     padding-top: 16px;
     margin-bottom: 3px;
   }
-  p.last {
+  p.center, p.last {
     padding-bottom: 2em;
     text-align: center;
   }
@@ -726,7 +730,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   li, li a {
     color: $gray-dark;
     list-style-type: none;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
   li.sitemap-section {
     text-transform: uppercase;
@@ -742,7 +746,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   li, li a {
     color: $gray-dark;
     list-style-type: none;
-    padding: 0 8px 8px 0;
+    margin: 0 8px 8px 0;
     display: inline;
   }
   li.copyright-section {
