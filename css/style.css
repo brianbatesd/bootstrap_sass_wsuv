@@ -249,8 +249,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("/Users/brianbates1d/Sites/devdesktop/drupal-8-dev/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("/Users/brianbates1d/Sites/devdesktop/drupal-8-dev/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8-dev/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8-dev/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8-dev/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8-dev/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("/Users/brianbates1d/Sites/devdesktop/drupal-8.5.4/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("/Users/brianbates1d/Sites/devdesktop/drupal-8.5.4/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8.5.4/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8.5.4/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8.5.4/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("/Users/brianbates1d/Sites/devdesktop/drupal-8.5.4/themes/bootstrap/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 .glyphicon {
   position: relative;
@@ -6363,6 +6363,10 @@ hr {
     text-decoration: underline; } }
 
 /* Credit: https://work.smarchal.com/twbscolor/ */
+#navbar {
+  background-color: #fff;
+  border: none; }
+
 img.horizontal-logo {
   display: none; }
 
@@ -6814,6 +6818,44 @@ div.region.region-content > ol {
 
 #edit-submit--2 {
   margin-left: 0; }
+
+/* Main content - Google Custom Search results */
+#___gcse_0 > div {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
+
+#gsc-iw-id1 {
+  height: 50px;
+  font-size: 2em;
+  margin-left: -28px; }
+
+#___gcse_0 > div > div > form {
+  margin-left: 1em; }
+
+.gsc-search-button > button {
+  background-color: #981e32;
+  width: 52px;
+  height: 52px;
+  padding: .5em;
+  margin-top: -1px; }
+
+#gs_cb50 {
+  color: #333333;
+  padding: .5em; }
+
+.gsc-webResult {
+  margin: 1em 0 1em 0; }
+  .gsc-webResult .gsc-result:hover {
+    margin-left: -1px;
+    margin-bottom: 1px; }
+
+.gsc-url-top {
+  font-size: 1.25em;
+  font-style: italic; }
+
+.gs-bidi-start-align.gs-snippet {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  margin-left: -1em; }
 
 /* Secondary block region */
 .well {
