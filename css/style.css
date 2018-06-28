@@ -6830,6 +6830,8 @@ div.region.region-content > ol {
 
 #___gcse_0 > div > div > form {
   margin-left: 1em; }
+  #___gcse_0 > div > div > form input {
+    box-shadow: 0; }
 
 .gsc-search-button > button {
   background-color: #981e32;
@@ -6842,11 +6844,12 @@ div.region.region-content > ol {
   color: #333333;
   padding: .5em; }
 
-.gsc-webResult {
-  margin: 1em 0 1em 0; }
-  .gsc-webResult .gsc-result:hover {
-    margin-left: -1px;
-    margin-bottom: 1px; }
+.gsc-webResult .gsc-result:hover {
+  margin-left: -1px;
+  margin-bottom: 1px; }
+
+.gsc-thumbnail-inside {
+  margin-top: 2em; }
 
 .gsc-url-top {
   font-size: 1.25em;
