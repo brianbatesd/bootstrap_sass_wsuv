@@ -472,6 +472,7 @@ body > nav > div.navbar-header > button {
 ul.tabs--primary,
 h1.page-header,
 .region-content form,
+.views-element-container,
 h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote {
   margin-right: 25px;
   margin-left: 25px;
@@ -699,9 +700,6 @@ div.region.region-content > ol {
 
 #___gcse_0 > div > div > form {
   margin-left: 1em;
-  input {
-    box-shadow: 0;
-  }
 }
 
 .gsc-search-button > button {
