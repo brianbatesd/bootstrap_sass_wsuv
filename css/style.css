@@ -6641,15 +6641,28 @@ body > nav > div.navbar-header > button {
 .region-content table {
   max-width: 95%; }
 
-/* Prevent tables from invading secondary block region on desktop */
+/* Prevent tables from invading secondary block region on wide layouts */
+h1.page-header,
+h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote,
 #user-login-form,
 ul.tabs--primary,
-h1.page-header,
+ul.list-inline,
+.feed-icons,
+.field--name-field-location,
+.field--name-field-contact-for-more-informati,
+.field--name-field-website,
 .region-content form,
-.views-element-container,
-h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote {
+.views-element-container {
   margin-right: 25px;
   margin-left: 25px; }
+
+/* Reset specific class margins to allow full screen images and layouts */
+.field--name-field-location,
+.field--name-field-contact-for-more-informati,
+.field--name-field-website {
+  color: #333333;
+  margin-top: 1em;
+  margin-bottom: 1em; }
 
 .region-content form {
   max-width: 500px; }
@@ -6858,6 +6871,9 @@ div.region.region-content > ol {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 1.25em;
   margin-left: -1em; }
+
+#___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gsc-expansionArea > div:nth-child(9):hover {
+  padding-bottom: 7px; }
 
 /* Secondary block region */
 .well {
