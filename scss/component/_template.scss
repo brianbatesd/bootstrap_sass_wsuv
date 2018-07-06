@@ -288,7 +288,7 @@ body > nav > div.navbar-header > button {
   }
 }
 
-/* Primary block region */
+/* Primary and secondary block regions */
 
 .region-sidebar-first,
 .region-sidebar-second {
@@ -316,6 +316,21 @@ body > nav > div.navbar-header > button {
   li a.is-active {
     color: $brand-primary;
     border-color: $brand-primary;
+  }
+}
+
+.region-sidebar-second .block-views {
+  h2.block-title {
+    margin-left: 0;
+  }
+  .field-content a {
+    border-bottom: none;
+    text-decoration: underline;
+    color: $brand-primary;
+  }
+  .field-content a:hover {
+    padding-left: 1px;
+    color: $text-color;
   }
 }
 
@@ -516,21 +531,6 @@ li.node-readmore,
 .field--name-field-event-website {
   color: $dark-gray;
   margin-bottom: 1em;
-}
-
-.region-sidebar-second .block-views {
-  h2.block-title {
-    margin-left: 0;
-  }
-  .field-content a {
-    border-bottom: none;
-    text-decoration: underline;
-    color: $brand-primary;
-  }
-  .field-content a:hover {
-    padding-left: 1px;
-    color: $text-color;
-  }
 }
 
 .region-content form {

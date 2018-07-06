@@ -6489,7 +6489,7 @@ body > nav > div.navbar-header > button {
   .header-logo .col-md-6 {
     display: none; } }
 
-/* Primary block region */
+/* Primary and secondary block regions */
 .region-sidebar-first,
 .region-sidebar-second {
   margin-top: 50px; }
@@ -6518,6 +6518,18 @@ body > nav > div.navbar-header > button {
   .region-sidebar-second li a.is-active {
     color: #981e32;
     border-color: #981e32; }
+
+.region-sidebar-second .block-views h2.block-title {
+  margin-left: 0; }
+
+.region-sidebar-second .block-views .field-content a {
+  border-bottom: none;
+  text-decoration: underline;
+  color: #981e32; }
+
+.region-sidebar-second .block-views .field-content a:hover {
+  padding-left: 1px;
+  color: #595959; }
 
 /* Highlighted region (status messages) */
 .region-highlighted .alert {
@@ -6687,18 +6699,6 @@ li.node-readmore,
 .field--name-field-event-website {
   color: #333333;
   margin-bottom: 1em; }
-
-.region-sidebar-second .block-views h2.block-title {
-  margin-left: 0; }
-
-.region-sidebar-second .block-views .field-content a {
-  border-bottom: none;
-  text-decoration: underline;
-  color: #981e32; }
-
-.region-sidebar-second .block-views .field-content a:hover {
-  padding-left: 1px;
-  color: #595959; }
 
 .region-content form {
   max-width: 500px; }
