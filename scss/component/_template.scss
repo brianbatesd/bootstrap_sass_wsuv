@@ -469,21 +469,21 @@ h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote,
 ul.tabs--primary,
 li.node-readmore,
 .feed-icons,
-.field--name-field-contact-for-more-informati,
-.field--name-field-cost,
-.field--name-field-event-date-and-time,
-.field--name-field-location,
-.field--name-field-parking,
-.field--name-field-sponsored-by,
-.field--name-field-website,
+.field--name-field-event-contact,
+.field--name-field-event-cost,
+.field--name-field-event-date-time,
+.field--name-field-event-location,
+.field--name-field-event-parking,
+.field--name-field-event-sponsor,
+.field--name-field-event-website,
 .region-content form,
 .views-element-container {
   margin-right: 25px;
   margin-left: 25px;
 } /* Reset specific class margins to allow full screen images and layouts */
 
-.views-element-container .content .field,
 .views-row h2,
+.views-element-container .content .field,
 .views-element-container .content p,
 .views-element-container .content ul,
 .views-element-container .content ol {
@@ -499,21 +499,21 @@ li.node-readmore,
   margin-bottom: 1em;
 }
 
-.field--name-field-contact-for-more-informati,
-.field--name-field-cost,
-.field--name-field-location,
-.field--name-field-parking,
-.field--name-field-sponsored-by,
-.field--name-field-website {
-  color: $dark-gray;
-  margin-bottom: 1em;
-}
-
-.field--name-field-event-date-and-time {
+.field--name-field-event-date-time {
   color: $brand-primary;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.field--name-field-event-contact,
+.field--name-field-event-cost,
+.field--name-field-event-location,
+.field--name-field-event-parking,
+.field--name-field-event-sponsor,
+.field--name-field-event-website {
+  color: $dark-gray;
   margin-bottom: 1em;
 }
 
