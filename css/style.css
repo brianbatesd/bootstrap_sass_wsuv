@@ -6668,6 +6668,7 @@ li.node-readmore,
 .field--item > ol {
   margin-left: 18px; }
 
+.views-row,
 .field--name-body {
   margin-bottom: 1em; }
 
@@ -6686,6 +6687,18 @@ li.node-readmore,
 .field--name-field-event-website {
   color: #333333;
   margin-bottom: 1em; }
+
+.region-sidebar-second .block-views h2.block-title {
+  margin-left: 0; }
+
+.region-sidebar-second .block-views .field-content a {
+  border-bottom: none;
+  text-decoration: underline;
+  color: #981e32; }
+
+.region-sidebar-second .block-views .field-content a:hover {
+  padding-left: 1px;
+  color: #595959; }
 
 .region-content form {
   max-width: 500px; }
