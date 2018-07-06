@@ -6555,10 +6555,6 @@ body > nav > div.navbar-header > button {
 .region-content h4.label {
   color: #333333; }
 
-.field--item > ul,
-.field--item > ol {
-  margin-left: 18px; }
-
 .region-content ul li,
 .region-content ol li {
   padding-bottom: 5px; }
@@ -6646,10 +6642,14 @@ h1.page-header,
 h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote,
 #user-login-form,
 ul.tabs--primary,
-ul.list-inline,
+li.node-readmore,
 .feed-icons,
-.field--name-field-location,
 .field--name-field-contact-for-more-informati,
+.field--name-field-cost,
+.field--name-field-event-date-and-time,
+.field--name-field-location,
+.field--name-field-parking,
+.field--name-field-sponsored-by,
 .field--name-field-website,
 .region-content form,
 .views-element-container {
@@ -6657,11 +6657,34 @@ ul.list-inline,
   margin-left: 25px; }
 
 /* Reset specific class margins to allow full screen images and layouts */
-.field--name-field-location,
+.views-element-container .content .field,
+.views-row h2,
+.views-element-container .content p,
+.views-element-container .content ul,
+.views-element-container .content ol {
+  margin-left: 0; }
+
+.field--item > ul,
+.field--item > ol {
+  margin-left: 18px; }
+
+.field--name-body {
+  margin-bottom: 1em; }
+
 .field--name-field-contact-for-more-informati,
+.field--name-field-cost,
+.field--name-field-location,
+.field--name-field-parking,
+.field--name-field-sponsored-by,
 .field--name-field-website {
   color: #333333;
-  margin-top: 1em;
+  margin-bottom: 1em; }
+
+.field--name-field-event-date-and-time {
+  color: #981e32;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
   margin-bottom: 1em; }
 
 .region-content form {
