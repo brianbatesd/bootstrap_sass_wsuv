@@ -302,7 +302,8 @@ body > nav > div.navbar-header > button {
     -moz-transition: all .2s ease-out;
     -webkit-transition: all .2s ease-out;
   }
-  nav a:hover, a:focus {
+  nav a:hover,
+  nav a:focus {
     color: $brand-primary;
     text-decoration: none;
     padding-left: 10px;
@@ -316,7 +317,7 @@ body > nav > div.navbar-header > button {
     color: $brand-primary;
     border-color: $brand-primary;
   }
-}
+} /* menu navigation */
 
 .region-sidebar-second .block-views {
   h2.block-title {
@@ -328,7 +329,6 @@ body > nav > div.navbar-header > button {
     color: $brand-primary;
   }
   .field-content a:hover {
-    padding-left: 1px;
     color: $text-color;
   }
 }
@@ -490,11 +490,14 @@ li.node-readmore,
 .field--name-field-event-parking,
 .field--name-field-event-sponsor,
 .field--name-field-event-website,
-.region-content form,
-.views-element-container {
+.region-content form {
   margin-right: 25px;
   margin-left: 25px;
 } /* Reset specific class margins to allow full screen images and layouts */
+
+.views-element-container {
+  margin-left: 25px;
+}
 
 .views-row h2,
 .views-element-container .content .field,
@@ -530,6 +533,20 @@ li.node-readmore,
 .field--name-field-event-website {
   color: $dark-gray;
   margin-bottom: 1em;
+}
+
+.pager li > a,
+.pager li > span {
+  border-radius: 4px;
+  border-color: $brand-primary;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+  background-color: $brand-primary;
+  color: $white;
 }
 
 .region-content form {

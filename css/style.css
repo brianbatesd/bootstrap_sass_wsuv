@@ -6502,9 +6502,10 @@ body > nav > div.navbar-header > button {
     transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
     -webkit-transition: all .2s ease-out; }
-  .region-sidebar-first nav a:hover, .region-sidebar-first a:focus,
+  .region-sidebar-first nav a:hover,
+  .region-sidebar-first nav a:focus,
   .region-sidebar-second nav a:hover,
-  .region-sidebar-second a:focus {
+  .region-sidebar-second nav a:focus {
     color: #981e32;
     text-decoration: none;
     padding-left: 10px;
@@ -6518,6 +6519,7 @@ body > nav > div.navbar-header > button {
     color: #981e32;
     border-color: #981e32; }
 
+/* menu navigation */
 .region-sidebar-second .block-views h2.block-title {
   margin-left: 0; }
 
@@ -6527,7 +6529,6 @@ body > nav > div.navbar-header > button {
   color: #981e32; }
 
 .region-sidebar-second .block-views .field-content a:hover {
-  padding-left: 1px;
   color: #595959; }
 
 /* Highlighted region (status messages) */
@@ -6662,12 +6663,14 @@ li.node-readmore,
 .field--name-field-event-parking,
 .field--name-field-event-sponsor,
 .field--name-field-event-website,
-.region-content form,
-.views-element-container {
+.region-content form {
   margin-right: 25px;
   margin-left: 25px; }
 
 /* Reset specific class margins to allow full screen images and layouts */
+.views-element-container {
+  margin-left: 25px; }
+
 .views-row h2,
 .views-element-container .content .field,
 .views-element-container .content p,
@@ -6698,6 +6701,18 @@ li.node-readmore,
 .field--name-field-event-website {
   color: #333333;
   margin-bottom: 1em; }
+
+.pager li > a,
+.pager li > span {
+  border-radius: 4px;
+  border-color: #981e32;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none; }
+
+.pager li > a:hover,
+.pager li > a:focus {
+  background-color: #981e32;
+  color: #fff; }
 
 .region-content form {
   max-width: 500px; }
