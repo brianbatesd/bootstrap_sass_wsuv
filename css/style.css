@@ -6493,29 +6493,28 @@ body > nav > div.navbar-header > button {
 .region-sidebar-first,
 .region-sidebar-second {
   margin-top: 50px; }
-  .region-sidebar-first a,
-  .region-sidebar-second a {
+  .region-sidebar-first nav a,
+  .region-sidebar-second nav a {
     color: #555555;
     display: block;
-    padding: 10px 0 10px 1px;
+    padding: .75em 0 .75em 1px;
     border-bottom: 1px solid #e7e9ea;
     transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
     -webkit-transition: all .2s ease-out; }
-  .region-sidebar-first a:hover, .region-sidebar-first a:focus,
-  .region-sidebar-second a:hover,
+  .region-sidebar-first nav a:hover, .region-sidebar-first a:focus,
+  .region-sidebar-second nav a:hover,
   .region-sidebar-second a:focus {
     color: #981e32;
     text-decoration: none;
     padding-left: 10px;
     border-bottom: 1px solid #981e32; }
-  .region-sidebar-first ul li,
-  .region-sidebar-second ul li {
+  .region-sidebar-first nav ul li,
+  .region-sidebar-second nav ul li {
     list-style-type: none;
-    padding: 0;
-    margin-bottom: -5px; }
-  .region-sidebar-first li a.is-active,
-  .region-sidebar-second li a.is-active {
+    padding: 0; }
+  .region-sidebar-first nav li a.is-active,
+  .region-sidebar-second nav li a.is-active {
     color: #981e32;
     border-color: #981e32; }
 

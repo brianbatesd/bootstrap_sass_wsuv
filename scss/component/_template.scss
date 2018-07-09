@@ -293,27 +293,26 @@ body > nav > div.navbar-header > button {
 .region-sidebar-first,
 .region-sidebar-second {
   margin-top: 50px;
-  a {
+  nav a {
     color: $gray;
     display: block;
-    padding: 10px 0 10px 1px;
+    padding: .75em 0 .75em 1px;
     border-bottom: 1px solid $light-gray;
     transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
     -webkit-transition: all .2s ease-out;
   }
-  a:hover, a:focus {
+  nav a:hover, a:focus {
     color: $brand-primary;
     text-decoration: none;
     padding-left: 10px;
     border-bottom: 1px solid $brand-primary;
   }
-  ul li {
+  nav ul li {
     list-style-type: none;
     padding: 0;
-    margin-bottom: -5px;
   }
-  li a.is-active {
+  nav li a.is-active {
     color: $brand-primary;
     border-color: $brand-primary;
   }
