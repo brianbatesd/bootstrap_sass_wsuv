@@ -480,8 +480,10 @@ body > nav > div.navbar-header > button {
 h1.page-header,
 h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote,
 #user-login-form,
+ul.local-actions,
 ul.tabs--primary,
 li.node-readmore,
+.contextual-region,
 .feed-icons,
 .field--name-field-event-contact,
 .field--name-field-event-cost,
@@ -540,8 +542,9 @@ li.node-readmore,
   border-radius: 4px;
   border-color: $brand-primary;
   padding: 10px 20px 10px 20px;
-  text-decoration: none;
   margin-right: 25px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .pager li > a:hover,
