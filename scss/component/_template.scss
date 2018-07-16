@@ -292,7 +292,8 @@ body > nav > div.navbar-header > button {
 
 .region-sidebar-first,
 .region-sidebar-second {
-  margin-top: 50px;
+  margin-top: 55px;
+  margin-bottom: 55px;
   nav a {
     color: $gray;
     display: block;
@@ -483,7 +484,6 @@ h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote,
 ul.local-actions,
 ul.tabs--primary,
 li.node-readmore,
-.contextual-region,
 .feed-icons,
 .field--name-field-event-contact,
 .field--name-field-event-cost,
