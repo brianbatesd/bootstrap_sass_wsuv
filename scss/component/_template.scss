@@ -32,6 +32,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+table {
+  border: 1px solid $light-gray;
+  padding-bottom: 1em;
+  width: 90%;
+}
+
+table th {
+  background: $lightest-gray;
+}
+
+table th,
+table td {
+  border-top: 1px solid $light-gray;
+  padding: 15px;
+}
+
 hr {
   margin: 40px;
 }
@@ -297,6 +313,7 @@ body > nav > div.navbar-header > button {
   nav a {
     color: $gray;
     display: block;
+    margin-right: 20px;
     padding: .75em 0 .75em 1px;
     border-bottom: 1px solid $light-gray;
     transition: all .2s ease-out;
@@ -352,7 +369,11 @@ body > nav > div.navbar-header > button {
   table + h2, table + h3,
   ul + h2, ul + h3, ul + h4,
   ol + h2, ol + h3, ol + h4 {
-  margin-top: 40px;
+    margin-top: 40px;
+  }
+  h2 + table, h3 + table,
+  table + p {
+    margin-top: 20px;
   }
 }
 
@@ -458,6 +479,9 @@ body > nav > div.navbar-header > button {
   border: 1px solid $light-gray;
   margin-top: 20px;
   margin-bottom: 30px;
+  /*
+  display: block;
+  overflow-x: auto; */
 }
 
 .table-hover tbody tr:hover td,
@@ -475,7 +499,7 @@ body > nav > div.navbar-header > button {
 }
 
 .region-content table {
-  max-width: 95%;
+  max-width: 90%;
 } /* Prevent tables from invading secondary block region on wide layouts */
 
 h1.page-header,

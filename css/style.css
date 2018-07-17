@@ -6293,6 +6293,19 @@ h1, h2, h3, h4, h5, h6 {
   h1 .red, h2 .red, h3 .red, h4 .red, h5 .red, h6 .red {
     color: #c60c30; }
 
+table {
+  border: 1px solid #e7e9ea;
+  padding-bottom: 1em;
+  width: 90%; }
+
+table th {
+  background: #f8f8f8; }
+
+table th,
+table td {
+  border-top: 1px solid #e7e9ea;
+  padding: 15px; }
+
 hr {
   margin: 40px; }
 
@@ -6498,6 +6511,7 @@ body > nav > div.navbar-header > button {
   .region-sidebar-second nav a {
     color: #555555;
     display: block;
+    margin-right: 20px;
     padding: .75em 0 .75em 1px;
     border-bottom: 1px solid #e7e9ea;
     transition: all .2s ease-out;
@@ -6546,6 +6560,10 @@ body > nav > div.navbar-header > button {
 .region-content ul + h2, .region-content ul + h3, .region-content ul + h4,
 .region-content ol + h2, .region-content ol + h3, .region-content ol + h4 {
   margin-top: 40px; }
+
+.region-content h2 + table, .region-content h3 + table,
+.region-content table + p {
+  margin-top: 20px; }
 
 .region-content p {
   line-height: 1.6em; }
@@ -6634,7 +6652,10 @@ body > nav > div.navbar-header > button {
 .table {
   border: 1px solid #e7e9ea;
   margin-top: 20px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  /*
+  display: block;
+  overflow-x: auto; */ }
 
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
@@ -6648,7 +6669,7 @@ body > nav > div.navbar-header > button {
   padding: 15px; }
 
 .region-content table {
-  max-width: 95%; }
+  max-width: 90%; }
 
 /* Prevent tables from invading secondary block region on wide layouts */
 h1.page-header,
