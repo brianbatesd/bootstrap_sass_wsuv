@@ -19,7 +19,7 @@ $dropDown: false;
 /* HTML */
 
 h1, h2, h3, h5, h5, h6, th, strong, li {
-  color: $gray-dark;
+  color: $dark-gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -888,7 +888,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   font-size: 14px;
   height: 345px;
   li, li a {
-    color: $gray-dark;
+    color: $dark-gray;
     list-style-type: none;
     margin-bottom: 8px;
   }
@@ -904,7 +904,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   padding: 15px 5px 5px 5px;
   font-size: 14px;
   li, li a {
-    color: $gray-dark;
+    color: $dark-gray;
     list-style-type: none;
     margin: 0 8px 8px 0;
     display: inline;
