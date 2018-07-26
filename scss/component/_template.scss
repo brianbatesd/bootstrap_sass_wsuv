@@ -497,10 +497,11 @@ body > nav > div.navbar-header > button {
 
 h1.page-header,
 h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote,
-#user-login-form,
 ul.local-actions,
 ul.tabs--primary,
 li.node-readmore,
+#user-login-form,
+#block-bootstrap-sass-wsuv-help,
 .feed-icons,
 .field--name-field-event-contact,
 .field--name-field-event-cost,
@@ -510,7 +511,9 @@ li.node-readmore,
 .field--name-field-event-sponsor,
 .field--name-field-event-website,
 .feeds_feed__content,
-.region-content form {
+.region-content form,
+.webform-confirmation__back,
+.webform-confirmation__message {
   margin-right: 25px;
   margin-left: 25px;
 } /* Reset specific class margins to allow full screen images and layouts */
