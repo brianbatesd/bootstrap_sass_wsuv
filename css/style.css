@@ -6496,6 +6496,43 @@ body > nav > div.navbar-header > button {
   .header-logo .col-md-6 {
     display: none; } }
 
+/* Responsive menus module - Simple expanding */
+.responsive-menus.responsified {
+  margin-left: 25px;
+  margin-top: -3em;
+  margin-bottom: -2em;
+  width: 90%;
+  background: #f8f8f8; }
+
+.responsive-menus.responsified span.toggler {
+  border-radius: 0;
+  box-shadow: none;
+  background: #f8f8f8;
+  color: #595959;
+  text-align: left;
+  font-size: 18px;
+  padding: 10px 15px; }
+
+.responsive-menus.responsified.responsive-toggled span.toggler {
+  border-bottom: 0; }
+
+.responsive-menus.responsified .responsive-menus-simple {
+  border-radius: 0;
+  box-shadow: none;
+  background: #f8f8f8; }
+  .responsive-menus.responsified .responsive-menus-simple h2#block-admissions-menu {
+    margin-left: 15px; }
+
+.responsive-menus.responsified .responsive-menus-simple li a {
+  color: #595959;
+  text-transform: none;
+  padding-left: 15px;
+  border-bottom: 1px solid #e7e9ea; }
+
+.responsive-menus.responsified .responsive-menus-simple li a:hover {
+  color: #981e32;
+  text-decoration: underline; }
+
 /* Primary and secondary block regions */
 .region-sidebar-first,
 .region-sidebar-second {
