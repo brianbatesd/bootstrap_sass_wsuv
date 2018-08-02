@@ -6496,7 +6496,7 @@ body > nav > div.navbar-header > button {
   .header-logo .col-md-6 {
     display: none; } }
 
-/* Responsive menus module - Simple expanding */
+/* Responsive menus module - 'Simple expanding' overrides */
 .responsive-menus.responsified {
   margin-left: 25px;
   margin-top: -3em;
@@ -6576,6 +6576,9 @@ body > nav > div.navbar-header > button {
 
 .region-sidebar-second .block-views .field-content a:hover {
   color: #595959; }
+
+#block-bootstrap-sass-wsuv-search {
+  margin-left: 25px; }
 
 /* Highlighted region (status messages) */
 .region-highlighted .alert {

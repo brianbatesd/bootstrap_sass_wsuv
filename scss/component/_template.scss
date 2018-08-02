@@ -297,7 +297,7 @@ body > nav > div.navbar-header > button {
   }
 }
 
-/* Responsive menus module - Simple expanding */
+/* Responsive menus module - 'Simple expanding' overrides */
 
 .responsive-menus.responsified {
   margin-left: 25px;
@@ -415,6 +415,10 @@ body > nav > div.navbar-header > button {
   .field-content a:hover {
     color: $text-color;
   }
+}
+
+#block-bootstrap-sass-wsuv-search {
+  margin-left: 25px;
 }
 
 /* Highlighted region (status messages) */
