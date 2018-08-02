@@ -6374,6 +6374,21 @@ hr {
   background-color: #fff;
   border: none; }
 
+p.google-search {
+  color: #fff;
+  text-align: right;
+  margin-top: 11px;
+  margin-right: 38px;
+  padding: 3px; }
+  p.google-search a {
+    color: #fff; }
+  p.google-search a:hover,
+  p.google-search a:active {
+    text-decoration: underline; }
+  p.google-search .glyphicon {
+    margin-left: 3px; }
+
+/* Google CSE link for /search page */
 img.horizontal-logo {
   display: none; }
 
