@@ -607,6 +607,10 @@ li.node-readmore,
   margin-left: 0;
 }
 
+.field--item {
+  color: $text-color;
+}
+
 .field--item > ul,
 .field--item > ol {
   margin-left: 18px;
