@@ -297,79 +297,6 @@ body > nav > div.navbar-header > button {
   }
 }
 
-/* Responsive menus module - 'Simple expanding' overrides */
-
-.responsive-menus.responsified {
-  margin-left: 25px;
-  margin-top: -3em;
-  margin-bottom: -2em;
-  width: 90%;
-  background: $lightest-gray;
-}
-
-.responsive-menus.responsified span.toggler {
-  border-radius: 0;
-  box-shadow: none;
-  background: $lightest-gray;
-  color: $text-color;
-  text-align: left;
-  font-size: 18px;
-  padding: 10px 15px;
-}
-
-.responsive-menus.responsified.responsive-toggled span.toggler {
-  border-bottom: 0;
-}
-
-.responsive-menus.responsified .responsive-menus-simple {
-  border-radius: 0;
-  box-shadow: none;
-  background: $lightest-gray;
-  h2#block-admissions-menu {
-    margin-left: 15px;
-  }
-}
-
-.responsive-menus.responsified .responsive-menus-simple li a {
-  color: $text-color;
-  text-transform: none;
-  padding-left: 15px;
-  border-bottom: 1px solid $light-gray;
-}
-
-.responsive-menus.responsified .responsive-menus-simple li a.active {
-
-}
-
-.responsive-menus.responsified .responsive-menus-simple li ul li a {
-
-}
-
-.responsive-menus.responsified .responsive-menus-simple li a:hover {
-  color: $brand-primary;
-  text-decoration: underline;
-}
-
-.responsive-menus.responsified .responsive-menus-simple li a:focus {
-
-}
-
-.responsive-menus.responsified .responsive-menus-simple li.first a {
-
-}
-
-.responsive-menus.responsified .responsive-menus-simple li ul li.first a {
-
-}
-
-.responsive-menus.responsified .responsive-menus-simple a {
-
-}
-
-.responsive-menus.responsified .responsive-menus-simple li ul li ul li a {
-
-}
-
 /* Primary and secondary block regions */
 
 .region-sidebar-first,
@@ -419,6 +346,79 @@ body > nav > div.navbar-header > button {
 
 #block-bootstrap-sass-wsuv-search {
   margin-left: 25px;
+}
+
+/* Responsive menus module - 'Simple expanding' overrides */
+
+.responsive-menus.responsified {
+  width: 86%;
+  margin-left: 25px;
+  margin-top: -3em;
+  margin-bottom: -2em;
+  background: $lightest-gray;
+}
+
+.responsive-menus.responsified span.toggler {
+  border-radius: 0;
+  box-shadow: none;
+  background: $lightest-gray;
+  color: $text-color;
+  text-align: left;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+.responsive-menus.responsified.responsive-toggled span.toggler {
+  border-bottom: 0;
+}
+
+.responsive-menus.responsified .responsive-menus-simple {
+  border-radius: 0;
+  box-shadow: none;
+  background: $lightest-gray;
+  h2 {
+    margin-left: 15px;
+  }
+}
+
+.responsive-menus.responsified .responsive-menus-simple li a {
+  color: $text-color;
+  text-transform: none;
+  padding-left: 15px;
+  border-bottom: 1px solid $light-gray;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li a.active {
+
+}
+
+.responsive-menus.responsified .responsive-menus-simple li ul li a {
+
+}
+
+.responsive-menus.responsified .responsive-menus-simple li a:hover {
+  color: $brand-primary;
+  text-decoration: underline;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li a:focus {
+
+}
+
+.responsive-menus.responsified .responsive-menus-simple li.first a {
+
+}
+
+.responsive-menus.responsified .responsive-menus-simple li ul li.first a {
+
+}
+
+.responsive-menus.responsified .responsive-menus-simple a {
+
+}
+
+.responsive-menus.responsified .responsive-menus-simple li ul li ul li a {
+
 }
 
 /* Highlighted region (status messages) */
