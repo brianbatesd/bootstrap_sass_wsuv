@@ -148,24 +148,6 @@ hr {
   border: none;
 }
 
-p.google-search {
-  color: $white;
-  text-align: right;
-  margin-top: 11px;
-  margin-right: 38px;
-  padding: 3px;
-  a {
-    color: $white;
-  }
-  a:hover,
-  a:active {
-    text-decoration: underline;
-  }
-  .glyphicon {
-    margin-left: 3px;
-  }
-} /* Google CSE link for /search page */
-
 img.horizontal-logo {
   display: none;
 }
