@@ -960,6 +960,13 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   margin: 20px 20px 20px 0;
 }
 
+form {
+  h1, h2, h3, h4, h5, h6, p, blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  }
+}
+
 /* Footer */
 
 .footer-sitemap {

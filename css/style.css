@@ -7021,6 +7021,10 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 #edit-actions-submit {
   margin: 20px 20px 20px 0; }
 
+form h1, form h2, form h3, form h4, form h5, form h6, form p, form blockquote {
+  margin-left: 0;
+  margin-right: 0; }
+
 /* Footer */
 .footer-sitemap {
   border-top: 1px solid #e7e9ea;
