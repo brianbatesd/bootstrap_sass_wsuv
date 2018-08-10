@@ -579,6 +579,7 @@ ul.tabs--primary,
 li.node-readmore,
 #user-login-form,
 #block-bootstrap-sass-wsuv-help,
+.author,
 .feed-icons,
 .field--name-field-event-contact,
 .field--name-field-event-cost,
@@ -821,7 +822,7 @@ h2.hero-title {
   }
 }
 
-/* Main content - forms */
+/* Main content - webforms */
 
 #edit-actions-submit {
   margin: 20px 20px 20px 0;
@@ -840,6 +841,12 @@ h2.hero-title {
 
 .select-wrapper {
   display: block;
+}
+
+.webform-confirmation__message {
+  h1, h2, h3, p {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 992px) {

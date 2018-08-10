@@ -6713,6 +6713,7 @@ ul.tabs--primary,
 li.node-readmore,
 #user-login-form,
 #block-bootstrap-sass-wsuv-help,
+.author,
 .feed-icons,
 .field--name-field-event-contact,
 .field--name-field-event-cost,
@@ -6917,7 +6918,7 @@ h2.hero-title {
   .paragraph--type--xeno-hero__image {
     background-attachment: local; } }
 
-/* Main content - forms */
+/* Main content - webforms */
 #edit-actions-submit {
   margin: 20px 20px 20px 0; }
 
@@ -6930,6 +6931,9 @@ h2.hero-title {
 
 .select-wrapper {
   display: block; }
+
+.webform-confirmation__message h1, .webform-confirmation__message h2, .webform-confirmation__message h3, .webform-confirmation__message p {
+  margin-left: 0; }
 
 @media (min-width: 992px) {
   .region-content form {
