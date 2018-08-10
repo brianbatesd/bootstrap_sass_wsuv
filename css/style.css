@@ -6780,16 +6780,6 @@ li.node-readmore,
   background-color: #981e32;
   color: #fff; }
 
-.region-content form input,
-.region-content form textarea {
-  max-width: 50%; }
-
-.form-item {
-  margin-bottom: 1em; }
-
-.select-wrapper {
-  display: block; }
-
 legend {
   margin: 0;
   padding-top: 1em; }
@@ -6817,10 +6807,7 @@ ol.breadcrumb {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
     margin-top: -30px; }
   .region-content {
-    margin-top: 5px; }
-  .region-content form input,
-  .region-content form textarea {
-    max-width: 100%; } }
+    margin-top: 5px; } }
 
 /* Bootstrap Paragraphs for single column page layouts */
 .paragraph__column a {
@@ -6930,6 +6917,31 @@ h2.hero-title {
   .paragraph--type--xeno-hero__image {
     background-attachment: local; } }
 
+/* Main content - forms */
+#edit-actions-submit {
+  margin: 20px 20px 20px 0; }
+
+.region-content form h1, .region-content form h2, .region-content form h3, .region-content form h4, .region-content form h5, .region-content form h6, .region-content form p, .region-content form blockquote, .region-content form ul, .region-content form ol, .region-content form table, .region-content form hr {
+  margin-left: 0;
+  margin-right: 0; }
+
+.region-content form {
+  max-width: 50%; }
+
+.form-item {
+  margin-bottom: 1em; }
+
+.select-wrapper {
+  display: block; }
+
+@media (max-width: 991.99px) {
+  .region-content form {
+    max-width: 70%; } }
+
+@media (max-width: 767.99px) {
+  .region-content form {
+    max-width: 100%; } }
+
 /* Main content - search results */
 #search-form {
   margin-right: 25px;
@@ -7020,14 +7032,6 @@ h2.block-title,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(2) a,
 body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(3) a {
   text-decoration: underline; }
-
-/* Forms */
-#edit-actions-submit {
-  margin: 20px 20px 20px 0; }
-
-form h1, form h2, form h3, form h4, form h5, form h6, form p, form blockquote, form ul, form ol, form table, form hr {
-  margin-left: 0;
-  margin-right: 0; }
 
 /* Footer */
 .footer-sitemap {
