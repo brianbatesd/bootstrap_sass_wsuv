@@ -834,16 +834,18 @@ h2.hero-title {
   }
 }
 
-.region-content form {
-  max-width: 50%;
-}
-
 .form-item {
   margin-bottom: 1em;
 }
 
 .select-wrapper {
   display: block;
+}
+
+@media (min-width: 992px) {
+  .region-content form {
+    max-width: 60%;
+  }
 }
 
 @media (max-width: 991.99px) {
