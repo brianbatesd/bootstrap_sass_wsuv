@@ -656,7 +656,10 @@ li.node-readmore,
 }
 
 .region-content form {
-  max-width: 500px;
+  input,
+  textarea {
+    max-width: 50%;
+  }
 }
 
 .form-item {
@@ -702,6 +705,12 @@ ol.breadcrumb {
   }
   .region-content {
     margin-top: 5px;
+  }
+  .region-content form {
+    input,
+    textarea {
+      max-width: 100%;
+    }
   }
 }
 
@@ -961,7 +970,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 }
 
 form {
-  h1, h2, h3, h4, h5, h6, p, blockquote {
+  h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, table, hr {
   margin-left: 0;
   margin-right: 0;
   }
