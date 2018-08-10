@@ -6991,6 +6991,11 @@ div.region.region-content > ol {
 #___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gsc-expansionArea > div:nth-child(9):hover {
   padding-bottom: 7px; }
 
+/* Share buttons block */
+#atstbx .at-share-btn-elements {
+  margin-left: 23px;
+  margin-right: 25px; }
+
 /* Secondary block region */
 .well {
   padding-left: 0;
