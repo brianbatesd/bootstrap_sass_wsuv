@@ -6926,6 +6926,9 @@ h2.hero-title {
   margin-left: 0;
   margin-right: 0; }
 
+.form-control {
+  box-shadow: none; }
+
 .form-item {
   margin-bottom: 1em; }
 
