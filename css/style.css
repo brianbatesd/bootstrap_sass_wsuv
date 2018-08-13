@@ -6303,6 +6303,9 @@ table th {
 hr {
   margin: 40px; }
 
+caption {
+  color: #595959; }
+
 ::selection {
   background: #333333;
   color: #fff; }
@@ -6595,8 +6598,9 @@ body > nav > div.navbar-header > button {
 .region-content ol + h2, .region-content ol + h3, .region-content ol + h4 {
   margin-top: 40px; }
 
-.region-content h2 + table, .region-content h3 + table,
-.region-content table + p {
+.region-content h2 + table, .region-content h3 + table, .region-content table + p,
+.region-content h2 + ul, .region-content h3 + ul, .region-content h4 + ul,
+.region-content h2 + ol, .region-content h3 + ol, .region-content h4 + ol {
   margin-top: 20px; }
 
 .region-content p {
@@ -6622,7 +6626,8 @@ body > nav > div.navbar-header > button {
 
 .region-content ul li,
 .region-content ol li {
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  color: #595959; }
 
 .region-content ol li blockquote {
   margin-top: 30px; }

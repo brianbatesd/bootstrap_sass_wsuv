@@ -45,6 +45,10 @@ hr {
   margin: 40px;
 }
 
+caption {
+  color: $text-color;
+}
+
 ::selection {
   background: $dark-gray;
   color: $white;
@@ -441,8 +445,9 @@ body > nav > div.navbar-header > button {
   ol + h2, ol + h3, ol + h4 {
     margin-top: 40px;
   }
-  h2 + table, h3 + table,
-  table + p {
+  h2 + table, h3 + table, table + p,
+  h2 + ul, h3 + ul, h4 + ul,
+  h2 + ol, h3 + ol, h4 + ol {
     margin-top: 20px;
   }
 }
@@ -476,6 +481,7 @@ body > nav > div.navbar-header > button {
 .region-content ul li,
 .region-content ol li {
   padding-bottom: 5px;
+  color: $text-color;
 }
 
 .region-content ol li blockquote {
