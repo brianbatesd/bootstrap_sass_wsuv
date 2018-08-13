@@ -6683,6 +6683,31 @@ body > nav > div.navbar-header > button {
   color: #fff;
   border: 1px solid #555555; }
 
+.region-content button.btn-solid,
+.region-content a.btn-solid {
+  margin: 10px 10px 10px 0;
+  padding: 10px 20px 10px 20px;
+  box-shadow: none;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: #981e32;
+  border: 1px solid #981e32;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  box-shadow: 1px 1px #000; }
+
+.region-content button.btn-solid:hover,
+.region-content a.btn-solid:hover,
+.region-content button.btn-solid:focus,
+.region-content a.btn-solid:focus {
+  background-color: #fff;
+  color: #981e32;
+  border: 1px solid #fff; }
+
 .table {
   border: 1px solid #e7e9ea;
   margin-top: 20px;
@@ -6732,6 +6757,9 @@ li.node-readmore,
 /* Reset specific class margins to allow full screen images and layouts */
 .views-element-container {
   margin-left: 25px; }
+
+.view-header h2 {
+  margin-left: 0; }
 
 .views-row h2,
 .views-element-container .content .field,
