@@ -6703,7 +6703,7 @@ body > nav > div.navbar-header > button {
   transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
   -webkit-transition: all .2s ease-out;
-  box-shadow: 1px 1px #000; }
+  box-shadow: 1px 1px black; }
 
 .region-content button.btn-solid:hover,
 .region-content a.btn-solid:hover,
@@ -6894,7 +6894,6 @@ ol.breadcrumb {
 
 .paragraph__column img.social {
   width: 3em;
-  opacity: 0.65;
   padding: 8px; }
 
 .paragraph__column blockquote {
@@ -6909,9 +6908,6 @@ ol.breadcrumb {
   .paragraph--color--rgba-red-strong h2, .paragraph--color--rgba-red-strong h3, .paragraph--color--rgba-red-strong p, .paragraph--color--rgba-red-strong p.statistic, .paragraph--color--rgba-red-strong strong, .paragraph--color--rgba-red-strong blockquote {
     color: #fff;
     border-color: #fff; }
-  .paragraph--color--rgba-red-strong img.social {
-    filter: invert(100%);
-    opacity: 1; }
 
 .paragraph--type--xeno-hero__image {
   background-color: #fff;
@@ -6922,7 +6918,7 @@ ol.breadcrumb {
 h2.hero-title {
   text-align: center;
   font-size: 5.5em;
-  text-shadow: 3px 3px 0 black;
+  text-shadow: 1px 1px 1px black;
   padding: .5em;
   margin-top: 0;
   border-top: 0; }
