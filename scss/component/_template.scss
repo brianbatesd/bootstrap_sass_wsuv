@@ -771,6 +771,7 @@ ol.breadcrumb {
   }
   h3.social {
     text-align: center;
+    margin-top: 1.25em;
   }
   p.statistic {
     text-align: center;
@@ -790,7 +791,7 @@ ol.breadcrumb {
   }
   p.social {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 2.25em;
   }
   p.infographic {
     text-align: center;
@@ -873,6 +874,9 @@ h2.hero-title {
   .paragraph__column table {
     display: block;
     overflow-x: auto;
+  }
+  .field--type-text-long {
+    margin-bottom: 1em;
   }
 }
 

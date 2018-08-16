@@ -6876,7 +6876,8 @@ ol.breadcrumb {
   margin-top: .5em; }
 
 .paragraph__column h3.social {
-  text-align: center; }
+  text-align: center;
+  margin-top: 1.25em; }
 
 .paragraph__column p.statistic {
   text-align: center;
@@ -6896,7 +6897,7 @@ ol.breadcrumb {
 
 .paragraph__column p.social {
   text-align: center;
-  padding-bottom: 40px; }
+  padding-bottom: 2.25em; }
 
 .paragraph__column p.infographic {
   text-align: center;
@@ -6962,7 +6963,9 @@ h2.hero-title {
     background-attachment: local; }
   .paragraph__column table {
     display: block;
-    overflow-x: auto; } }
+    overflow-x: auto; }
+  .field--type-text-long {
+    margin-bottom: 1em; } }
 
 /* Block region - content - webforms */
 #edit-actions-submit {
