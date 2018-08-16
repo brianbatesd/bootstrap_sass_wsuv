@@ -6280,7 +6280,7 @@ body {
   .tabs-right > .nav-tabs > .active > a:focus {
     border-color: #ddd #ddd #ddd transparent; }
 
-/* $brand-primary secondary colors */
+/* Secondary brand colors */
 /* Navbar TWBSColor */
 /* HTML */
 h1, h2, h3, h5, h5, h6, th, strong, li {
@@ -6294,8 +6294,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #c60c30; }
 
 table {
-  padding-bottom: 1em;
-  width: 90%; }
+  padding-bottom: 1em; }
 
 table th {
   background: #f8f8f8; }
@@ -6314,7 +6313,7 @@ caption {
   background: #333333;
   color: #fff; }
 
-/* Navbar */
+/* Bootstrap - navbar */
 .dropdown-menu {
   border: none;
   font-size: 15px; }
@@ -6436,7 +6435,7 @@ body > nav > div.navbar-header > button {
 #bs-primary-navbar-collapse-1 > div > form > div > div > button:focus {
   background: none; }
 
-/* Navbar small screens */
+/* Bootstrap - navbar collapsed, mobile */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-top: 0;
@@ -6459,7 +6458,7 @@ body > nav > div.navbar-header > button {
   .dropdown-menu > li a {
     margin-bottom: .7em; } }
 
-/* Logo and apply button header */
+/* Header - Logo and apply button */
 .header-logo .col-md-6 {
   border-bottom: 1px solid #e7e9ea;
   margin-top: -20px;
@@ -6499,7 +6498,7 @@ body > nav > div.navbar-header > button {
   .header-logo .col-md-6 {
     display: none; } }
 
-/* Primary and secondary block regions */
+/* Block region - primary and secondary - menus */
 .region-sidebar-first,
 .region-sidebar-second {
   margin-top: 55px;
@@ -6583,11 +6582,11 @@ body > nav > div.navbar-header > button {
   color: #981e32;
   text-decoration: underline; }
 
-/* Highlighted region (status messages) */
+/* Block region - highlighted */
 .region-highlighted .alert {
   margin: 25px 25px 0 25px; }
 
-/* Content region */
+/* Block region - content */
 .region-content {
   margin-top: 50px;
   margin-bottom: 50px; }
@@ -6595,7 +6594,8 @@ body > nav > div.navbar-header > button {
 .region-content p + h2, .region-content p + h3, .region-content p + h4,
 .region-content table + h2, .region-content table + h3,
 .region-content ul + h2, .region-content ul + h3, .region-content ul + h4,
-.region-content ol + h2, .region-content ol + h3, .region-content ol + h4 {
+.region-content ol + h2, .region-content ol + h3, .region-content ol + h4,
+.region-content ul + p, .region-content ol + p {
   margin-top: 40px; }
 
 .region-content h2 + table, .region-content h3 + table, .region-content table + p,
@@ -6623,9 +6623,6 @@ body > nav > div.navbar-header > button {
 
 .region-content h4.label {
   color: #333333; }
-
-.region-content ul {
-  margin-left: 18px; }
 
 .region-content ul li,
 .region-content ol li {
@@ -6719,10 +6716,7 @@ body > nav > div.navbar-header > button {
 .table {
   border: 1px solid #e7e9ea;
   margin-top: 20px;
-  margin-bottom: 30px;
-  /*
-  display: block;
-  overflow-x: auto; */ }
+  margin-bottom: 30px; }
 
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
@@ -6736,7 +6730,7 @@ body > nav > div.navbar-header > button {
   padding: 15px; }
 
 .region-content table {
-  max-width: 90%; }
+  max-width: 87%; }
 
 /* Prevent tables from invading secondary block region on wide layouts */
 h1.page-header,
@@ -6765,6 +6759,7 @@ li.node-readmore,
   margin-left: 25px; }
 
 /* Reset specific class margins to allow full screen images and layouts */
+/* Block region - content - views and fields */
 .views-element-container {
   margin-left: 25px; }
 
@@ -6781,6 +6776,11 @@ li.node-readmore,
 .field--item {
   color: #595959; }
 
+.field--name-field-news-body {
+  margin-right: 25px; }
+
+.field--name-field-news-body ul,
+.field--name-field-news-body ol,
 .field--item > ul,
 .field--item > ol {
   margin-left: 18px; }
@@ -6824,6 +6824,7 @@ li.node-readmore,
   background-color: #981e32;
   color: #fff; }
 
+/* Admin UI and misc. overrides */
 legend {
   margin: 0;
   padding-top: 1em; }
@@ -6853,7 +6854,7 @@ ol.breadcrumb {
   .region-content {
     margin-top: 5px; } }
 
-/* Bootstrap Paragraphs for single column page layouts */
+/* Bootstrap Paragraphs - landing page layouts */
 .paragraph__column a {
   color: #981e32; }
 
@@ -6910,6 +6911,9 @@ ol.breadcrumb {
   margin-top: 1.5em;
   border-left: 10px solid #981e32; }
 
+.paragraph__column table {
+  max-width: 90%; }
+
 .paragraph--color--rgba-grey-slight {
   background-color: #f8f8f8; }
 
@@ -6955,9 +6959,12 @@ h2.hero-title {
   h2.hero-title {
     font-size: 3em; }
   .paragraph--type--xeno-hero__image {
-    background-attachment: local; } }
+    background-attachment: local; }
+  .paragraph__column table {
+    display: block;
+    overflow-x: auto; } }
 
-/* Main content - webforms */
+/* Block region - content - webforms */
 #edit-actions-submit {
   margin: 20px 20px 20px 0; }
 
@@ -6989,7 +6996,7 @@ h2.hero-title {
   .region-content form {
     max-width: 100%; } }
 
-/* Main content - search results */
+/* Block region - content - search results */
 #search-form {
   margin-right: 25px;
   margin-left: 25px; }
@@ -7012,7 +7019,7 @@ div.region.region-content > ol {
 #edit-submit--2 {
   margin-left: 0; }
 
-/* Main content - Google Custom Search results */
+/* Block region - content - Google Custom Search results */
 #___gcse_0 > div {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
@@ -7059,7 +7066,7 @@ div.region.region-content > ol {
   margin-left: 23px;
   margin-right: 25px; }
 
-/* Secondary block region */
+/* Block region - secondary - right or bottom sidebar */
 .well {
   padding-left: 0;
   margin-top: 10px;
@@ -7080,7 +7087,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 body > div.main-container.container-fluid.js-quickedit-main-content > div > aside:nth-child(3) a {
   text-decoration: underline; }
 
-/* Footer */
+/* Footer - sitemap, copyright, contentinfo */
 .footer-sitemap {
   border-top: 1px solid #e7e9ea;
   margin-top: 50px; }
