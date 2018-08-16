@@ -6624,6 +6624,9 @@ body > nav > div.navbar-header > button {
 .region-content h4.label {
   color: #333333; }
 
+.region-content {
+  margin-left: 18px; }
+
 .region-content ul li,
 .region-content ol li {
   padding-bottom: 5px;
@@ -6753,6 +6756,7 @@ li.node-readmore,
 .field--name-field-event-participate,
 .field--name-field-event-sponsor,
 .field--name-field-event-website,
+.field--name-field-news-post-date,
 .feeds_feed__content,
 .region-content form,
 .webform-confirmation__back,
@@ -6801,6 +6805,10 @@ li.node-readmore,
 .field--name-field-event-website {
   color: #333333;
   margin-bottom: 1em; }
+
+.field--name-field-news-post-date {
+  margin-bottom: 1em;
+  font-weight: bold; }
 
 .pager li > a,
 .pager li > span {
