@@ -48,16 +48,6 @@ caption {
   color: $text-color;
 }
 
-::selection {
-  background: $dark-gray;
-  color: $white;
-}
-
-::-moz-selection {
-  background: $dark-gray;
-  color: $white;
-}
-
 /* Bootstrap - navbar */
 
 .dropdown-menu {

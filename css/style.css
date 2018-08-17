@@ -6305,14 +6305,6 @@ hr {
 caption {
   color: #595959; }
 
-::selection {
-  background: #333333;
-  color: #fff; }
-
-::-moz-selection {
-  background: #333333;
-  color: #fff; }
-
 /* Bootstrap - navbar */
 .dropdown-menu {
   border: none;
