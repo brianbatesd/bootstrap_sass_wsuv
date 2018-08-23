@@ -6523,6 +6523,9 @@ body > nav > div.navbar-header > button {
     border-color: #981e32; }
 
 /* menu navigation */
+.region-sidebar-second {
+  margin-right: 25px; }
+
 .region-sidebar-second .block-views h2.block-title {
   margin-left: 0; }
 
