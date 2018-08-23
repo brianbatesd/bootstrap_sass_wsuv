@@ -6579,7 +6579,7 @@ body > nav > div.navbar-header > button {
 
 /* Block region - highlighted */
 .region-highlighted .alert {
-  margin: 25px 25px 0 25px; }
+  margin: 60px 40px 0 25px; }
 
 /* Block region - content */
 .region-content {
@@ -6811,6 +6811,7 @@ li.node-readmore,
   border-color: #981e32;
   padding: 10px 20px 10px 20px;
   margin-right: 40px;
+  margin-top: 20px;
   text-decoration: none;
   font-weight: bold; }
 
