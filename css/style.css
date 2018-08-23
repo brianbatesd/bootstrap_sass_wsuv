@@ -6519,9 +6519,6 @@ body > nav > div.navbar-header > button {
     border-color: #981e32; }
 
 /* Menus */
-.region-sidebar-second {
-  margin-right: 25px; }
-
 .region-sidebar-second .block-views h2.block-title {
   margin-left: 0; }
 
@@ -6533,6 +6530,9 @@ body > nav > div.navbar-header > button {
 .region-sidebar-second .block-views .field-content a:hover {
   color: #595959; }
 
+.region-sidebar-second .block-views .view-content {
+  margin-right: 10px; }
+
 .well {
   padding-left: 0;
   margin-top: 10px;
@@ -6540,7 +6540,10 @@ body > nav > div.navbar-header > button {
   box-shadow: none;
   background-color: transparent; }
   .well ul li, .well ol li {
-    padding-bottom: 5px; }
+    padding-bottom: 5px;
+    color: #595959; }
+  .well a {
+    text-decoration: underline; }
 
 .well img {
   max-width: 100%; }
@@ -6780,6 +6783,10 @@ li.node-readmore,
 .view-header h2 {
   margin-left: 0; }
 
+.view-upcoming-events .view-footer p,
+.view-press-releases .view-footer p {
+  margin-left: 20px; }
+
 .views-row h2,
 .views-element-container .content .field,
 .views-element-container .content p,
@@ -6824,6 +6831,9 @@ li.node-readmore,
 .field--name-field-news-post-date {
   margin-bottom: 1em;
   font-weight: bold; }
+
+.item-list {
+  margin-left: -5px; }
 
 .pager li > a,
 .pager li > span {
