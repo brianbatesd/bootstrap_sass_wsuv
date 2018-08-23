@@ -6972,6 +6972,9 @@ h2.hero-title {
   margin-left: 0;
   margin-right: 0; }
 
+.region-content form input, .region-content form textarea {
+  -webkit-appearance: caret; }
+
 .form-control {
   box-shadow: none; }
 
