@@ -6955,7 +6955,8 @@ h2.hero-title {
     background-attachment: local; }
   .paragraph__column table {
     display: block;
-    overflow-x: auto; }
+    overflow-x: auto;
+    border: none; }
   .field--type-text-long {
     margin-bottom: 1em; } }
 
