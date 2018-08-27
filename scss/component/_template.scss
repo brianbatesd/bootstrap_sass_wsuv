@@ -985,11 +985,19 @@ div.region.region-content > ol {
 #gsc-iw-id1 {
   height: 50px;
   font-size: 2em;
-  margin-left: -28px;
 }
 
 #___gcse_0 > div > div > form {
   margin-left: 1em;
+}
+
+#gs_cb50 {
+  color: $dark-gray;
+  padding: .5em;
+}
+
+.gsst_a {
+  margin-right: -10em;
 }
 
 .gsc-search-button > button {
@@ -998,11 +1006,6 @@ div.region.region-content > ol {
   height: 52px;
   padding: .5em;
   margin-top: -1px;
-}
-
-#gs_cb50 {
-  color: $dark-gray;
-  padding: .5em;
 }
 
 .gsc-webResult {
