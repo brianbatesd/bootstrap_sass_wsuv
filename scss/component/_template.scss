@@ -624,7 +624,7 @@ li.node-readmore,
   margin-left: 25px;
 } /* Reset specific class margins to allow full screen layouts */
 
-/* Block region - content - views and fields */
+/* Block region - content - fields and views */
 
 .views-element-container {
   margin-left: 25px;
@@ -655,6 +655,18 @@ li.node-readmore,
 
 .field--item {
   color: $text-color;
+}
+
+.field--name-field-alert-post-date {
+  margin-left: 10px;
+  margin-top: -1em;
+}
+
+.field--name-field-alert-full-message {
+  margin-left: -15px;
+  p {
+    margin-top: 1em;
+  }
 }
 
 .field--name-field-news-body {
