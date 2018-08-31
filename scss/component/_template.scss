@@ -8,7 +8,7 @@ $lightest-gray: #f8f8f8;
 $light-gray: #e7e9ea;
 $white: #fff;
 
-/* Navbar TWBSColor */
+/* navbar TWBSColor */
 
 $bgDefault: #981e32;
 $bgHighlight: #981e32;
@@ -48,7 +48,7 @@ caption {
   color: $text-color;
 }
 
-/* Bootstrap - navbar */
+/* BOOTSTRAP - LIBRARY - navbar */
 
 .dropdown-menu {
   border: none;
@@ -210,7 +210,7 @@ body > nav > div.navbar-header > button {
   background: none;
 }
 
-/* Bootstrap - navbar collapsed, mobile */
+/* BOOTSTRAP - LIBRARY - navbar collapsed, mobile */
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -241,7 +241,7 @@ body > nav > div.navbar-header > button {
   }
 }
 
-/* Header - Logo and apply button */
+/* HEADER - logo and apply button */
 
 .header-logo .col-md-6 {
   border-bottom: 1px solid $light-gray;
@@ -290,7 +290,7 @@ body > nav > div.navbar-header > button {
   }
 }
 
-/* Block region - primary and secondary */
+/* BLOCK REGION - PRIMARY, SECONDARY */
 
 .region-sidebar-first,
 .region-sidebar-second {
@@ -321,7 +321,7 @@ body > nav > div.navbar-header > button {
     color: $brand-primary;
     border-color: $brand-primary;
   }
-} /* Menus */
+} /* MENUS */
 
 .region-sidebar-second .block-views {
   h2.block-title {
@@ -375,7 +375,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   margin-left: 25px;
 }
 
-/* Responsive menus module - 'Simple expanding' overrides */
+/* RESPONSIVE MENUS - MODULE - 'Simple expanding' overrides */
 
 .responsive-menus.responsified {
   width: 86%;
@@ -420,13 +420,13 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   text-decoration: underline;
 }
 
-/* Block region - highlighted */
+/* BLOCK REGION - HIGHLIGHTED - system messages */
 
 .region-highlighted .alert {
   margin: 60px 40px 0 25px;
 }
 
-/* Block region - content */
+/* BLOCK REGION - CONTENT */
 
 .region-content {
   margin-top: 50px;
@@ -624,7 +624,7 @@ li.node-readmore,
   margin-left: 25px;
 } /* Reset specific class margins to allow full screen layouts */
 
-/* Block region - content - fields and views */
+/* BLOCK REGION - CONTENT - fields and views */
 
 .views-element-container {
   margin-left: 25px;
@@ -734,7 +734,7 @@ li.node-readmore,
   margin-right: 40px;
 }
 
-/* Admin UI and misc. overrides */
+/* ADMIN UI AND MISC. OVERRIDES */
 
 legend {
   margin: 0;
@@ -774,7 +774,7 @@ ol.breadcrumb {
   }
 }
 
-/* Bootstrap Paragraphs - landing page layouts */
+/* BOOTSTRAP PARAGRAPHS MODULE - full width layouts */
 
 .paragraph__column {
   a {
@@ -909,7 +909,7 @@ h2.hero-title {
   }
 }
 
-/* Block region - content - webforms */
+/* BLOCK REGION - CONTENT - webforms */
 
 #edit-actions-submit {
   margin: 20px 20px 20px 0;
@@ -958,7 +958,7 @@ h2.hero-title {
   }
 }
 
-/* Block region - content - search results */
+/* BLOCK REGION - CONTENT - search results */
 
 #search-form {
   margin-right: 25px;
@@ -988,7 +988,7 @@ div.region.region-content > ol {
   margin-left: 0;
 }
 
-/* Block region - content - Google Custom Search results */
+/* BLOCK REGION - CONTENT - Google Custom Search results */
 
 #___gcse_0 > div {
   font-family: $font-family-sans-serif;
@@ -1046,14 +1046,14 @@ div.region.region-content > ol {
   padding-bottom: 7px;
 }
 
-/* Share buttons block */
+/* SHARE BUTTONS BLOCK */
 
 #atstbx .at-share-btn-elements {
   margin-left: 23px;
   margin-right: 25px;
 }
 
-/* Footer - sitemap, copyright, contentinfo */
+/* FOOTER - sitemap, copyright, contentinfo */
 
 .footer-sitemap {
   border-top: 1px solid $light-gray;
@@ -1107,5 +1107,17 @@ div.region.region-content > ol {
   .footer-sitemap .col-md-3 li,
   .footer-copyright .col-md-6 li {
     display: block;
+  }
+}
+
+/* PRINT */
+
+@media print {
+  a.apply-button,
+  aside,
+  .region-sidebar-first,
+  .footer-sitemap,
+  .footer-copyright {
+    display: none;
   }
 }

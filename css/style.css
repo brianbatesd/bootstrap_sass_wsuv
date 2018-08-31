@@ -6281,7 +6281,7 @@ body {
     border-color: #ddd #ddd #ddd transparent; }
 
 /* Secondary brand colors */
-/* Navbar TWBSColor */
+/* navbar TWBSColor */
 /* HTML */
 h1, h2, h3, h5, h5, h6, th, strong, li {
   color: #333333; }
@@ -6305,7 +6305,7 @@ hr {
 caption {
   color: #595959; }
 
-/* Bootstrap - navbar */
+/* BOOTSTRAP - LIBRARY - navbar */
 .dropdown-menu {
   border: none;
   font-size: 15px; }
@@ -6423,7 +6423,7 @@ body > nav > div.navbar-header > button {
 #bs-primary-navbar-collapse-1 > div > form > div > div > button:focus {
   background: none; }
 
-/* Bootstrap - navbar collapsed, mobile */
+/* BOOTSTRAP - LIBRARY - navbar collapsed, mobile */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-top: 0;
@@ -6446,7 +6446,7 @@ body > nav > div.navbar-header > button {
   .dropdown-menu > li a {
     margin-bottom: .7em; } }
 
-/* Header - Logo and apply button */
+/* HEADER - logo and apply button */
 .header-logo .col-md-6 {
   border-bottom: 1px solid #e7e9ea;
   margin-top: -20px;
@@ -6486,7 +6486,7 @@ body > nav > div.navbar-header > button {
   .header-logo .col-md-6 {
     display: none; } }
 
-/* Block region - primary and secondary */
+/* BLOCK REGION - PRIMARY, SECONDARY */
 .region-sidebar-first,
 .region-sidebar-second {
   margin-top: 55px;
@@ -6518,7 +6518,7 @@ body > nav > div.navbar-header > button {
     color: #981e32;
     border-color: #981e32; }
 
-/* Menus */
+/* MENUS */
 .region-sidebar-second .block-views h2.block-title {
   margin-left: 0; }
 
@@ -6559,7 +6559,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 #block-bootstrap-sass-wsuv-search {
   margin-left: 25px; }
 
-/* Responsive menus module - 'Simple expanding' overrides */
+/* RESPONSIVE MENUS - MODULE - 'Simple expanding' overrides */
 .responsive-menus.responsified {
   width: 86%;
   margin-left: 25px;
@@ -6596,11 +6596,11 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   color: #981e32;
   text-decoration: underline; }
 
-/* Block region - highlighted */
+/* BLOCK REGION - HIGHLIGHTED - system messages */
 .region-highlighted .alert {
   margin: 60px 40px 0 25px; }
 
-/* Block region - content */
+/* BLOCK REGION - CONTENT */
 .region-content {
   margin-top: 50px;
   margin-bottom: 50px; }
@@ -6773,7 +6773,7 @@ li.node-readmore,
   margin-left: 25px; }
 
 /* Reset specific class margins to allow full screen layouts */
-/* Block region - content - fields and views */
+/* BLOCK REGION - CONTENT - fields and views */
 .views-element-container {
   margin-left: 25px; }
 
@@ -6861,7 +6861,7 @@ li.node-readmore,
 .pager .next > a {
   margin-right: 40px; }
 
-/* Admin UI and misc. overrides */
+/* ADMIN UI AND MISC. OVERRIDES */
 legend {
   margin: 0;
   padding-top: 1em; }
@@ -6891,7 +6891,7 @@ ol.breadcrumb {
   .region-content {
     margin-top: 5px; } }
 
-/* Bootstrap Paragraphs - landing page layouts */
+/* BOOTSTRAP PARAGRAPHS MODULE - full width layouts */
 .paragraph__column a {
   color: #981e32; }
 
@@ -7005,7 +7005,7 @@ h2.hero-title {
   .field--type-text-long {
     margin-bottom: 1em; } }
 
-/* Block region - content - webforms */
+/* BLOCK REGION - CONTENT - webforms */
 #edit-actions-submit {
   margin: 20px 20px 20px 0; }
 
@@ -7037,7 +7037,7 @@ h2.hero-title {
   .region-content form {
     max-width: 100%; } }
 
-/* Block region - content - search results */
+/* BLOCK REGION - CONTENT - search results */
 #search-form {
   margin-right: 25px;
   margin-left: 25px; }
@@ -7060,7 +7060,7 @@ div.region.region-content > ol {
 #edit-submit--2 {
   margin-left: 0; }
 
-/* Block region - content - Google Custom Search results */
+/* BLOCK REGION - CONTENT - Google Custom Search results */
 #___gcse_0 > div {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
@@ -7104,12 +7104,12 @@ div.region.region-content > ol {
 #___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gsc-expansionArea > div:nth-child(9):hover {
   padding-bottom: 7px; }
 
-/* Share buttons block */
+/* SHARE BUTTONS BLOCK */
 #atstbx .at-share-btn-elements {
   margin-left: 23px;
   margin-right: 25px; }
 
-/* Footer - sitemap, copyright, contentinfo */
+/* FOOTER - sitemap, copyright, contentinfo */
 .footer-sitemap {
   border-top: 1px solid #e7e9ea;
   margin-top: 50px; }
@@ -7152,6 +7152,15 @@ div.region.region-content > ol {
   .footer-sitemap .col-md-3 li,
   .footer-copyright .col-md-6 li {
     display: block; } }
+
+/* PRINT */
+@media print {
+  a.apply-button,
+  aside,
+  .region-sidebar-first,
+  .footer-sitemap,
+  .footer-copyright {
+    display: none; } }
 
 /**
  * Toolbar module styling.
