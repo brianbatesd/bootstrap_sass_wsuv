@@ -634,6 +634,28 @@ li.node-readmore,
   margin-right: 50px;
 }
 
+.view-content .messages--warning {
+  padding: 1em 1em 1em 2.5em;
+  margin: -3em 0 4em 0;
+  background: #fdf8ed 15px 22px url("/core/misc/icons/e29700/warning.svg") no-repeat;
+  box-shadow: -8px 0 0 #e09600;
+  color: #734c00;
+  strong {
+    color: #734c00;
+  }
+} /* HOME ALERT MINOR */
+
+.view-content .messages--error {
+  padding: 1em 1em 1em 2.5em;
+  margin: -3em 0 4em 0;
+  color: #a51b00;
+  background: #fcf4f2 15px 22px url("/core/misc/icons/e32700/error.svg") no-repeat;
+  box-shadow: -8px 0 0 #e62600;
+  strong {
+    color: #a51b00;
+  }
+} /* HOME ALERT SEVERE */
+
 .view-header h2 {
   margin-left: 0;
 }
@@ -771,6 +793,10 @@ ol.breadcrumb {
   }
   .region-content {
     margin-top: 5px;
+  }
+  .view-content .messages--warning,
+  .view-content .messages--error {
+    margin: -2em 0 3em 0;
   }
 }
 
