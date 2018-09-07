@@ -6805,6 +6805,7 @@ li.node-readmore,
 
 /* Homepage alert - severe */
 .view-content .table-responsive {
+  margin-top: -1em;
   margin-left: -25px;
   border: none; }
 
