@@ -6608,8 +6608,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content p + h2, .region-content p + h3, .region-content p + h4,
 .region-content table + h2, .region-content table + h3,
 .region-content ul + h2, .region-content ul + h3, .region-content ul + h4,
-.region-content ol + h2, .region-content ol + h3, .region-content ol + h4,
-.region-content ul + p, .region-content ol + p {
+.region-content ol + h2, .region-content ol + h3, .region-content ol + h4 {
   margin-top: 40px; }
 
 .region-content h2 + table, .region-content h3 + table, .region-content table + p,
@@ -6859,6 +6858,10 @@ li.node-readmore,
 .field--name-field-event-website {
   color: #333333;
   margin-bottom: 1em; }
+
+.field--name-field-event-contact p,
+.field--name-field-event-website p {
+  margin-left: 0; }
 
 .field--name-field-news-body {
   margin-right: 25px; }

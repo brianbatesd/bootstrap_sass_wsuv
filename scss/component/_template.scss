@@ -437,8 +437,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   p + h2, p + h3, p + h4,
   table + h2, table + h3,
   ul + h2, ul + h3, ul + h4,
-  ol + h2, ol + h3, ol + h4,
-  ul + p, ol + p {
+  ol + h2, ol + h3, ol + h4 {
     margin-top: 40px;
   }
   h2 + table, h3 + table, table + p,
@@ -727,6 +726,13 @@ li.node-readmore,
 .field--name-field-event-website {
   color: $dark-gray;
   margin-bottom: 1em;
+}
+
+.field--name-field-event-contact,
+.field--name-field-event-website {
+  p {
+  margin-left: 0;
+  }
 }
 
 .field--name-field-news-body {
