@@ -225,6 +225,10 @@ body > nav > div.navbar-header > button {
     height: 40px;
     display: block;
   }
+  #bs-primary-navbar-collapse-1 {
+    font-size: 1.75em;
+    padding-bottom: 1em;
+  }
   #bs-primary-navbar-collapse-1 > div > form {
     margin-right: 30px;
     margin-left: 15px;
@@ -237,8 +241,9 @@ body > nav > div.navbar-header > button {
     text-decoration: underline;
   }
   #bs-primary-navbar-collapse-1 > ul > li.dropdown.open > ul > li > a {
+    font-size: 1.25em;
     border-bottom: #85001a 1px solid;
-    padding-left: 1em;
+    padding-left: 17px;
     padding-bottom: 1em;
     margin-right: 1em;
   }
@@ -247,7 +252,6 @@ body > nav > div.navbar-header > button {
   }
   .navbar-default .navbar-nav > .open a.dropdown-toggle {
     font-weight: bold;
-    padding-bottom: 1em;
   }
 }
 
