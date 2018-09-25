@@ -618,7 +618,14 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 }
 
 .region-content table {
-  max-width: 98%;
+  max-width: 95%;
+}
+
+@media (max-width: 767.99px) {
+  .region-content table {
+    max-width: 88%;
+    overflow-x: auto;
+  }
 }
 
 h1.page-header,

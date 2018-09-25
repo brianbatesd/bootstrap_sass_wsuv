@@ -6761,7 +6761,12 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   padding: 15px; }
 
 .region-content table {
-  max-width: 98%; }
+  max-width: 95%; }
+
+@media (max-width: 767.99px) {
+  .region-content table {
+    max-width: 88%;
+    overflow-x: auto; } }
 
 h1.page-header,
 h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote,
