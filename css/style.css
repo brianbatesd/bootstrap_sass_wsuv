@@ -6744,6 +6744,10 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   color: #981e32;
   border: 1px solid #fff; }
 
+.btn-success {
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px; }
+
 .table {
   border: 1px solid #e7e9ea;
   margin-top: 20px;
@@ -7079,8 +7083,11 @@ h2.hero-title {
   margin-left: 0;
   margin-right: 0; }
 
-form label {
-  font-weight: normal; }
+.region-content form input, .region-content form select {
+  height: 3em; }
+
+.region-content form input[type="checkbox"] {
+  height: 1em; }
 
 form .panel {
   box-shadow: none; }
@@ -7101,6 +7108,16 @@ form .panel-body {
 
 .form-item {
   margin-bottom: 1em; }
+  .form-item h2, .form-item h3 {
+    margin-top: 1.75em; }
+
+.form-required:after {
+  background-repeat: no-repeat;
+  background-size: 8px;
+  height: 8px;
+  width: 8px;
+  margin-bottom: 4px;
+  margin-left: 2px; }
 
 .select-wrapper {
   display: block; }

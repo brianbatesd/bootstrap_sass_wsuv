@@ -597,6 +597,11 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   border: 1px solid $white;
 }
 
+.btn-success {
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+}
+
 .table {
   border: 1px solid $light-gray;
   margin-top: 20px;
@@ -1001,13 +1006,15 @@ h2.hero-title {
 
 .region-content form {
   h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, table, hr {
-  margin-left: 0;
-  margin-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
-}
-
-form label {
-  font-weight: normal;
+  input, select {
+    height: 3em;
+  }
+  input[type="checkbox"] {
+    height: 1em;
+  }
 }
 
 form .panel {
@@ -1034,6 +1041,18 @@ form .panel-body {
 
 .form-item {
   margin-bottom: 1em;
+  h2, h3 {
+    margin-top: 1.75em;
+  }
+}
+
+.form-required:after {
+  background-repeat: no-repeat;
+  background-size: 8px;
+  height: 8px;
+  width: 8px;
+  margin-bottom: 4px;
+  margin-left: 2px;
 }
 
 .select-wrapper {
