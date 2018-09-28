@@ -7089,6 +7089,18 @@ h2.hero-title {
 .region-content form input[type="checkbox"] {
   height: 1em; }
 
+.region-content form legend {
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  color: #595959; }
+
+form .fieldgroup {
+  margin-bottom: 1.5em; }
+
+form .form-group {
+  margin-bottom: 1.5em; }
+
 form .panel {
   box-shadow: none; }
 
@@ -7097,6 +7109,17 @@ form .panel-default {
   padding: none; }
 
 form .panel-heading {
+  border-bottom: none;
+  padding: 0; }
+
+form .panel-title {
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #fff;
+  color: #595959; }
+
+form .webform-email-confirm--wrapper .panel-title,
+form .webform-address--wrapper .panel-title {
   display: none; }
 
 form .panel-body {
@@ -7106,10 +7129,8 @@ form .panel-body {
 .form-control {
   box-shadow: none; }
 
-.form-item {
-  margin-bottom: 1em; }
-  .form-item h2, .form-item h3 {
-    margin-top: 1.75em; }
+.form-item h2, .form-item h3 {
+  margin-top: 1.75em; }
 
 .form-required:after {
   background-repeat: no-repeat;
@@ -7121,6 +7142,8 @@ form .panel-body {
 
 .select-wrapper {
   display: block; }
+  .select-wrapper select {
+    line-height: 1.5; }
 
 .webform-confirmation__message h1, .webform-confirmation__message h2, .webform-confirmation__message h3, .webform-confirmation__message p {
   margin-left: 0; }

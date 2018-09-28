@@ -1015,6 +1015,20 @@ h2.hero-title {
   input[type="checkbox"] {
     height: 1em;
   }
+  legend {
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: $text-color;
+  }
+}
+
+form .fieldgroup {
+  margin-bottom: 1.5em;
+}
+
+form .form-group {
+  margin-bottom: 1.5em;
 }
 
 form .panel {
@@ -1026,7 +1040,20 @@ form .panel-default {
   padding: none;
 }
 
-form .panel-heading{
+form .panel-heading {
+  border-bottom: none;
+  padding: 0;
+}
+
+form .panel-title {
+  font-size: 1em;
+  font-weight: bold;
+  background-color: $white;
+  color: $text-color;
+}
+
+form .webform-email-confirm--wrapper .panel-title,
+form .webform-address--wrapper .panel-title {
   display: none;
 }
 
@@ -1040,7 +1067,6 @@ form .panel-body {
 }
 
 .form-item {
-  margin-bottom: 1em;
   h2, h3 {
     margin-top: 1.75em;
   }
@@ -1057,6 +1083,9 @@ form .panel-body {
 
 .select-wrapper {
   display: block;
+  select {
+    line-height: 1.5;
+  }
 }
 
 .webform-confirmation__message {
