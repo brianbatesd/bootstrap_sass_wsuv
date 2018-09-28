@@ -7079,6 +7079,23 @@ h2.hero-title {
   margin-left: 0;
   margin-right: 0; }
 
+form label {
+  font-weight: normal; }
+
+form .panel {
+  box-shadow: none; }
+
+form .panel-default {
+  border: none;
+  padding: none; }
+
+form .panel-heading {
+  display: none; }
+
+form .panel-body {
+  padding: 0;
+  border: none; }
+
 .form-control {
   box-shadow: none; }
 
