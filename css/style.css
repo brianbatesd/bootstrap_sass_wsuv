@@ -6793,6 +6793,9 @@ li.node-readmore,
 .field--name-field-event-participate,
 .field--name-field-event-sponsor,
 .field--name-field-event-website,
+.field--name-field-exhibit-artist,
+.field--name-field-exhibit-dates,
+.field--name-field-exhibit-location,
 .field--name-field-news-post-date,
 .feeds_feed__content,
 .region-content form,
@@ -6874,6 +6877,13 @@ li.node-readmore,
   font-weight: bold;
   margin-bottom: 1em; }
 
+.field--name-field-exhibit-artist .field--label,
+.field--name-field-exhibit-dates .field--label,
+.field--name-field-exhibit-location .field--label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold; }
+
 .field--name-field-blotter-date,
 .field--name-field-blotter-activity,
 .field--name-field-blotter-location,
@@ -6884,7 +6894,10 @@ li.node-readmore,
 .field--name-field-event-parking,
 .field--name-field-event-participate,
 .field--name-field-event-sponsor,
-.field--name-field-event-website {
+.field--name-field-event-website,
+.field--name-field-exhibit-artist,
+.field--name-field-exhibit-dates,
+.field--name-field-exhibit-location {
   color: #333333;
   margin-bottom: 1em; }
 
