@@ -488,6 +488,30 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   color: $dark-gray;
 }
 
+.region-content img.float-right {
+  float: right;
+  width: 50%;
+  margin: 0 0 1em 1.5em;
+}
+
+.region-content img.float-right-small {
+  float: right;
+  width: 30%;
+  margin: 0 0 1em 1.5em;
+}
+
+.region-content img.float-left {
+  float: left;
+  width: 50%;
+  margin: 0 1.5em 1em 0;
+}
+
+.region-content img.float-right-left {
+  float: left;
+  width: 30%;
+  margin: 0 1.5em 1em 0;
+}
+
 .region-content h1.page-header {
   font-size: 3em;
   border-bottom: none;
