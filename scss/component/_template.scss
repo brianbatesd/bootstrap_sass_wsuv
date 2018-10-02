@@ -621,6 +621,11 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   border: 1px solid $white;
 }
 
+body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > p > span.file {
+  font-size: 1em;
+  font-weight: normal;
+}
+
 .btn-success {
   padding: 10px 20px 10px 20px;
   border-radius: 4px;
