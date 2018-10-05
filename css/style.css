@@ -6651,12 +6651,12 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content img.float-right {
   float: right;
   width: 50%;
-  margin: 0 0 1em 1.5em; }
+  margin: 0 1.5em 1em 1.5em; }
 
 .region-content img.float-right-small {
   float: right;
   width: 30%;
-  margin: 0 0 1em 1.5em; }
+  margin: 0 1.5em 1em 1.5em; }
 
 .region-content img.float-left {
   float: left;
@@ -6667,6 +6667,14 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   float: left;
   width: 30%;
   margin: 0 1.5em 1em 0; }
+
+figcaption {
+  float: right;
+  clear: right;
+  display: block;
+  width: 50%;
+  font-size: .75em;
+  margin: 0 1.5em 1em 1.5em; }
 
 .region-content h1.page-header {
   font-size: 3em;
