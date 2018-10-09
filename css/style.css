@@ -6352,7 +6352,7 @@ caption {
     .navbar-default .navbar-link:hover {
       color: #fff; }
 
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #fff; }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -6434,7 +6434,7 @@ body > nav > div.navbar-header > button {
   border-bottom: 0;
   box-shadow: none; }
 
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
   img.horizontal-logo {
     margin-top: 5px;
     height: 40px;
@@ -6500,7 +6500,7 @@ body > nav > div.navbar-header > button {
   color: #fff;
   text-decoration: none; }
 
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
   .header-logo .col-md-6 {
     display: none; } }
 
@@ -6799,7 +6799,7 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
 .region-content table {
   max-width: 95%; }
 
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
   .region-content table {
     max-width: 88%;
     overflow-x: auto; } }
@@ -6974,7 +6974,7 @@ li.node-readmore,
 .pager .next > a {
   margin-right: 40px; }
 
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
   .view-content .messages--warning,
   .view-content .messages--error {
     margin: -2em 0 5.5em 0; } }
@@ -7003,7 +7003,7 @@ ol.breadcrumb {
   margin-left: 3px;
   margin-bottom: 3px; }
 
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
   body > div.main-container.container-fluid.js-quickedit-main-content > div {
     margin-top: -30px; }
   .region-content {
@@ -7111,7 +7111,7 @@ h2.hero-title {
   .paragraph--type--bp-tabs p {
     margin-left: 15px; }
 
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
   h2.hero-title {
     font-size: 3em; }
   .paragraph--type--xeno-hero__image {
@@ -7200,11 +7200,11 @@ form .panel-body {
   .region-content form {
     max-width: 60%; } }
 
-@media (max-width: 991.99px) {
+@media (max-width: 991.98px) {
   .region-content form {
     max-width: 80%; } }
 
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
   .region-content form {
     max-width: 100%; } }
 
@@ -7314,7 +7314,7 @@ div.region.region-content > ol {
     color: #555555;
     font-size: .85em; }
 
-@media (max-width: 767.99px) {
+@media (max-width: 767.98px) {
   body > div.footer-sitemap > div:nth-child(3),
   body > div.footer-sitemap > div:nth-child(4) {
     display: none; }
