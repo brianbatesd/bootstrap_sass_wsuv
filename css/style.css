@@ -7275,10 +7275,10 @@ div.region.region-content > ol {
 #___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gsc-expansionArea > div:nth-child(9):hover {
   padding-bottom: 7px; }
 
-div.gsc-cursor-box.gs-bidi-start-align {
+/* div.gsc-cursor-box.gs-bidi-start-align {
   margin: 2em 1em 0 2px;
-  font-size: 1.25em; }
-
+  font-size: 1.25em;
+} */
 /* SHARE BUTTONS BLOCK */
 #atstbx .at-share-btn-elements {
   margin-left: 23px;
