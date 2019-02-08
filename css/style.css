@@ -6648,6 +6648,10 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content a:focus {
   color: #333333; }
 
+.region-content img.full {
+  width: 100%;
+  margin: 0 1.5 1em 1.5em; }
+
 .region-content img.float-right {
   float: right;
   width: 50%;
@@ -6842,7 +6846,8 @@ li.node-readmore,
   width: 100%; }
 
 .views-element-container {
-  margin-left: 25px; }
+  margin-left: 25px;
+  padding-right: 70px; }
 
 .view-content {
   margin-right: 1em; }
@@ -6970,9 +6975,6 @@ li.node-readmore,
 .pager li > a:focus {
   background-color: #981e32;
   color: #fff; }
-
-.pager .next > a {
-  margin-right: 65px; }
 
 @media (max-width: 767.98px) {
   .view-content .messages--warning,

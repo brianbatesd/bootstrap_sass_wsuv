@@ -488,6 +488,11 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   color: $dark-gray;
 }
 
+.region-content img.full {
+  width: 100%;
+  margin: 0 1.5 1em 1.5em;
+}
+
 .region-content img.float-right {
   float: right;
   width: 50%;
@@ -712,6 +717,7 @@ li.node-readmore,
 
 .views-element-container {
   margin-left: 25px;
+  padding-right: 70px;
 }
 
 .view-content {
@@ -865,10 +871,6 @@ li.node-readmore,
 .pager li > a:focus {
   background-color: $brand-primary;
   color: $white;
-}
-
-.pager .next > a {
-  margin-right: 65px;
 }
 
 @media (max-width: 767.98px) {
