@@ -6846,8 +6846,7 @@ li.node-readmore,
   width: 100%; }
 
 .views-element-container {
-  margin-left: 25px;
-  padding-right: 70px; }
+  margin-left: 25px; }
 
 .view-content {
   margin-right: 1em; }
@@ -6884,11 +6883,15 @@ li.node-readmore,
 .views-row h2,
 .views-row h3,
 .views-row h4,
+.views-row p,
 .views-element-container .content .field,
 .views-element-container .content p,
 .views-element-container .content ul,
 .views-element-container .content ol {
   margin-left: 0; }
+
+.views-row p + h2 {
+  margin-top: 0; }
 
 .view-upcoming-events .view-footer p,
 .view-press-releases .view-footer p {
