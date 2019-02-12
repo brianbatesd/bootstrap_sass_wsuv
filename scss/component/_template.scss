@@ -252,7 +252,7 @@ body > nav > div.navbar-header > button {
     margin-right: 1em;
   }
   #bs-primary-navbar-collapse-1 > ul > li.dropdown.open > ul > li:nth-child(1) > a {
-    margin-top: .25em;
+    margin-top: .5em;
   }
   #bs-primary-navbar-collapse-1 .input-group {
     padding-left: 0;
@@ -496,7 +496,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content img.float-right {
   float: right;
   width: 50%;
-  margin: 0 1.5em 1em 1.5em;
+  margin: 0 0 1em 1.5em;
 }
 
 .region-content img.float-right-small {
@@ -973,7 +973,7 @@ ol.breadcrumb {
   }
   p strong.top-border {
     margin-left: 0;
-    margin-bottom: -4em;
+    margin-bottom: -3em;
   }
   p.social {
     text-align: center;
