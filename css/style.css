@@ -7001,7 +7001,8 @@ legend {
 ul.tabs--primary {
   margin-bottom: 25px; }
   ul.tabs--primary li {
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    margin-right: 0; }
 
 ol.breadcrumb {
   background-color: #fff;
