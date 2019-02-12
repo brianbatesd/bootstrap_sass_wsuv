@@ -7256,7 +7256,8 @@ div.region.region-content > ol {
 
 #gs_cb50 {
   color: #333333;
-  padding: .5em; }
+  padding: .5em;
+  margin-right: -.75em; }
 
 .gsst_a {
   margin-right: -1em; }
