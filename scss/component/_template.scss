@@ -490,7 +490,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 
 .region-content img.full {
   width: 100%;
-  margin: 0 1.5 1em 1.5em;
+  margin: 0;
 }
 
 .region-content img.float-right {
@@ -515,6 +515,10 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   float: left;
   width: 30%;
   margin: 0 1.5em 1em 0;
+}
+
+.region-content iframe {
+  width: 60%;
 }
 
 figcaption {
@@ -561,7 +565,7 @@ figcaption {
 
 .region-content button.btn-primary,
 .region-content a.btn-primary {
-  margin: 10px 10px 10px 0;
+  margin: 7px 10px 10px 0;
   padding: 10px 20px 10px 20px;
   box-shadow: none;
   font-weight: bold;
@@ -587,7 +591,7 @@ figcaption {
 
 .region-content button.btn-default,
 .region-content a.btn-default {
-  margin: 10px 10px 10px 0;
+  margin: 7px 10px 10px 0;
   padding: 10px 20px 10px 20px;
   box-shadow: none;
   font-weight: bold;
@@ -613,7 +617,7 @@ figcaption {
 
 .region-content button.btn-solid,
 .region-content a.btn-solid {
-  margin: 10px 10px 10px 0;
+  margin: 7px 10px 10px 0;
   padding: 10px 20px 10px 20px;
   box-shadow: none;
   font-weight: bold;
@@ -672,6 +676,10 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
   max-width: 95%;
 }
 
+.addthis_sharing_toolbox {
+  margin-top: -1em;
+}
+
 @media (max-width: 767.98px) {
   .region-content table {
     max-width: 88%;
@@ -679,8 +687,14 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
   }
 }
 
+@media (max-width: 991.98px) {
+  .region-content iframe {
+    width: 100%
+  }
+}
+
 h1.page-header,
-h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote,
+h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote, figure,
 ul.local-actions,
 ul.tabs--primary,
 li.node-readmore,
@@ -994,6 +1008,9 @@ ol.breadcrumb {
   }
   table {
     max-width: 90%;
+  }
+  iframe {
+    width: 100%;
   }
 }
 
