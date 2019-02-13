@@ -6634,7 +6634,9 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content h2 + ol, .region-content h3 + ol, .region-content h4 + ol {
   margin-top: 1em; }
 
-.region-content p {
+.region-content p,
+.region-content ul,
+.region-content ol {
   line-height: 1.6em; }
 
 .region-content a {

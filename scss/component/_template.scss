@@ -471,7 +471,9 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   }
 }
 
-.region-content p {
+.region-content p,
+.region-content ul,
+.region-content ol {
   line-height: 1.6em;
 }
 
