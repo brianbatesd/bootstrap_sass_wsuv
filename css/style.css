@@ -6652,7 +6652,8 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 
 .region-content img.full {
   width: 100%;
-  margin: 0; }
+  margin: 0;
+  padding-bottom: 1em; }
 
 .region-content img.float-right {
   float: right;
