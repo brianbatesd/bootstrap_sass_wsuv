@@ -134,7 +134,7 @@ caption {
   .dropdown-menu > li > a:focus {
     text-decoration: underline;
   }
-} /* Credit: https://work.smarchal.com/twbscolor/ */
+} /* credit: https://work.smarchal.com/twbscolor/ */
 
 #navbar {
   background-color: $white;
@@ -533,10 +533,6 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   margin: 0 1.5em 1em 0;
 }
 
-.region-content iframe {
-  width: 60%;
-}
-
 figcaption {
   float: right;
   clear: right;
@@ -658,11 +654,6 @@ figcaption {
   border: 1px solid $white;
 }
 
-body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > p > span.file {
-  font-size: 1em;
-  font-weight: normal;
-}
-
 .btn-success {
   padding: 10px 20px 10px 20px;
   border-radius: 4px;
@@ -692,20 +683,37 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
   max-width: 95%;
 }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin: 1.5em 25px 1.5em 25px;
+  height: 0;
+  overflow: hidden;
+} /* credit: https://avexdesigns.com/responsive-youtube-embed/ */
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .addthis_sharing_toolbox {
   margin-top: -1em;
+}
+
+body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > p > span.file {
+  font-size: 1em;
+  font-weight: normal;
 }
 
 @media (max-width: 767.98px) {
   .region-content table {
     max-width: 88%;
     overflow-x: auto;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .region-content iframe {
-    width: 100%
   }
 }
 
@@ -1025,8 +1033,8 @@ ol.breadcrumb {
   table {
     max-width: 90%;
   }
-  iframe {
-    width: 100%;
+  .video-container {
+    margin: 1.5em 0 1.5em 0;
   }
 }
 
