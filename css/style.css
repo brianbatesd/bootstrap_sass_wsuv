@@ -6535,6 +6535,13 @@ body > nav > div.navbar-header > button {
   .region-sidebar-second nav li a.is-active {
     color: #981e32;
     border-color: #981e32; }
+  .region-sidebar-first nav li span,
+  .region-sidebar-second nav li span {
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+    padding: .75em 0 .75em 1px;
+    border-bottom: 1px solid #e7e9ea; }
 
 /* MENUS */
 .region-sidebar-second .block-views h2.block-title {
@@ -6625,6 +6632,9 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   color: #981e32;
   text-decoration: underline; }
 
+.responsive-menus.responsified .responsive-menus-simple li span {
+  padding-left: 15px; }
+
 /* BLOCK REGION - HIGHLIGHTED - system messages */
 .region-highlighted .alert {
   margin: 60px 40px 0 25px; }
@@ -6681,7 +6691,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   width: 50%;
   margin: 0 1.5em 1em 0; }
 
-.region-content img.float-right-left {
+.region-content img.float-left-small {
   float: left;
   width: 30%;
   margin: 0 1.5em 1em 0; }
