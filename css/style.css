@@ -6890,6 +6890,9 @@ li.node-readmore,
 
 /* Reset specific class margins to allow full screen layouts */
 /* BLOCK REGION - CONTENT - fields and views */
+.author {
+  margin-bottom: 2em; }
+
 .contextual-region {
   width: 100%; }
 
