@@ -6294,10 +6294,22 @@ h1, h2, h3, h4, h5, h6 {
     color: #c60c30; }
 
 table {
-  padding-bottom: 1em; }
+  padding-bottom: 1em;
+  border: 1px solid #e7e9ea; }
 
 table th {
   background: #f8f8f8; }
+
+table th,
+table td {
+  padding: 15px;
+  border-top: 1px solid #e7e9ea; }
+
+table p,
+table ul,
+table ol {
+  margin-left: 0;
+  margin-right: 0; }
 
 hr {
   margin: 40px; }
@@ -6802,6 +6814,81 @@ figcaption {
   background-color: #fff;
   color: #981e32;
   border: 1px solid #fff; }
+
+.region-content a.btn-facebook {
+  margin: 7px 10px 10px 0;
+  padding: 10px 20px 10px 15px;
+  box-shadow: none;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 0;
+  text-decoration: none;
+  background-color: #4267b2;
+  color: #fff;
+  border: 1px solid #4267b2;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out; }
+  .region-content a.btn-facebook img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px; }
+
+.region-content a.btn-facebook:hover,
+.region-content a.btn-facebook:focus {
+  background-color: black;
+  color: #fff;
+  border: 1px solid black; }
+
+.region-content a.btn-twitter {
+  margin: 7px 10px 10px 0;
+  padding: 10px 20px 10px 15px;
+  box-shadow: none;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 0;
+  text-decoration: none;
+  background-color: #1da1f2;
+  color: #fff;
+  border: 1px solid #1da1f2;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out; }
+  .region-content a.btn-twitter img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px; }
+
+.region-content a.btn-twitter:hover,
+.region-content a.btn-twitter:focus {
+  background-color: black;
+  color: #fff;
+  border: 1px solid black; }
+
+.region-content a.btn-instagram {
+  margin: 7px 10px 10px 0;
+  padding: 10px 20px 10px 15px;
+  box-shadow: none;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 0;
+  text-decoration: none;
+  background-color: #e1306c;
+  color: #fff;
+  border: 1px solid #e1306c;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out; }
+  .region-content a.btn-instagram img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px; }
+
+.region-content a.btn-instagram:hover,
+.region-content a.btn-instagram:focus {
+  background-color: black;
+  color: #fff;
+  border: 1px solid black; }
 
 .btn-success {
   padding: 10px 20px 10px 20px;
