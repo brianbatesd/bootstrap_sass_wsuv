@@ -6521,6 +6521,9 @@ body > nav > div.navbar-header > button {
 .region-sidebar-second {
   margin-top: 55px;
   margin-bottom: 55px; }
+  .region-sidebar-first nav h2,
+  .region-sidebar-second nav h2 {
+    font-size: 1.5em; }
   .region-sidebar-first nav a,
   .region-sidebar-second nav a {
     color: #555555;
@@ -6546,7 +6549,8 @@ body > nav > div.navbar-header > button {
   .region-sidebar-first nav li a.is-active,
   .region-sidebar-second nav li a.is-active {
     color: #981e32;
-    border-color: #981e32; }
+    border-color: #981e32;
+    font-weight: bold; }
   .region-sidebar-first nav li span,
   .region-sidebar-second nav li span {
     font-weight: bold;
