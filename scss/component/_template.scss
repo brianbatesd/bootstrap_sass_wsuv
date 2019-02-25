@@ -477,6 +477,10 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   border-bottom: 1px solid $light-gray;
 }
 
+.responsive-menus.responsified .responsive-menus-simple li a.is-active {
+  color: $brand-primary;
+}
+
 .responsive-menus.responsified .responsive-menus-simple li a:hover {
   color: $brand-primary;
   text-decoration: underline;
@@ -825,8 +829,9 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
 
 @media (max-width: 767.98px) {
   .region-content table {
-    max-width: 88%;
+    display: block;
     overflow-x: auto;
+    max-width: 87%;
   }
 }
 
@@ -1325,12 +1330,6 @@ form .panel-body {
 }
 
 @media (min-width: 992px) {
-  .region-content form {
-    max-width: 60%;
-  }
-}
-
-@media (max-width: 991.98px) {
   .region-content form {
     max-width: 80%;
   }

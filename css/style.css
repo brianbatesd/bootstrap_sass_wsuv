@@ -6644,6 +6644,9 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   padding-left: 15px;
   border-bottom: 1px solid #e7e9ea; }
 
+.responsive-menus.responsified .responsive-menus-simple li a.is-active {
+  color: #981e32; }
+
 .responsive-menus.responsified .responsive-menus-simple li a:hover {
   color: #981e32;
   text-decoration: underline; }
@@ -6943,8 +6946,9 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
 
 @media (max-width: 767.98px) {
   .region-content table {
-    max-width: 88%;
-    overflow-x: auto; } }
+    display: block;
+    overflow-x: auto;
+    max-width: 87%; } }
 
 h1.page-header,
 h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote, figure,
@@ -7353,10 +7357,6 @@ form .panel-body {
   margin-left: 0; }
 
 @media (min-width: 992px) {
-  .region-content form {
-    max-width: 60%; } }
-
-@media (max-width: 991.98px) {
   .region-content form {
     max-width: 80%; } }
 
