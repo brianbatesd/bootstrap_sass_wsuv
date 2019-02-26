@@ -6560,6 +6560,9 @@ body > nav > div.navbar-header > button {
     border-bottom: 1px solid #e7e9ea; }
 
 /* MENUS */
+.region-sidebar-second a {
+  word-wrap: break-word; }
+
 .region-sidebar-second .block-views h2.block-title {
   margin-left: 0; }
 
