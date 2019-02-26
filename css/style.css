@@ -6904,7 +6904,8 @@ figcaption {
 .table {
   border: 1px solid #e7e9ea;
   margin-top: 20px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  width: 92%; }
 
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
