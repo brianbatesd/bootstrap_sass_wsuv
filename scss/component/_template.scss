@@ -372,6 +372,18 @@ body > nav > div.navbar-header > button {
   }
 } /* MENUS */
 
+.region-sidebar-second h2 {
+  font-size: 1.5em;
+}
+
+.region-sidebar-second h3 {
+  font-size: 1.2em;
+}
+
+.region-sidebar-second h4 {
+  font-size: 1.1em;
+}
+
 .region-sidebar-second a {
   word-wrap: break-word;
 }
@@ -841,7 +853,7 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
 }
 
 h1.page-header,
-h2, h3, h4, h5, p, table, th, td, tr, hr, blockquote, figure,
+h2, h3, h4, h5, h6, p, table, th, td, tr, hr, blockquote, figure,
 ul.local-actions,
 ul.tabs--primary,
 li.node-readmore,
