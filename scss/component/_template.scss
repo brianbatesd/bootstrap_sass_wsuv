@@ -865,6 +865,14 @@ li.node-readmore,
 .field--name-field-blotter-activity,
 .field--name-field-blotter-location,
 .field--name-field-blotter-resolution,
+.field--name-field-cba-address,
+.field--name-field-cba-company,
+.field--name-field-cba-discount,
+.field--name-field-cba-email,
+.field--name-field-cba-industry,
+.field--name-field-cba-owner-operator,
+.field--name-field-cba-website,
+.field--name-field-cba-year-graduated,
 .field--name-field-department,
 .field--name-field-event-contact,
 .field--name-field-event-cost,
@@ -877,6 +885,10 @@ li.node-readmore,
 .field--name-field-exhibit-artist,
 .field--name-field-exhibit-dates,
 .field--name-field-exhibit-location,
+.field--name-field-itn-article-url,
+.field--name-field-itn-publication-date,
+.field--name-field-itn-publication-source,
+.field--name-field-itn-reporter,
 .field--name-field-news-post-date,
 .feeds_feed__content,
 .region-content form,
@@ -925,6 +937,29 @@ li.node-readmore,
     color: #a51b00;
   }
 } /* Homepage alert - severe */
+
+.btn-info {
+  margin: 7px 10px 10px 0;
+  padding: 10px 20px 10px 20px;
+  box-shadow: none;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 0;
+  text-decoration: none;
+  color: $brand-primary;
+  background-color: $white;
+  border: 1px solid $brand-primary;
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+} /* Exposed filter */
+
+.btn:hover,
+.btn:focus {
+  background-color: $brand-primary;
+  color: $white;
+  border: 1px solid $brand-primary;
+}
 
 .view-content .table-responsive {
   margin-top: -1em;
@@ -1000,6 +1035,14 @@ li.node-readmore,
 .field--name-field-blotter-activity,
 .field--name-field-blotter-location,
 .field--name-field-blotter-resolution,
+.field--name-field-cba-address,
+.field--name-field-cba-company,
+.field--name-field-cba-discount,
+.field--name-field-cba-email,
+.field--name-field-cba-industry,
+.field--name-field-cba-owner-operator,
+.field--name-field-cba-website,
+.field--name-field-cba-year-graduated,
 .field--name-field-event-contact,
 .field--name-field-event-cost,
 .field--name-field-event-department,
@@ -1010,7 +1053,11 @@ li.node-readmore,
 .field--name-field-event-website,
 .field--name-field-exhibit-artist,
 .field--name-field-exhibit-dates,
-.field--name-field-exhibit-location {
+.field--name-field-exhibit-location,
+.field--name-field-itn-article-url,
+.field--name-field-itn-publication-date,
+.field--name-field-itn-publication-source,
+.field--name-field-itn-reporter {
   color: $dark-gray;
   margin-bottom: 1em;
 }
@@ -1048,7 +1095,7 @@ li.node-readmore,
   border-radius: 4px;
   border-color: $brand-primary;
   padding: 10px 20px 10px 20px;
-  margin: 20px 70px 20px 0;
+  margin: 20px 60px 20px 0;
   text-decoration: none;
   font-weight: bold;
 }
@@ -1066,7 +1113,7 @@ li.node-readmore,
   }
   .pager li > a,
   .pager li > span {
-    margin-right: 25px;
+    margin-right: 70px;
   }
 }
 
