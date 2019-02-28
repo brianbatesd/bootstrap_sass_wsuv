@@ -6710,22 +6710,22 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content img.float-right {
   float: right;
   width: 50%;
-  margin: 0 0 1em 1.5em; }
+  margin: .5em 0 1em 1.5em; }
 
 .region-content img.float-right-small {
   float: right;
   width: 30%;
-  margin: 0 1.5em 1em 1.5em; }
+  margin: .5em 0 1em 1.5em; }
 
 .region-content img.float-left {
   float: left;
   width: 50%;
-  margin: 0 1.5em 1em 0; }
+  margin: .5em 1.5em 1em 0; }
 
 .region-content img.float-left-small {
   float: left;
   width: 30%;
-  margin: 0 1.5em 1em 0; }
+  margin: .5em 1.5em 1em 0; }
 
 figcaption {
   float: right;
