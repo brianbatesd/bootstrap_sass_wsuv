@@ -7042,6 +7042,21 @@ li.node-readmore,
     color: #a51b00; }
 
 /* Homepage alert - severe */
+.view-filters .form-group {
+  margin-bottom: 1em; }
+
+/* exposed filter */
+.view-filters .control-label {
+  margin-left: -25px;
+  margin-bottom: .25em; }
+
+.view-filters .form-control {
+  margin-left: -25px; }
+
+.view-filters .form-submit {
+  margin-top: 1.2em;
+  margin-left: 1em; }
+
 .btn-info {
   margin: 7px 10px 10px 0;
   padding: 10px 20px 10px 20px;
@@ -7057,7 +7072,6 @@ li.node-readmore,
   -moz-transition: all .2s ease-out;
   -webkit-transition: all .2s ease-out; }
 
-/* Exposed filter */
 .btn:hover,
 .btn:focus {
   background-color: #981e32;
@@ -7191,7 +7205,14 @@ li.node-readmore,
     margin: -2em 0 5.5em 0; }
   .pager li > a,
   .pager li > span {
-    margin-right: 70px; } }
+    margin-right: 70px; }
+  .view-content .table-responsive {
+    width: 112%; }
+  .view-filters .form-submit {
+    margin-left: -1.5em;
+    margin-top: 0; }
+  .has-glyphicons .select-wrapper:after {
+    margin-right: 1.5em; } }
 
 /* ADMIN UI AND MISC. OVERRIDES */
 legend {
