@@ -933,16 +933,16 @@ li.node-readmore,
   margin-bottom: 2em;
 }
 
-.contextual-region {
-  width: 100%;
-}
-
 .views-element-container {
   margin-left: 25px;
 }
 
 .view-content {
   margin-right: 1em;
+}
+
+.view-empty p {
+  margin-left: 0;
 }
 
 .view-content .messages--warning {
