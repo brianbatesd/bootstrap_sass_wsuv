@@ -6298,7 +6298,7 @@ table {
   border: 1px solid #e7e9ea; }
 
 table th {
-  background: #f8f8f8; }
+  background: #f1f1f1; }
 
 table th,
 table td {
@@ -6572,6 +6572,9 @@ body > nav > div.navbar-header > button {
 .region-sidebar-second a {
   word-wrap: break-word; }
 
+.region-sidebar-second hr {
+  border-color: #d7dadb; }
+
 .region-sidebar-second .block-views h2.block-title {
   margin-left: 0; }
 
@@ -6586,8 +6589,8 @@ body > nav > div.navbar-header > button {
 .region-sidebar-second .block-views .view-content {
   margin-right: 10px; }
 
-.region-sidebar-second .contextual-region {
-  background-color: #fafafa;
+.region-sidebar-second .block {
+  background-color: #f1f1f1;
   padding-bottom: 1em;
   margin-bottom: 1.5em;
   border-radius: 4px; }
@@ -6623,18 +6626,23 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 #block-bootstrap-sass-wsuv-search {
   margin-left: 25px; }
 
+@media (max-width: 767.98px) {
+  .region-sidebar-second {
+    margin-left: 25px;
+    margin-right: 5px; } }
+
 /* RESPONSIVE MENUS - MODULE - 'Simple expanding' overrides */
 .responsive-menus.responsified {
   width: 86%;
   margin-left: 25px;
   margin-top: -3em;
   margin-bottom: -2em;
-  background: #f8f8f8; }
+  background: #f1f1f1; }
 
 .responsive-menus.responsified span.toggler {
   border-radius: 0;
   box-shadow: none;
-  background: #f8f8f8;
+  background: #f1f1f1;
   color: #595959;
   text-align: left;
   font-size: 18px;
@@ -6646,7 +6654,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .responsive-menus.responsified .responsive-menus-simple {
   border-radius: 0;
   box-shadow: none;
-  background: #f8f8f8; }
+  background: #f1f1f1; }
   .responsive-menus.responsified .responsive-menus-simple h2 {
     margin-left: 15px; }
 
@@ -6654,7 +6662,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   color: #595959;
   text-transform: none;
   padding-left: 15px;
-  border-bottom: 1px solid #e7e9ea; }
+  border-bottom: 1px solid #d7dadb; }
 
 .responsive-menus.responsified .responsive-menus-simple li a.is-active {
   color: #981e32; }
@@ -6921,11 +6929,11 @@ figcaption {
 
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
-  background-color: #f8f8f8; }
+  background-color: #f1f1f1; }
 
 .table > tbody > tr > th {
   padding: 15px;
-  background: #f8f8f8; }
+  background: #f1f1f1; }
 
 .table > tbody > tr > td {
   padding: 15px; }
@@ -7004,17 +7012,17 @@ li.node-readmore,
 .field--name-field-itn-publication-source,
 .field--name-field-itn-reporter,
 .field--name-field-job-addl-requirements,
+.field--name-field-job-application-process,
 .field--name-field-job-category,
 .field--name-field-job-close-date,
 .field--name-field-job-description-file,
-.field--name-field-job-min-qualifications,
+.field--name-field-job-min-requirements,
 .field--name-field-job-open-date,
 .field--name-field-job-position-number,
 .field--name-field-job-position-summary,
 .field--name-field-job-pref-qualifications,
 .field--name-field-job-salary,
 .field--name-field-job-statement,
-.field--name-field-job-application-process,
 .field--name-field-job-work-schedule,
 .field--name-field-news-post-date,
 .feeds_feed__content,
@@ -7178,17 +7186,17 @@ li.node-readmore,
 .field--name-field-itn-publication-source,
 .field--name-field-itn-reporter,
 .field--name-field-job-addl-requirements,
+.field--name-field-job-application-process,
 .field--name-field-job-category,
 .field--name-field-job-close-date,
 .field--name-field-job-description-file,
-.field--name-field-job-min-qualifications,
+.field--name-field-job-min-requirements,
 .field--name-field-job-open-date,
 .field--name-field-job-position-number,
 .field--name-field-job-position-summary,
 .field--name-field-job-pref-qualifications,
 .field--name-field-job-salary,
 .field--name-field-job-statement,
-.field--name-field-job-application-process,
 .field--name-field-job-work-schedule {
   color: #333333;
   margin-bottom: 1em; }
@@ -7196,7 +7204,8 @@ li.node-readmore,
 .field--name-field-event-contact p,
 .field--name-field-event-website p,
 .field--name-field-job-addl-requirements p,
-.field--name-field-job-min-qualifications p,
+.field--name-field-job-application-process p,
+.field--name-field-job-min-requirements p,
 .field--name-field-job-position-summary p,
 .field--name-field-job-pref-qualifications p,
 .field--name-field-job-statement p {
@@ -7287,14 +7296,14 @@ ol.breadcrumb {
   text-transform: uppercase;
   padding-top: 18px;
   margin: 34px 25px -16px 25px;
-  border-top: 10px solid #f8f8f8;
+  border-top: 10px solid #f1f1f1;
   display: block;
   color: #595959; }
 
 .paragraph__column h2.top-border {
   margin-top: 34px;
   padding-top: 18px;
-  border-top: 10px solid #f8f8f8; }
+  border-top: 10px solid #f1f1f1; }
 
 .paragraph__column h2.center {
   text-align: center;
@@ -7344,7 +7353,7 @@ ol.breadcrumb {
   margin: 1.5em 0 1.5em 0; }
 
 .paragraph--color--rgba-grey-slight {
-  background-color: #f8f8f8; }
+  background-color: #f1f1f1; }
 
 .paragraph--color--rgba-red-strong {
   background-color: #981e32; }
@@ -7574,7 +7583,7 @@ div.region.region-content > ol {
     font-weight: bold; }
 
 .footer-copyright .col-md-6 {
-  background-color: #f8f8f8;
+  background-color: #f1f1f1;
   margin-bottom: 0;
   padding: 15px 5px 5px 5px;
   font-size: 14px; }

@@ -4,7 +4,8 @@
 
 $red: #c60c30;
 $dark-gray: #333333;
-$lightest-gray: #f8f8f8;
+$medium-gray: #d7dadb;
+$lightest-gray: #f1f1f1;
 $light-gray: #e7e9ea;
 $white: #fff;
 
@@ -388,6 +389,10 @@ body > nav > div.navbar-header > button {
   word-wrap: break-word;
 }
 
+.region-sidebar-second hr {
+  border-color: $medium-gray;
+}
+
 .region-sidebar-second .block-views {
   h2.block-title {
     margin-left: 0;
@@ -405,8 +410,8 @@ body > nav > div.navbar-header > button {
   }
 }
 
-.region-sidebar-second .contextual-region {
-  background-color: #fafafa;
+.region-sidebar-second .block {
+  background-color: $lightest-gray;
   padding-bottom: 1em;
   margin-bottom: 1.5em;
   border-radius: 4px;
@@ -453,6 +458,13 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   margin-left: 25px;
 }
 
+@media (max-width: 767.98px) {
+  .region-sidebar-second {
+    margin-left: 25px;
+    margin-right: 5px;
+  }
+}
+
 /* RESPONSIVE MENUS - MODULE - 'Simple expanding' overrides */
 
 .responsive-menus.responsified {
@@ -490,7 +502,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   color: $text-color;
   text-transform: none;
   padding-left: 15px;
-  border-bottom: 1px solid $light-gray;
+  border-bottom: 1px solid $medium-gray;
 }
 
 .responsive-menus.responsified .responsive-menus-simple li a.is-active {
@@ -894,17 +906,17 @@ li.node-readmore,
 .field--name-field-itn-publication-source,
 .field--name-field-itn-reporter,
 .field--name-field-job-addl-requirements,
+.field--name-field-job-application-process,
 .field--name-field-job-category,
 .field--name-field-job-close-date,
 .field--name-field-job-description-file,
-.field--name-field-job-min-qualifications,
+.field--name-field-job-min-requirements,
 .field--name-field-job-open-date,
 .field--name-field-job-position-number,
 .field--name-field-job-position-summary,
 .field--name-field-job-pref-qualifications,
 .field--name-field-job-salary,
 .field--name-field-job-statement,
-.field--name-field-job-application-process,
 .field--name-field-job-work-schedule,
 .field--name-field-news-post-date,
 .feeds_feed__content,
@@ -1094,17 +1106,17 @@ li.node-readmore,
 .field--name-field-itn-publication-source,
 .field--name-field-itn-reporter,
 .field--name-field-job-addl-requirements,
+.field--name-field-job-application-process,
 .field--name-field-job-category,
 .field--name-field-job-close-date,
 .field--name-field-job-description-file,
-.field--name-field-job-min-qualifications,
+.field--name-field-job-min-requirements,
 .field--name-field-job-open-date,
 .field--name-field-job-position-number,
 .field--name-field-job-position-summary,
 .field--name-field-job-pref-qualifications,
 .field--name-field-job-salary,
 .field--name-field-job-statement,
-.field--name-field-job-application-process,
 .field--name-field-job-work-schedule {
   color: $dark-gray;
   margin-bottom: 1em;
@@ -1113,7 +1125,8 @@ li.node-readmore,
 .field--name-field-event-contact,
 .field--name-field-event-website,
 .field--name-field-job-addl-requirements,
-.field--name-field-job-min-qualifications,
+.field--name-field-job-application-process,
+.field--name-field-job-min-requirements,
 .field--name-field-job-position-summary,
 .field--name-field-job-pref-qualifications,
 .field--name-field-job-statement {
