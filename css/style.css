@@ -6957,6 +6957,9 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
   font-size: 1em;
   font-weight: normal; }
 
+.file {
+  font-size: 100%; }
+
 @media (max-width: 767.98px) {
   .region-content table {
     display: block;
@@ -7000,6 +7003,19 @@ li.node-readmore,
 .field--name-field-itn-publication-date,
 .field--name-field-itn-publication-source,
 .field--name-field-itn-reporter,
+.field--name-field-job-addl-requirements,
+.field--name-field-job-category,
+.field--name-field-job-close-date,
+.field--name-field-job-description-file,
+.field--name-field-job-min-qualifications,
+.field--name-field-job-open-date,
+.field--name-field-job-position-number,
+.field--name-field-job-position-summary,
+.field--name-field-job-pref-qualifications,
+.field--name-field-job-salary,
+.field--name-field-job-statement,
+.field--name-field-job-application-process,
+.field--name-field-job-work-schedule,
 .field--name-field-news-post-date,
 .feeds_feed__content,
 .region-content form,
@@ -7160,12 +7176,30 @@ li.node-readmore,
 .field--name-field-itn-article-url,
 .field--name-field-itn-publication-date,
 .field--name-field-itn-publication-source,
-.field--name-field-itn-reporter {
+.field--name-field-itn-reporter,
+.field--name-field-job-addl-requirements,
+.field--name-field-job-category,
+.field--name-field-job-close-date,
+.field--name-field-job-description-file,
+.field--name-field-job-min-qualifications,
+.field--name-field-job-open-date,
+.field--name-field-job-position-number,
+.field--name-field-job-position-summary,
+.field--name-field-job-pref-qualifications,
+.field--name-field-job-salary,
+.field--name-field-job-statement,
+.field--name-field-job-application-process,
+.field--name-field-job-work-schedule {
   color: #333333;
   margin-bottom: 1em; }
 
 .field--name-field-event-contact p,
-.field--name-field-event-website p {
+.field--name-field-event-website p,
+.field--name-field-job-addl-requirements p,
+.field--name-field-job-min-qualifications p,
+.field--name-field-job-position-summary p,
+.field--name-field-job-pref-qualifications p,
+.field--name-field-job-statement p {
   margin-left: 0; }
 
 .field--name-field-news-body {
