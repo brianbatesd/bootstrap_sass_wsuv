@@ -6303,13 +6303,19 @@ table th {
 table th,
 table td {
   padding: 15px;
-  border-top: 1px solid #e7e9ea; }
+  border-top: 1px solid #e7e9ea;
+  vertical-align: top; }
 
 table p,
 table ul,
 table ol {
   margin-left: 0;
   margin-right: 0; }
+
+table td p,
+table td ul,
+table td ol {
+  vertical-align: top; }
 
 hr {
   margin: 40px; }
