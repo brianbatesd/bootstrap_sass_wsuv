@@ -6294,8 +6294,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #c60c30; }
 
 table {
-  padding-bottom: 1em;
-  border: 1px solid #e7e9ea; }
+  padding-bottom: 1em; }
 
 table th {
   background: #f1f1f1; }
@@ -6303,7 +6302,6 @@ table th {
 table th,
 table td {
   padding: 15px;
-  border-top: 1px solid #e7e9ea;
   vertical-align: top; }
 
 table p,
@@ -7519,6 +7517,8 @@ div.region.region-content > ol {
 /* BLOCK REGION - CONTENT - Google Custom Search results */
 #___gcse_0 > div {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
+  #___gcse_0 > div table td {
+    border: 1px solid #fff; }
 
 #gsc-iw-id1 {
   height: 50px;
@@ -7530,17 +7530,27 @@ div.region.region-content > ol {
 #gs_cb50 {
   color: #333333;
   padding: .5em;
-  margin-right: -.75em; }
+  margin-right: -3em;
+  margin-top: -2em; }
+
+#gs_tti50 {
+  vertical-align: top;
+  margin-top: -1.5em; }
 
 .gsst_a {
   margin-right: -1em; }
 
+.gsib_b {
+  display: none; }
+
+.gsc-search-button {
+  margin-left: 0; }
+
 .gsc-search-button > button {
   background-color: #981e32;
-  width: 52px;
-  height: 52px;
-  padding: .5em;
-  margin-top: -1px; }
+  width: 50px;
+  height: 50px;
+  padding: .5em; }
 
 .gsc-webResult .gsc-result:hover {
   margin-left: -1px;
@@ -7558,13 +7568,6 @@ div.region.region-content > ol {
   font-size: 1.25em;
   margin-left: -1em; }
 
-#___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gsc-expansionArea > div:nth-child(9):hover {
-  padding-bottom: 7px; }
-
-/* div.gsc-cursor-box.gs-bidi-start-align {
-  margin: 2em 1em 0 2px;
-  font-size: 1.25em;
-} */
 /* SHARE BUTTONS BLOCK */
 #atstbx .at-share-btn-elements {
   margin-left: 23px;
