@@ -444,7 +444,7 @@ body > nav > div.navbar-header > button {
 }
 
 .well img {
-  max-width: 100%;
+  width: 100%;
 }
 
 h2.block-title,
@@ -1313,9 +1313,13 @@ ol.breadcrumb {
 
 .paragraph--color--rgba-red-strong {
   background-color: $brand-primary;
-  h2, h3, p, p.statistic, strong, blockquote {
+  h2, h3, p, p.statistic, strong, blockquote, a {
     color: $white;
     border-color: $white;
+  }
+  a:active, a:hover, a:focus {
+    color: $white;
+    text-decoration: none;
   }
 }
 
