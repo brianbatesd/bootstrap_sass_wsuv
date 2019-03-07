@@ -1069,7 +1069,7 @@ body {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 1.428571429;
-  color: #595959;
+  color: #525252;
   background-color: #fff; }
 
 input,
@@ -2710,7 +2710,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #999999; }
+  color: #929292; }
 
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -4345,7 +4345,7 @@ a.badge:hover, a.badge:focus {
     margin-right: auto; }
   .thumbnail .caption {
     padding: 9px;
-    color: #595959; }
+    color: #525252; }
 
 a.thumbnail:hover,
 a.thumbnail:focus,
@@ -6319,7 +6319,7 @@ hr {
   margin: 40px; }
 
 caption {
-  color: #595959; }
+  color: #525252; }
 
 /* BOOTSTRAP - LIBRARY - navbar */
 .dropdown-menu {
@@ -6588,7 +6588,7 @@ body > nav > div.navbar-header > button {
   color: #981e32; }
 
 .region-sidebar-second .block-views .field-content a:hover {
-  color: #595959; }
+  color: #525252; }
 
 .region-sidebar-second .block-views .view-content {
   margin-right: 10px; }
@@ -6612,7 +6612,7 @@ body > nav > div.navbar-header > button {
   background-color: transparent; }
   .well ul li, .well ol li {
     padding-bottom: 5px;
-    color: #595959; }
+    color: #525252; }
   .well a {
     text-decoration: underline; }
 
@@ -6647,7 +6647,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   border-radius: 0;
   box-shadow: none;
   background: #f1f1f1;
-  color: #595959;
+  color: #525252;
   text-align: left;
   font-size: 18px;
   padding: 10px 15px; }
@@ -6663,7 +6663,7 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
     margin-left: 15px; }
 
 .responsive-menus.responsified .responsive-menus-simple li a {
-  color: #595959;
+  color: #525252;
   text-transform: none;
   padding-left: 15px;
   border-bottom: 1px solid #d7dadb; }
@@ -6760,7 +6760,7 @@ figcaption {
 .region-content ol li ol li {
   padding-bottom: 5px;
   margin-right: 25px;
-  color: #595959; }
+  color: #525252; }
 
 .region-content ol li blockquote {
   margin-top: 30px; }
@@ -7133,7 +7133,7 @@ li.node-readmore,
   margin-left: 20px; }
 
 .field--item {
-  color: #595959; }
+  color: #525252; }
 
 .views-row,
 .field--name-body {
@@ -7302,7 +7302,7 @@ ol.breadcrumb {
   margin: 34px 25px -16px 25px;
   border-top: 10px solid #f1f1f1;
   display: block;
-  color: #595959; }
+  color: #525252; }
 
 .paragraph__column h2.top-border {
   margin-top: 34px;
@@ -7427,7 +7427,7 @@ h2.hero-title {
   border: none;
   font-size: 1em;
   font-weight: bold;
-  color: #595959; }
+  color: #525252; }
 
 form .fieldgroup {
   margin-bottom: 1.5em; }
@@ -7450,7 +7450,7 @@ form .panel-title {
   font-size: 1em;
   font-weight: bold;
   background-color: #fff;
-  color: #595959; }
+  color: #525252; }
 
 form .webform-email-confirm--wrapper .panel-title,
 form .webform-address--wrapper .panel-title {
