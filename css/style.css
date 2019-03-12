@@ -7342,6 +7342,11 @@ ol.breadcrumb {
   font-size: 4em;
   margin: .375em 0 -.5em 0; }
 
+.paragraph__column p.infographic-left {
+  text-align: left;
+  font-size: 4em;
+  margin: .375em 0 -.5em 25px; }
+
 .paragraph__column img.social {
   width: 3em;
   padding: 8px; }
@@ -7361,7 +7366,7 @@ ol.breadcrumb {
 
 .paragraph--color--rgba-red-strong {
   background-color: #981e32; }
-  .paragraph--color--rgba-red-strong h2, .paragraph--color--rgba-red-strong h3, .paragraph--color--rgba-red-strong p, .paragraph--color--rgba-red-strong p.statistic, .paragraph--color--rgba-red-strong strong, .paragraph--color--rgba-red-strong blockquote, .paragraph--color--rgba-red-strong a {
+  .paragraph--color--rgba-red-strong h2, .paragraph--color--rgba-red-strong h3, .paragraph--color--rgba-red-strong p, .paragraph--color--rgba-red-strong p.statistic, .paragraph--color--rgba-red-strong strong, .paragraph--color--rgba-red-strong blockquote, .paragraph--color--rgba-red-strong a, .paragraph--color--rgba-red-strong ul li, .paragraph--color--rgba-red-strong ol li {
     color: #fff;
     border-color: #fff; }
   .paragraph--color--rgba-red-strong a:active, .paragraph--color--rgba-red-strong a:hover, .paragraph--color--rgba-red-strong a:focus {

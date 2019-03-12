@@ -1291,6 +1291,11 @@ ol.breadcrumb {
     font-size: 4em;
     margin: .375em 0 -.5em 0;
   }
+  p.infographic-left {
+    text-align: left;
+    font-size: 4em;
+    margin: .375em 0 -.5em 25px;
+  }
   img.social {
     width: 3em;
     padding: 8px;
@@ -1313,7 +1318,7 @@ ol.breadcrumb {
 
 .paragraph--color--rgba-red-strong {
   background-color: $brand-primary;
-  h2, h3, p, p.statistic, strong, blockquote, a {
+  h2, h3, p, p.statistic, strong, blockquote, a, ul li, ol li {
     color: $white;
     border-color: $white;
   }
