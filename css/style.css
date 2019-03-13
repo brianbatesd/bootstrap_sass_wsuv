@@ -6293,6 +6293,11 @@ h1, h2, h3, h4, h5, h6 {
   h1 .red, h2 .red, h3 .red, h4 .red, h5 .red, h6 .red {
     color: #c60c30; }
 
+h1.hero {
+  text-align: center;
+  font-size: 4em;
+  text-shadow: 1px 1px 1px black; }
+
 table {
   padding-bottom: 1em; }
 
@@ -6973,6 +6978,9 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
   font-size: 100%; }
 
 @media (max-width: 767.98px) {
+  .region-content h1.page-header {
+    font-size: 2.5em;
+    border-bottom: none; }
   .region-content table {
     display: block;
     overflow-x: auto;
@@ -7497,6 +7505,8 @@ form .panel-body {
 
 @media (max-width: 767.98px) {
   .region-content form {
+    max-width: 100%; }
+  input#fieldEmail {
     max-width: 100%; } }
 
 /* BLOCK REGION - CONTENT - search results */
