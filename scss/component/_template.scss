@@ -1413,14 +1413,19 @@ h2.hero-title {
   input[type="checkbox"] {
     height: 1em;
   }
+  input[type="radio"] {
+    margin-top: -14px;
+  }
   legend {
     border: none;
     font-size: 1em;
     font-weight: bold;
     color: $text-color;
   }
+  input, select, textarea {
+    margin-bottom: 2em;
+  }
 }
-
 form .fieldgroup {
   margin-bottom: 1.5em;
 }

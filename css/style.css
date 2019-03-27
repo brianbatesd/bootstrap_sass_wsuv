@@ -7439,11 +7439,17 @@ h2.hero-title {
 .region-content form input[type="checkbox"] {
   height: 1em; }
 
+.region-content form input[type="radio"] {
+  margin-top: -14px; }
+
 .region-content form legend {
   border: none;
   font-size: 1em;
   font-weight: bold;
   color: #525252; }
+
+.region-content form input, .region-content form select, .region-content form textarea {
+  margin-bottom: 2em; }
 
 form .fieldgroup {
   margin-bottom: 1.5em; }
