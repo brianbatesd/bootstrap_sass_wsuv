@@ -1416,6 +1416,9 @@ h2.hero-title {
   input[type="radio"] {
     margin-top: -14px;
   }
+  input[type="date"] {
+    display: block;
+  }
   legend {
     border: none;
     font-size: 1em;

@@ -7442,6 +7442,9 @@ h2.hero-title {
 .region-content form input[type="radio"] {
   margin-top: -14px; }
 
+.region-content form input[type="date"] {
+  display: block; }
+
 .region-content form legend {
   border: none;
   font-size: 1em;
