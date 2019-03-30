@@ -7317,7 +7317,8 @@ ol.breadcrumb {
   padding-top: 18px;
   border-top: 10px solid #f1f1f1; }
 
-.paragraph__column h2.center {
+.paragraph__column h2.center,
+.paragraph__column h3.center {
   text-align: center;
   margin-top: .5em; }
 
