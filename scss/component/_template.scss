@@ -1559,9 +1559,10 @@ div.region.region-content > ol {
 #gsc-iw-id1 {
   height: 50px;
   font-size: 2em;
+  padding-left: 10px;
 }
 
-#___gcse_0 > div > div > form {
+#___gcse_0 > div {
   margin-left: 1em;
 }
 
@@ -1577,11 +1578,19 @@ div.region.region-content > ol {
   margin-top: -1.5em;
 }
 
+table.gsc-search-box td {
+  padding: 0;
+}
+
 .gsst_a {
   margin-right: -1em;
 }
 
 .gsib_b {
+  display: none;
+}
+
+#resInfo-0 {
   display: none;
 }
 
@@ -1593,7 +1602,15 @@ div.region.region-content > ol {
   background-color: $brand-primary;
   width: 50px;
   height: 50px;
-  padding: .5em;
+  padding: .5em
+}
+
+.gsc-above-wrapper-area {
+  margin-right: 1em;
+}
+
+#___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > table > tbody > tr > td.gsc-twiddleRegionCell.gsc-twiddle-opened {
+  display: none;
 }
 
 .gsc-webResult {
@@ -1616,6 +1633,18 @@ div.region.region-content > ol {
   font-family: $font-family-sans-serif;
   font-size: 1.25em;
   margin-left: 0;
+}
+
+#___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gsc-expansionArea > div.gsc-cursor-box.gs-bidi-start-align {
+  display: none;
+}
+
+#___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gcsc-more-maybe-branding-root {
+  margin-top: 5em;
+}
+
+#___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gcsc-more-maybe-branding-root > a > div {
+  display: none;
 }
 
 /* SHARE BUTTONS BLOCK */
