@@ -7158,6 +7158,9 @@ li.node-readmore,
 .views-element-container .content ol {
   margin-left: 0; }
 
+.view-header {
+  margin-bottom: 1.5em; }
+
 .views-row p + h2 {
   margin-top: 0; }
 
