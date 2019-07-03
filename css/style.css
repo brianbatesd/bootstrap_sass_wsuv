@@ -7273,7 +7273,7 @@ li.node-readmore,
   border-radius: 4px;
   border-color: #981e32;
   padding: 10px 20px 10px 20px;
-  margin: 20px 60px 20px 0;
+  margin: 20px 10px 20px 0;
   text-decoration: none;
   font-weight: bold; }
 
@@ -7288,7 +7288,7 @@ li.node-readmore,
     margin: -2em 0 5.5em 0; }
   .pager li > a,
   .pager li > span {
-    margin-right: 70px; }
+    margin-right: 25px; }
   .view-content .table-responsive {
     width: 112%; }
   .view-filters .form-submit {
