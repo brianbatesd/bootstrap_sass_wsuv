@@ -6708,6 +6708,9 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content ol {
   line-height: 1.6em; }
 
+.region-content p.lead {
+  margin-top: 25px; }
+
 .region-content a {
   color: #981e32;
   text-decoration: underline;
