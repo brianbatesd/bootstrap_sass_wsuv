@@ -7691,6 +7691,15 @@ table.gsc-search-box td {
     color: #555555;
     font-size: .85em; }
 
+.footer-thirty .col-md-12 {
+  background-color: #981e32; }
+
+img.thirty {
+  width: 25%;
+  display: block;
+  margin: auto;
+  text-align: center; }
+
 @media (max-width: 767.98px) {
   body > div.footer-sitemap > div:nth-child(3),
   body > div.footer-sitemap > div:nth-child(4) {
@@ -7699,7 +7708,9 @@ table.gsc-search-box td {
     height: auto; }
   .footer-sitemap .col-md-3 li,
   .footer-copyright .col-md-6 li {
-    display: block; } }
+    display: block; }
+  img.thirty {
+    width: 60%; } }
 
 /* PRINT */
 @media print {
