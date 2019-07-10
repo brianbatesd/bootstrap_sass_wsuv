@@ -7065,6 +7065,7 @@ li.node-readmore,
 .field--name-field-job-statement,
 .field--name-field-job-work-schedule,
 .field--name-field-news-post-date,
+.field--name-field-post-date,
 .feeds_feed__content,
 .region-content form,
 .webform-confirmation__back,
@@ -7263,6 +7264,9 @@ li.node-readmore,
 .field--item > ol {
   margin-left: 18px;
   margin-right: 25px; }
+
+.field--name-field-post-date {
+  margin-bottom: 1em; }
 
 .field--name-field-news-post-date {
   margin-bottom: 1em;
