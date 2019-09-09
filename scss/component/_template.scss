@@ -615,7 +615,7 @@ figcaption {
   display: block;
   width: 50%;
   font-size: .75em;
-  margin: 0 1.5em 1em 1.5em;
+  margin: .5em 0;
 }
 
 .region-content h1.page-header {
@@ -625,6 +625,11 @@ figcaption {
 
 .region-content h4.label {
   color: $dark-gray;
+}
+
+span.label {
+  font-size: 100%;
+  padding: .1em .4em .2em;
 }
 
 .region-content ul li,
