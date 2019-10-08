@@ -6747,6 +6747,9 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   width: 30%;
   margin: .5em 1.5em 1em 0; }
 
+figure {
+  padding-left: 5em; }
+
 figcaption {
   float: right;
   clear: right;
@@ -7651,14 +7654,8 @@ table.gsc-search-box td {
   font-size: 1.25em;
   margin-left: 0; }
 
-#___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gsc-expansionArea > div.gsc-cursor-box.gs-bidi-start-align {
-  display: none; }
-
 #___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gcsc-more-maybe-branding-root {
   margin-top: 5em; }
-
-#___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gcsc-more-maybe-branding-root > a > div {
-  display: none; }
 
 /* SHARE BUTTONS BLOCK */
 #atstbx .at-share-btn-elements {
