@@ -6298,6 +6298,9 @@ h1.hero {
   font-size: 4em;
   text-shadow: 1px 1px 1px black; }
 
+a > strong {
+  color: #981e32; }
+
 table {
   padding-bottom: 1em; }
 
