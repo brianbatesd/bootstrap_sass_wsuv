@@ -6712,7 +6712,8 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   line-height: 1.6em; }
 
 .region-content p.lead {
-  margin-top: 25px; }
+  margin-top: 25px;
+  line-height: 1.4em; }
 
 .region-content a {
   color: #981e32;
