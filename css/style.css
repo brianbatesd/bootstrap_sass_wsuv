@@ -6464,7 +6464,8 @@ body > nav > div.navbar-header > button {
     height: 40px;
     display: block; }
   #bs-primary-navbar-collapse-1 {
-    font-size: 1.5em;
+    font-size: 1.5em; }
+  #bs-primary-navbar-collapse-1 > div {
     padding-bottom: 1em; }
   #bs-primary-navbar-collapse-1 > div > form {
     margin: 1.25em 15px 0 15px; }
