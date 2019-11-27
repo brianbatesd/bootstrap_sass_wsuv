@@ -7509,6 +7509,9 @@ form .fieldgroup {
 form .form-group {
   margin-bottom: 1.5em; }
 
+form .help-block {
+  margin-bottom: 2em; }
+
 form .panel {
   box-shadow: none; }
 
@@ -7552,6 +7555,9 @@ form .panel-body {
 .form-inline .select-wrapper {
   height: 3.25em; }
 
+.form-file {
+  padding-top: .6em; }
+
 .select-wrapper {
   display: block; }
   .select-wrapper select {
@@ -7559,6 +7565,9 @@ form .panel-body {
 
 .webform-confirmation__message h1, .webform-confirmation__message h2, .webform-confirmation__message h3, .webform-confirmation__message p {
   margin-left: 0; }
+
+.webform-element-description {
+  margin-top: -2em; }
 
 @media (min-width: 992px) {
   .region-content form {

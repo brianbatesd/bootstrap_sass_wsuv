@@ -1497,6 +1497,10 @@ form .form-group {
   margin-bottom: 1.5em;
 }
 
+form .help-block {
+  margin-bottom: 2em;
+}
+
 form .panel {
   box-shadow: none;
 }
@@ -1552,6 +1556,10 @@ form .panel-body {
   height: 3.25em;
 }
 
+.form-file {
+  padding-top: .6em;
+}
+
 .select-wrapper {
   display: block;
   select {
@@ -1563,6 +1571,10 @@ form .panel-body {
   h1, h2, h3, p {
     margin-left: 0;
   }
+}
+
+.webform-element-description {
+  margin-top: -2em;
 }
 
 @media (min-width: 992px) {
