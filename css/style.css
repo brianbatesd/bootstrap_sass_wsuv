@@ -7503,6 +7503,10 @@ h2.hero-title {
 .region-content form input, .region-content form select, .region-content form textarea {
   margin-bottom: 2em; }
 
+form .btn-danger {
+  margin-top: .25em;
+  margin-bottom: 1.75em; }
+
 form .fieldgroup {
   margin-bottom: 1.5em; }
 
