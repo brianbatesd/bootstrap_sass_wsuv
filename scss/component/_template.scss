@@ -582,7 +582,9 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 }
 
 .region-content a:hover,
-.region-content a:focus {
+.region-content a:focus,
+.region-content a:hover strong,
+.region-content a:focus strong {
   color: $dark-gray;
 }
 
