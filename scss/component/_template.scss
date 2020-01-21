@@ -541,6 +541,11 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   margin: 60px 40px 0 25px;
 }
 
+.alert > p,
+.alert > ul {
+  margin-left: 0;
+}
+
 /* BLOCK REGION - CONTENT */
 
 .region-content {
