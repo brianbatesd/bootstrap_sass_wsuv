@@ -7031,6 +7031,7 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
   .region-content table {
     display: block;
     overflow-x: auto;
+    border-style: none;
     max-width: 87%; } }
 
 h1.page-header,
