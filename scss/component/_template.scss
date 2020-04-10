@@ -453,6 +453,10 @@ body > nav > div.navbar-header > button {
   a {
     text-decoration: underline;
   }
+  a:hover, a:focus {
+    color: $brand-primary;
+    text-decoration: none;
+  }
 }
 
 .well img {
@@ -590,7 +594,8 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content a:focus,
 .region-content a:hover strong,
 .region-content a:focus strong {
-  color: $dark-gray;
+  color: $brand-primary;
+  text-decoration: none;
 }
 
 .region-content img.full {
@@ -941,7 +946,7 @@ body > div.container-max-width > div.dialog-off-canvas-main-canvas > div > div >
 }
 
 h1.page-header,
-h2, h3, h4, h5, h6, p, table, th, td, tr, hr, blockquote, figure,
+h2, h3, h4, h5, h6, p, table, th, td, tr, hr, blockquote, figure, address,
 ul.local-actions,
 ul.tabs--primary,
 li.node-readmore,

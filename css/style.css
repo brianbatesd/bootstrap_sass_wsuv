@@ -6478,6 +6478,9 @@ body > nav > div.navbar-header > button {
     color: #525252; }
   .well a {
     text-decoration: underline; }
+  .well a:hover, .well a:focus {
+    color: #981e32;
+    text-decoration: none; }
 
 .well img {
   width: 100%; }
@@ -6585,7 +6588,8 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content a:focus,
 .region-content a:hover strong,
 .region-content a:focus strong {
-  color: #333333; }
+  color: #981e32;
+  text-decoration: none; }
 
 .region-content img.full {
   width: 100%;
