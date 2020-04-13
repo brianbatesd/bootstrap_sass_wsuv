@@ -6461,6 +6461,10 @@ body > nav > div.navbar-header > button {
   padding-bottom: 1em;
   margin-bottom: 1.5em;
   border-radius: 4px; }
+  .region-sidebar-second .block a:hover, .region-sidebar-second .block a:focus,
+  .region-sidebar-second .block .field-content a:hover, .region-sidebar-second .block .field-content a:focus {
+    color: #981e32;
+    text-decoration: none; }
 
 .region-sidebar-second .views-element-container {
   padding: 0 1.25em 0 1.25em;

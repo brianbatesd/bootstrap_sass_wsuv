@@ -432,6 +432,11 @@ body > nav > div.navbar-header > button {
   padding-bottom: 1em;
   margin-bottom: 1.5em;
   border-radius: 4px;
+  a:hover, a:focus,
+  .field-content a:hover, .field-content a:focus {
+    color: $brand-primary;
+    text-decoration: none;
+  }
 }
 
 .region-sidebar-second .views-element-container {
