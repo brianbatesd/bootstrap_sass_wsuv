@@ -566,7 +566,8 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   p + h2, p + h3, p + h4,
   table + h2, table + h3,
   ul + h2, ul + h3, ul + h4,
-  ol + h2, ol + h3, ol + h4 {
+  ol + h2, ol + h3, ol + h4,
+  blockquote + h2, blockquote + h3, blockquote + h4 {
     margin-top: 1.5em;
   }
   h2 + table, h3 + table, table + p,

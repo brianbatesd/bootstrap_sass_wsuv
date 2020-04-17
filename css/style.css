@@ -6564,7 +6564,8 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
 .region-content p + h2, .region-content p + h3, .region-content p + h4,
 .region-content table + h2, .region-content table + h3,
 .region-content ul + h2, .region-content ul + h3, .region-content ul + h4,
-.region-content ol + h2, .region-content ol + h3, .region-content ol + h4 {
+.region-content ol + h2, .region-content ol + h3, .region-content ol + h4,
+.region-content blockquote + h2, .region-content blockquote + h3, .region-content blockquote + h4 {
   margin-top: 1.5em; }
 
 .region-content h2 + table, .region-content h3 + table, .region-content table + p,
