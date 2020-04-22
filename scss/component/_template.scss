@@ -588,6 +588,29 @@ body > div.main-container.container-fluid.js-quickedit-main-content > div > asid
   line-height: 1.4em
 }
 
+.region-content p.highlight {
+  margin: 0 25px 0 25px;
+  padding: 1em 0 1em 1.5em;
+  border-left: 10px solid #e09600;
+}
+
+.region-content p.highlight + p,
+.region-content p + p.highlight {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.region-content .highlight {
+  margin: 0 25px 1.5em 25px;
+  padding: 1em 0 1em .25em;
+  border-left: 10px solid #e09600;
+}
+
+.region-content .highlight ul,
+.region-content .highlight ol {
+  margin: 0 25px 0 20px;
+}
+
 .region-content a {
   color: $brand-primary;
   text-decoration: underline;
