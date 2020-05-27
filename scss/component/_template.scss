@@ -1674,14 +1674,14 @@ div.region.region-content > ol {
 #___gcse_0 > div {
   font-family: $font-family-sans-serif;
   table td {
-    border: 1px solid #fff;
   }
 }
 
 #gsc-iw-id1 {
   height: 50px;
   font-size: 2em;
-  padding-left: 10px;
+  padding-left: 12px;
+  padding-top: 12px;
 }
 
 #___gcse_0 > div {
@@ -1693,11 +1693,6 @@ div.region.region-content > ol {
   padding: .5em;
   margin-right: -3em;
   margin-top: -2em;
-}
-
-#gs_tti50 {
-  vertical-align: top;
-  margin-top: -1.5em;
 }
 
 table.gsc-search-box td {
@@ -1724,7 +1719,8 @@ table.gsc-search-box td {
   background-color: $brand-primary;
   width: 50px;
   height: 50px;
-  padding: .5em
+  padding: .5em;
+  margin-top: 0;
 }
 
 .gsc-above-wrapper-area {
@@ -1735,10 +1731,14 @@ table.gsc-search-box td {
   display: none;
 }
 
-.gsc-webResult {
-  .gsc-result:hover {
-  margin-left: -1px;
-  margin-bottom: 1px;
+#___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gsc-expansionArea > div > div.gs-webResult.gs-result > div.gsc-thumbnail-inside > div > a {
+  text-decoration: underline;
+}
+
+#___gcse_0 > div > div > div > div.gsc-wrapper > div.gsc-resultsbox-visible > div > div > div.gsc-expansionArea > div > div.gs-webResult.gs-result > div.gsc-thumbnail-inside > div {
+  > a:hover,
+  > a:focus {
+  text-decoration: none;
   }
 }
 
